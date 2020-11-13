@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 particlesJS("particles-js", {
     "particles": {
       "number": {
-        "value": 380,
+        "value": 220,
         "density": {
           "enable": true,
           "value_area": 1200
@@ -56,7 +56,7 @@ particlesJS("particles-js", {
       },
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 1.2,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -74,7 +74,7 @@ particlesJS("particles-js", {
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
@@ -97,7 +97,7 @@ particlesJS("particles-js", {
           "speed": 3
         },
         "repulse": {
-          "distance": 200,
+          "distance": 70,
           "duration": 0.4
         },
         "push": {
@@ -111,7 +111,4 @@ particlesJS("particles-js", {
     "retina_detect": true
   });
   
-  
-  /* ---- stats.js config ---- */
-  
-});
+})
