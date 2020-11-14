@@ -10,6 +10,48 @@ header{
 .font-semibold{
     font-weight: 600;
 }
+
+.font-medium{
+    font-weight: 500;
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.text-paragraph-20{
+    font-size: .78rem;
+    line-height: .9rem;
+}
+
+.text-paragraph-16{
+    font-size: .8rem;
+    line-height: .9rem;
+}
+
+.color-parag{
+    color: #000D2A;
+}
+.blue-heading{
+    color: #0E5BA8;
+}
+
+.blue-heading-bold{
+    color: #0D224F;
+}
+
+.blue-bgr{
+    background-color: #0E5BA8;
+}
+
+.blue-bold-bgr{
+    background-color: #0D224F;
+}
+
+.lghtgray-bgr{
+    background-color: #EFF2F7;
+}
+
 .logo-img {
     width: 7.5rem;
     height: 2.1rem;
@@ -61,8 +103,9 @@ header{
 .btn-padding{
     padding: .6rem 2.8rem;
 }
+
+
 .apply-button {
-    background-color: #0E5BA8;
     color: white;
     border: 1px solid transparent;
 }
@@ -87,16 +130,6 @@ header{
     font-size: 2.1rem;
 }
 
-.become-d-s-text{
-    font-size: .8rem;
-    line-height: .9rem;
-}
-
-.blue-heading{
-    color: #0D224F;
-    
-}
-
 .icon-width{
     width: 5rem;
 }
@@ -111,12 +144,61 @@ header{
     width: 2rem;
 }
 
+.aspiring-d-s-text{
+    color: #0D224F;
+}
 
+
+
+/*****************Bootcamp program*********/
+.bootcamp-prog-list li:hover {
+    background-color: #0D224F;
+}
+
+.bootcamp-prog-list li:hover .bootcamp-prog-list-heading{
+    color: white;
+}
+
+.bootcamp-prog-list li:hover .chevron-prog path{
+    stroke: #ffffff;
+}
+.bootcamp-prog-list-heading{
+    color: #000D2A;
+}
+
+.bootcamp-prog-list li{
+    cursor: pointer;
+}
+
+
+/******************************Bootcamp program div show hide*********************/
+.bootcamp-prog-info-div, .bootcamp-prog-list{
+    height: 100%;
+}
+.prog-info-div{
+    display: none;
+}
+
+#prog-info1{
+    display: block;
+}
+
+.prog-plan-button{
+    border: 1px solid #0D224F;
+    padding: .6rem 2.8rem !important;
+    background: none;
+}
+
+.prog-btn-padding{
+    padding: .6rem 2rem;
+}
 @media screen and (max-width: 575px){
     .d-xs-sm-none{
         display: none;
     }
-    
+    .icon-width-check{
+        width: 1.4rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -141,6 +223,8 @@ header{
     .list-center{
         flex: 0 0 370px;
     }
+
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
@@ -151,6 +235,14 @@ header{
     .list-center{
         flex: 0 0 400px;
     }
+
+    .bootcamp-prog-heading-div{
+        flex: 0 0 360px;
+    }
+
+    .bootcamp-prog-info-div{
+        flex: 0 0 420px;
+    }
 }
 
 @media (min-width: 1200px){
@@ -158,6 +250,14 @@ header{
         flex: 0 0 600px;
     }
     .list-center{
-        flex: 0 0 400px;
+        flex: 0 0 380px;
     }
+    .bootcamp-prog-heading-div{
+        flex: 0 0 360px;
+    }
+
+    .bootcamp-prog-info-div{
+        flex: 0 0 670px;
+    }
+    
 } 
