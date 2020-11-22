@@ -11,7 +11,7 @@ header{
     position: relative;
 }
 
-.become-d-s-container, .bootcamp-program-container, .networking-container{
+.become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container{
     height: 100vh;
 }
 
@@ -34,6 +34,11 @@ header{
 
 .font-italic{
     font-style: italic;
+}
+
+.text-paragraph-24{
+    font-size: 0.85rem;
+    line-height: .98rem
 }
 .text-paragraph-20{
     font-size: .78rem;
@@ -304,6 +309,7 @@ header{
     height: 5rem;
 }
 @media screen and (max-width: 329px){
+
     .progress-ds{
         width: 90%;
     }
@@ -320,8 +326,15 @@ header{
     .d-xs-sm-none{
         display: none;
     }
+    .icon-width{
+        width: 3rem;
+    }
     .icon-width-check{
         width: 1.4rem;
+    }
+
+    .d-md-sm-xs-none{
+        display: none;
     }
     .progress-ds{
         width: 70%;
@@ -334,11 +347,18 @@ header{
     .progress-da{
         width: 40%;
     }
+    .network-img{
+        width: 10rem;
+        height: 6rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
     .d-xs-sm-none{
         display: none;
+    }
+    .icon-width{
+        width: 4rem;
     }
     .icon-width-check{
         width: 1.5rem;
@@ -346,6 +366,9 @@ header{
 
     .aspiring-heading-center{
         flex: 0 0 600px;
+    }
+    .d-md-sm-xs-none{
+        display: none;
     }
     .progress-ds{
         width: 98%;
@@ -357,6 +380,14 @@ header{
 
     .progress-da{
         width: 65%;
+    }
+    .network-img{
+        width: 10rem;
+        height: 6rem;
+    }
+
+    .accordion-toggle.collapsed .bootcamp-program-container{
+        height: 120vh;
     }
     
 }
@@ -370,6 +401,12 @@ header{
     }
     .list-center{
         flex: 0 0 370px;
+    }
+    .accordion-toggle.collapsed .bootcamp-program-container{
+        height: 120vh !important;
+    }
+    .d-md-sm-xs-none{
+        display: none;
     }
 
     .progress-ds{
@@ -396,6 +433,10 @@ header{
     }
     .list-center{
         flex: 0 0 400px;
+    }
+
+    .accordion{
+        display: none;
     }
 
     .bootcamp-prog-heading-div{
@@ -434,6 +475,9 @@ header{
     }
     .list-center{
         flex: 0 0 380px;
+    }
+    .accordion{
+        display: none;
     }
 
     .bootcamp-prog-heading-div{

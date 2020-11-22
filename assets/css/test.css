@@ -1,39 +1,30 @@
 
 
 @media (max-width:991.98px) {
-    .padding {
-        padding: 1.5rem
+    .slick-prev, .slick-next{
+        top: 70% !important;
     }
+    
 }
 
 @media (max-width:767.98px) {
-    .padding {
-        padding: 1rem
-    }
+    
 }
 
-.padding {
-    padding: 5rem
-}
+
 
 .card {
     position: relative;
     display: flex;
-    width: 600px;
+    width: 16rem !important;
     flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
     background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #d2d2dc;
-    border-radius: 11px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+    border-radius: .69rem;
 }
 
 .card .card-body {
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
+    padding-bottom: .5rem;
 }
 
 .card-body {
@@ -41,23 +32,27 @@
     padding: 1.25rem
 }
 
-p {
+.card-body p {
     font-size: 0.875rem;
     margin-bottom: .5rem;
     line-height: 1.5rem
 }
 
-h4 {
-    line-height: .2 !important
+.slick-prev:before{
+    content: url('../img/icons/test-left.png') !important;
+    display: inline-block; 
+    width: 2px;
 }
-
+.slick-next:before{
+    content: url('../img/icons/test-right.png') !important; 
+}
 .items {
     width: 90%;
     margin: 0px auto;
 }
 
 .slick-slide {
-    margin: 10px
+    margin: .875rem
 }
 
 .slick-prev, .slick-next{
@@ -69,53 +64,24 @@ h4 {
 }
 
 .slick-next{
-    left: 55% !important;
-}
-.media iframe,
-.media-content {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border: 0;
-    border-radius: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-color: rgba(120, 120, 120, .1);
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    left: 52% !important;
 }
 
-.media-content:before {
-    content: '';
-    position: absolute;
-    height: 10%;
-    width: 90%;
-    left: 5%;
-    bottom: 0;
-    background: inherit;
-    background-position-y: 100%;
-    filter: blur(10px)
-}
-
-.circle .media-content:before {
-    width: 40%;
-    left: 30%
-}
 
 .profile-image {
     border-radius: 100%;
     
 }
 
-.card-title {
-    font-size: 19px;
-    font-weight: 200
+@media (min-width: 992px) and (max-width: 1199px){
+    .slick-prev, .slick-next{
+        top: 55% !important;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .slick-prev, .slick-next{
+        top: 108% !important;
+    }
 }
