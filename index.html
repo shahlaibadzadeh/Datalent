@@ -13,19 +13,19 @@
     <!-- Css Styles-->
     <link rel="stylesheet" href="assets/css/particle.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/test.css">
+    <link rel="stylesheet" href="assets/css/testimonial.css">
     <!--Particle.js-->
     <script src="assets/js/particle.js"></script>
-    <script src="assets/js/test.js"></script>r
+    <script src="assets/js/testimonial.js"></script>r
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" data-deferred="1"></script>
     <!--Fonts-->
     
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
 
-
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!---Testimonial Carousel Alumni--->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </head>
 <body>
@@ -395,107 +395,117 @@
 
 
  <!--------------------------------------------Medium, Small and Xs device Bootcamp program accordion------------->
+<div class="bootcamp-prog-small-dvc-container">
+    <div class="bootcamp-prog-small-dvc pb-md-5 pb-sm-5 pb-2">
+        <select id="bootcamp-program-select" class="bootcamp-prog-select text-paragraph-20 color-parag lghtgray-bgr px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3">
+            <optgroup>
 
- <div id="accordion">
-    <div class="panel ">
-      <!-- panel class must be in -->
-        <a href="#info1" data-toggle="collapse" class="accordion-toggle d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 " >
-            <h6 class="bootcamp-prog-list-heading font-regular text-paragraph-20 color-parag my-auto">Prework</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg>
-        </a>
-         <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info1">
-            <h6 class="blue-heading-bold font-medium mb-xl-4 mb-lg-4 mb-md-2 mb-sm-4 mb-4">DSBC501 Prework</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-            the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-
-        <a href="#info2" data-toggle="collapse" class="accordion-toggle d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
-            <h6 class="bootcamp-prog-list-heading font-regular color-parag text-paragraph-20 my-auto">Basic Data Science Toolkit</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-        <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info2">
-            <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC502 Basic Data Science Toolkit</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-
-        <a href="#info3" data-toggle="collapse" class="accordion-toggle d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
-            <h6 class="bootcamp-prog-list-heading font-regular color-parag text-paragraph-20 my-auto">Data Science with R: Data Analytics</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-        <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info3">
-            <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC503 Data Science with R: Data Analytics</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-
-        <a href="#info4" data-toggle="collapse" class="d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
-            <h6 class="bootcamp-prog-list-heading font-regular color-parag text-paragraph-20 my-auto">Data Science with Python: Data Analytics</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-        <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info4">
-            <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC504 Data Science with Python: Data Analytics</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-      
-        <a href="#info5" data-toggle="collapse" class="d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
-            <h6 class="bootcamp-prog-list-heading font-regular color-parag text-paragraph-20 my-auto">Data Science with R: Machine Learning</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-        <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info5">
-            <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC505 Data Science with R: Machine Learning</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-
-        <a href="#info6" data-toggle="collapse" class="d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
-            <h6 class="bootcamp-prog-list-heading font-regular color-parag text-paragraph-20 my-auto">Data Science: Advanced Topics</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-        <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info6">
-            <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC506 Data Science:Advanced Topics</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-
-        <a href="#info7" data-toggle="collapse" class="d-flex justify-content-between lghtgray-bgr px-xl-3 py-xl-2 mb-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
-            <h6 class="bootcamp-prog-list-heading font-regular color-parag text-paragraph-20 my-auto">Capstone Project</h6>
-            <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-        <div data-parent="#accordion" class="collapse pt-md-3 pt-sm-5 pt-5 pb-md-3 pb-sm-5 pb-5" id="info7">
-            <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC507 Capstone Project</h6>
-            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
-                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
-        </div>
-
-
-      
+                <option value="one" >
+                    <h6 class="font-regular text-paragraph-20 color-parag my-auto">Prework</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+                
+                <option value="two">
+                    <h6 class="font-regular color-parag text-paragraph-20 my-auto">Basic Data Science Toolkit</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+    
+                <option value="three">
+                    <h6 class="font-regular color-parag text-paragraph-20 my-auto">Data Science with R: Data Analytics</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+    
+                <option value="four">
+                    <h6 class="font-regular color-parag text-paragraph-20 my-auto">Data Science with Python: Data Analytics</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+    
+                <option value="five">
+                    <h6 class="font-regular color-parag text-paragraph-20 my-auto">Data Science with R: Machine Learning</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+    
+                <option value="six">
+                    <h6 class="font-regular color-parag text-paragraph-20 my-auto">Data Science: Advanced Topics</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+    
+                <option value="seven">
+                    <h6 class="font-regular color-parag text-paragraph-20 my-auto">Capstone Project</h6>
+                    <svg class="chevron-prog" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#0D224F" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </option>
+                
+            </optgroup>
+        </select>
     </div>
-  </div>
 
+    <div class="bootcamp-prog-info-small lghtgray-bgr text-center mb-md-5 mb-sm-5 mb-5">
+        <div class="one box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5">
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC501 Prework</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
 
+        <div class="two box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5" >
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC502 Basic Data Science Toolkit</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
 
+        <div class="three box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5" >
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC503 Data Science with R: Data Analytics</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
 
+        <div class="four box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5" >
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC504 Data Science with Python: Data Analytics</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
+
+        <div class="five box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5">
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC505 Data Science with R: Machine Learning</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
+
+        <div class="six box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5">
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC506 Data Science:Advanced Topics</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
+
+        <div class="seven box pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5" >
+            <h6 class="blue-heading-bold font-medium mb-md-4 mb-sm-4 mb-4">DSBC507 Capstone Project</h6>
+            <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">This course is designed to teach students to load, save, and transform data as well as how to write functions, generate graphs, and fit basic statistical models to data. It also covers 
+                the creation of dynamic reports with the Knitr package in R as well as the creation of dynamic dashboards with Shiny. Students are required to complete a project demonstrating the ability to build a Shiny app in R.</p>
+        </div>
+    
+    
+    </div>
+
+</div>
+    
 
  <!-----------------------------------------End of Medium, Small and Xs device Bootcamp program accordion------------->
 
                     <div class="prog-btns d-flex">
-                        <button class="apply-button blue-bold-bgr text-paragraph-20 btn-outline-none prog-btn-padding mr-lg-3 mr-md-4 mr-sm-4 mr-4">Müraciət et</button>
+                        <button class="apply-button blue-bold-bgr-btn text-paragraph-20 btn-outline-none prog-btn-padding mr-lg-3 mr-md-4 mr-sm-4 mr-4">Müraciət et</button>
                         <button class="blue-heading-bold text-paragraph-20 btn-outline-none bgr-none-btn prog-btn-padding">Tədris Planını Yüklə</button>
                     </div>
 
@@ -504,6 +514,8 @@
             </div>
         </div>
 
+
+        
 <!----------------------------------Salary expectations--------------------------------->
 
 <div class="container-fluid salary-heading mx-xl-0 mx-lg-0 mx-md-0 mw-100 mx-sm-0 pt-xl-3 pt-lg-3 pt-md-3 pt-sm-3 pt-3">
@@ -551,7 +563,8 @@
 
 
 <!-------------------------Networking opportunities--------------------->
-<div class="networking-container">
+
+<div class="networking-container pb-sm-4 pb-4">
 
     <div class="container-fluid network-heading ">
         <div class="row justify-content-center text-center pt-xl-5 pt-lg-5 pt-md-5 pt-sm-4 pt-4 pb-xl-3 pb-lg-3 pb-md-3 pb-sm-3 pb-3">
@@ -605,15 +618,17 @@
 </div>
        
 
+<!----------------------------------------------Alumni Testimonial------------------------>
 
 
 <div class="alumni-testimonial-container ">
+    
     <div class="container-fluid">
-        <div class="row alumni-testimonial mb-xl-5 mb-lg-5 mb-xl-5 mb-md-5 mb-sm-4 mb-4 pt-xl-5 pt-lg-5 pt-md-5">
+        <div class="row alumni-testimonial mb-xl-5 mb-lg-2 mb-md-2 mb-sm-2 mb-2 pt-xl-5 pt-lg-5 pt-md-4 pt-sm-4 pt-5">
                 <div class="alumni-testimonial-left col-xl-1 col-lg-1 col-md-1"></div>
                 <div class="alumni-testimonial-main d-flex flex-column col-xl-10 col-lg-10 col-md-10">
                     <h2 class="alumni-testimonial-heading font-semibold text-heading-48 text-center text-white">Featured Alumni</h2>
-                    <p class="text-paragraph-24 color-parag text-center text-white pt-xl-1 pt-lg-1 pt-md-1 pt-sm-1 pt-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <p class="alumni-testimonial-text text-paragraph-24 color-parag text-center text-white pt-xl-1 pt-lg-1 pt-md-1 pt-sm-2 pt-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit </p>
                 </div>
                 <div class="alumni-testimonial-right col-xl-1 col-lg-1 col-md-1"></div>
@@ -626,43 +641,48 @@
 
 
 
-    <div class="items ">
+    <div class="items pb-xl-5 pb-5">
         <div class="card">
-            <div class="pt-xl-3"> <img class="profile-image mx-auto" src="assets/img/icons/person/Domingo-150x150.jpg"> </div>
+            <div class="pt-xl-3 pt-lg-2 pt-sm-2 pt-2"> <img class="profile-image mx-auto" src="assets/img/icons/person/Domingo-150x150.jpg"> </div>
             <div class="card-body">
-                <h5 class="blue-heading-bold font-semibold text-heading-30 text-center">Katie Critelli</h5>
+                <h5 class="blue-heading-bold font-semibold text-heading-30 text-center mb-0">Katie Critelli</h5>
+                <div class="alumni-name-underline mx-auto"></div>
                 <p class="text-paragraph-24 blue-heading-bold font-italic text-center">Data Scientist</p>
                 <img src="assets/img/icons/logo/galaxy.png" alt="" class="alumni-logo-img mx-auto">
             </div>
         </div>
         <div class="card">
-            <div class="pt-xl-3"> <img class="profile-image mx-auto" src="assets/img/icons/person/Elsa-150x150_elsa.jpg"> </div>
+            <div class="pt-xl-3 pt-lg-2 pt-sm-2 pt-2"> <img class="profile-image mx-auto" src="assets/img/icons/person/Elsa-150x150_elsa.jpg"> </div>
             <div class="card-body">
                 <h5 class="blue-heading-bold font-semibold text-heading-30 text-center">Katie Critelli</h5>
+                <div class="alumni-name-underline mx-auto"></div>
                 <p class="text-paragraph-24 blue-heading-bold font-italic text-center">Data Scientist</p>
                 <img src="assets/img/icons/logo/amazon.png" alt="" class="alumni-logo-img mx-auto">
             </div>
         </div>
         <div class="card">
-            <div class="pt-xl-3"> <img class="profile-image mx-auto" src="assets/img/icons/person/Katie-Critelli-3-150x150.jpg"> </div>
+            <div class="pt-xl-3 pt-lg-2 pt-sm-2 pt-2"> <img class="profile-image mx-auto" src="assets/img/icons/person/Katie-Critelli-3-150x150.jpg"> </div>
             <div class="card-body">
                 <h5 class="blue-heading-bold font-semibold text-heading-30 text-center">Katie Critelli</h5>
+                <div class="alumni-name-underline mx-auto"></div>
                 <p class="text-paragraph-24 blue-heading-bold font-italic text-center">Data Scientist</p>
                 <img src="assets/img/icons/logo/aig.png" alt="" class="alumni-logo-img mx-auto">
             </div>
         </div>
         <div class="card">
-            <div class="pt-xl-3"> <img class="profile-image mx-auto" src="assets/img/icons/person/Kweku-Ulzen-150x150.jpg"> </div>
+            <div class="pt-xl-3 pt-lg-2 pt-sm-2 pt-2"> <img class="profile-image mx-auto" src="assets/img/icons/person/Kweku-Ulzen-150x150.jpg"> </div>
             <div class="card-body">
                 <h5 class="blue-heading-bold font-semibold text-heading-30 text-center">Katie Critelli</h5>
+                <div class="alumni-name-underline mx-auto"></div>
                 <p class="text-paragraph-24 blue-heading-bold font-italic text-center">Data Scientist</p>
                 <img src="assets/img/icons/logo/capital.png" alt="" class="alumni-logo-img mx-auto">
             </div>
         </div>
         <div class="card">
-            <div class="pt-xl-3"> <img class="profile-image mx-auto" src="assets/img/icons/person/Sheetal-Darekar-150x150.jpg"> </div>
+            <div class="pt-xl-3 pt-lg-2 pt-sm-2 pt-2"> <img class="profile-image mx-auto" src="assets/img/icons/person/Sheetal-Darekar-150x150.jpg"> </div>
             <div class="card-body">
                 <h5 class="blue-heading-bold font-semibold text-heading-30 text-center">Katie Critelli</h5>
+                <div class="alumni-name-underline mx-auto"></div>
                 <p class="text-paragraph-24 blue-heading-bold font-italic text-center">Data Scientist</p>
                 <img src="assets/img/icons/logo/elevate.png" alt="" class="alumni-logo-img mx-auto">
             </div>
@@ -670,6 +690,114 @@
     </div>
 </div>
 
+
+
+<!-------------------------------Interview, Resume------------------------>
+
+<div class="interv-resume-container">
+
+    <div class="container-fluid">
+        <div class="row mb-xl-3 mb-lg-2 mb-md-2 mb-sm-2 mb-2 pt-xl-5 pt-lg-5 pt-md-4 pt-sm-4 pt-5">
+                <div class="interv-resume-left col-xl-2 col-lg-1 col-md-1"></div>
+                <div class="interv-resume-main d-flex flex-column col-xl-8 col-lg-10 col-md-10">
+                    <h2 class=" font-semibold text-heading-48 text-center blue-heading-bold">Featured Alumni</h2>
+                    <p class="text-paragraph-36 blue-heading-bold font-light text-center pt-xl-3 pt-lg-3 pt-md-3 pt-sm-2 pt-1">Lorem ipsum dolor sit 
+                        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>
+                        <div class="interv-resume-underline mx-auto mt-xl-3"></div>
+                </div>
+                <div class="interv-resume-right col-xl-2 col-lg-1 col-md-1"></div>
+
+            
+        </div>
+    </div>
+
+
+
+
+
+    <div class="interv-resume d-xl-flex flex-column d-lg-flex d-md-sm-xs-none mb-xl-3 mb-lg-3 mb-md-3 mb-sm-3 mb-3 pt-md-3 pt-sm-3 pt-3">
+        
+        <div class="interv-resume-info-div lghtgray-bgr text-center mx-auto mb-xl-5">
+            <div class="interv-resume-div interv-resume-info-1 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5" id="interv-info1">
+                <h6 class="blue-heading-bold font-medium mb-xl-4 mb-lg-4 mb-md-4 mb-sm-4 mb-4">Three rounds of personalized resume review, LinkedIn profile review, and career guidance sessions</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+
+            <div class="interv-resume-div interv-resume-info-2 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5"" id="interv-info2">
+                <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC502 Basic Data Science Toolkit</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+
+            <div class="interv-resume-div interv-resume-info-3 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5"" id="interv-info3">
+                <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC503 Data Science with R: Data Analytics</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+
+            <div class="interv-resume-div interv-resume-info-4 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5"" id="interv-info4">
+                <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC504 Data Science with Python: Data Analytics</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+
+            <div class="interv-resume-div interv-resume-info-5 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5"" id="interv-info5">
+                <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC505 Data Science with R: Machine Learning</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+
+            <div class="interv-resume-div interv-resume-info-6 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5"" id="interv-info6">
+                <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC506 Data Science:Advanced Topics</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+
+            <div class="interv-resume-div interv-resume-info-7 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-5 pt-5 pb-md-5 pb-sm-5 pb-5"" id="interv-info7">
+                <h6 class="blue-heading-bold font-medium mb-xl-4">DSBC507 Capstone Project</h6>
+                <p class="text-paragraph-20 blue-heading-bold font-regular px-lg-5 px-md-5 px-sm-5 px-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        <div class="interv-resume-list interv-resume-heading-div d-flex justify-content-center mb-xl-5">
+                <div id="info1" class="interv-resume-list-item blue-bold-bgr text-white text-center px-xl-3 py-xl-3 mb-xl-3 mr-xl-3 ml-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3">
+                   <h6 class="text-paragraph-25">Three rounds of personalized resume review, LinkedIn profile review, and career guidance sessions</h6> 
+                    
+                </div>
+                <div id="info2" class="interv-resume-list-item blue-bold-bgr text-white text-center px-xl-3 py-xl-4 mb-xl-3 mr-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
+                    <h6 class="text-paragraph-25">Mock coding challenges, technical and behavioral interview assistance</h6>
+                    
+                </div>
+                <div id="info3" class="interv-resume-list-item blue-bold-bgr text-white text-center px-xl-3 py-xl-4 mb-xl-3 mr-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
+                    <h6 class="text-paragraph-25">1-on-1 post-interview review and feedback sessions with Career Advisors</h6>
+                    
+                </div>
+                <div id="info4" class="interv-resume-list-item blue-bold-bgr text-white text-center px-xl-3 py-xl-4 mb-xl-3 mr-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
+                    <h6 class="text-paragraph-25">Life-long access to hiring and networking events with industry professionals</h6>
+                    
+                </div>
+                <div id="info5" class="interv-resume-list-item blue-bold-bgr text-white text-center px-xl-3 py-xl-4 mb-xl-3 mr-xl-3 px-lg-3 py-lg-2 mb-lg-3 px-md-3 py-md-2 mb-md-3 px-sm-3 py-sm-2 mb-sm-3 px-3 py-2 mb-3 ">
+                    <h6 class="text-paragraph-25">Access to NYC Data Science Academy's alumni network and industry connections</h6>
+                    
+                </div>
+            
+        </div>
+
+        
+
+    </div>
+    
+    <div class="interv-resume-list-line"></div>
+</div>
 
 
 
@@ -680,6 +808,25 @@
             });
 
 
+            var $intervInfoDiv = $('.interv-resume-div'),
+            $intervListItem = $('.interv-resume-list  .interv-resume-list-item').mouseover(function() {
+                $intervInfoDiv.hide().filter('#interv-' + this.id).show();
+            });
+            
+
+            $(document).ready(function(){
+    $("select").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".box").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".box").hide();
+            }
+        });
+    }).change();
+});
 
 
 

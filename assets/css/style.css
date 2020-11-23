@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif'; 
+}
+
+*:focus {
+    outline: none;
 }
 
 html, body{
@@ -11,8 +15,8 @@ header{
     position: relative;
 }
 
-.become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container{
-    height: 100vh;
+.font-light{
+    font-weight: 300;
 }
 
 .font-semibold{
@@ -36,6 +40,16 @@ header{
     font-style: italic;
 }
 
+.text-paragraph-36{
+    font-size: 1.2rem;
+    line-height: 1.4rem
+}
+
+.text-paragraph-25{
+    font-size: 0.9rem;
+    line-height: 1.2rem
+}
+
 .text-paragraph-24{
     font-size: 0.85rem;
     line-height: .98rem
@@ -57,6 +71,7 @@ header{
 .text-heading-30{
     font-size: 1rem
 }
+
 .color-parag{
     color: #000D2A;
 }
@@ -79,11 +94,15 @@ header{
     background-color: #0D224F;
 }
 
+.blue-bold-bgr-btn{
+    background-color: #0D224F;
+}
+
 /* .blue-bgr:hover{
     
 } */
 
-.blue-bold-bgr:hover{
+.blue-bold-bgr-btn:hover{
     border: 1px solid #0D224F;
     color: #0D224F;
     background: none;
@@ -263,6 +282,22 @@ header{
     cursor: pointer;
 }
 
+.bootcamp-prog-select{
+    border: none;
+    
+}
+
+
+optgroup{
+    
+    font-size: .78rem;
+    line-height: .9rem;
+    color: #000D2A;
+}
+
+
+
+
 
 /******************************Bootcamp program div show hide*********************/
 
@@ -298,17 +333,54 @@ header{
     height: 9rem;
 }
 
+/*****************************************Interview and Resume**************************/
 
-/**********************************************TESTIMONIAL ALUMNI*********************************/
-
-.alumni-testimonial-container{
-    background-color: #0E5BA8;
+.interv-resume-underline{
+    width: 22rem;
+    height: .1rem;
+    background-color: #e9e7e7;
 }
-.alumni-logo-img{
-    width: 9rem;
-    height: 5rem;
+
+.interv-resume-div{
+    display: none;
+}
+
+#interv-info1{
+    display: block;
+}
+
+
+.interv-resume-ul li{
+    display: inline;
+}
+
+.interv-resume{
+    position: absolute;
+}
+.interv-resume-list-item{
+    width: 13%;
+    height: 9rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/* .interv-resume-list-line{
+    position: relative;
+    width: 22rem;
+    height: .1rem;
+    background-color: #0E5BA8;
+} */
+
+.interv-resume-list-item:hover{
+    color: white !important;
+    background: #0E5BA8;
+    transform: scale(1.03);
 }
 @media screen and (max-width: 329px){
+
+    .d-md-sm-xs-none{
+        display: none;
+    }
 
     .progress-ds{
         width: 90%;
@@ -321,8 +393,16 @@ header{
     .progress-da{
         width: 55%;
     }
+
+    .network-img{
+        width: 8.5rem;
+        height: 6rem;
+    }
 }
+
+
 @media (min-width: 330px) and (max-width: 576px){
+    
     .d-xs-sm-none{
         display: none;
     }
@@ -386,13 +466,13 @@ header{
         height: 6rem;
     }
 
-    .accordion-toggle.collapsed .bootcamp-program-container{
-        height: 120vh;
-    }
     
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container{
+        height: 100vh;
+    }
     .dsply-md-none{
         display: none;
     }
@@ -401,9 +481,6 @@ header{
     }
     .list-center{
         flex: 0 0 370px;
-    }
-    .accordion-toggle.collapsed .bootcamp-program-container{
-        height: 120vh !important;
     }
     .d-md-sm-xs-none{
         display: none;
@@ -425,6 +502,11 @@ header{
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+
+    .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container{
+        height: 100vh;
+    }
+
     .dsply-xl-lg-none{
         display: none;
     }
@@ -435,9 +517,10 @@ header{
         flex: 0 0 400px;
     }
 
-    .accordion{
+    .bootcamp-prog-small-dvc-container{
         display: none;
     }
+    
 
     .bootcamp-prog-heading-div{
         flex: 0 0 360px;
@@ -467,6 +550,9 @@ header{
 }
 
 @media (min-width: 1200px){
+    .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container{
+        height: 100vh;
+    }
     .dsply-xl-lg-none{
         display: none;
     }
@@ -476,7 +562,8 @@ header{
     .list-center{
         flex: 0 0 380px;
     }
-    .accordion{
+
+    .bootcamp-prog-small-dvc-container{
         display: none;
     }
 
@@ -502,6 +589,10 @@ header{
 
     .progress-da{
         width: 30%;
+    }
+
+    .interv-resume-info-div{
+        width: 70%;
     }
 
     
