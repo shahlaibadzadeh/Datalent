@@ -41,10 +41,14 @@ header{
 }
 
 .text-paragraph-36{
-    font-size: 1.2rem;
+    font-size: 1.28rem;
     line-height: 1.4rem
 }
 
+.text-paragraph-32{
+    font-size: 1.2rem;
+    line-height: 1.4rem
+}
 .text-paragraph-25{
     font-size: 0.9rem;
     line-height: 1.2rem
@@ -54,9 +58,16 @@ header{
     font-size: 0.85rem;
     line-height: .98rem
 }
+
+
 .text-paragraph-20{
-    font-size: .78rem;
-    line-height: .9rem;
+    font-size: .78rem !important;
+    line-height: .9rem !important;
+}
+
+.text-paragraph-18{
+    font-size: .72rem !important;
+    line-height: .95rem !important;
 }
 
 .text-paragraph-16{
@@ -64,6 +75,12 @@ header{
     line-height: .9rem;
 }
 
+.text-heading-84{
+    font-size: 3.2rem;
+}
+.text-heading-54{
+    font-size: 1.9rem;
+}
 .text-heading-48{
     font-size: 1.7rem;
 }
@@ -282,7 +299,7 @@ header{
     cursor: pointer;
 }
 
-.bootcamp-prog-select{
+.select-border{
     border: none;
     
 }
@@ -353,7 +370,9 @@ optgroup{
 .interv-resume-ul li{
     display: inline;
 }
-
+.interv-resume-info-div{
+    border-radius: .5rem;
+}
 .interv-resume{
     position: absolute;
 }
@@ -376,6 +395,127 @@ optgroup{
     background: #0E5BA8;
     transform: scale(1.03);
 }
+
+
+/*********************Mentors***********************/
+
+.mentor-name{
+    display: none;
+}
+
+#name-mentor-img1{
+    display: block;
+}
+
+.mentor-about-div{
+    display: none;
+}
+
+#about-mentor-img1{
+    display: block;
+}
+.mentor-job{
+    width: fit-content;
+}
+
+
+.mentor-img{
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+    
+}
+.mentor-img:hover{
+    transform: scale(1.6);
+    
+}
+
+.mentor-name{
+    transition: all .3s ease-in-out;
+}
+
+/***********************************************Start app***********************************/
+
+.start-app-order-one {
+    padding: 1rem 1.85rem !important;
+    border-radius: 100%;
+} 
+
+.start-app-order {
+    padding: 1rem 1.6rem;
+    border-radius: 100%;
+}
+.start-app-content ul li.start-app-order-line {
+    position: relative;
+}
+
+  .start-app-content ul li .ordering-line{
+    position:absolute;
+    width: .1rem;
+    top: 60%;
+    bottom:0;
+    background-color: #0E5BA8;
+    height: 5rem;
+  }
+  
+
+.animate-start-app{
+    opacity:0;
+}
+
+
+/**************************************************Finance part***********************************/
+
+.card.finance-card{
+    background-color: #418DD8 !important;
+    width: 20.8rem !important;
+    border-radius: 1%;
+    position: relative;
+}
+
+.finance-card-btn{
+    position: absolute;
+    left: 87%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.card.tution-total-card{
+    width: 20rem !important;
+}
+
+.btn-tution-padding{
+    padding: .65rem 2.45rem;
+}
+
+.pay-tution-btn{
+    border: 1px solid #418DD8;
+    padding: .65rem 1.6rem;
+    color: #418DD8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 329px){
 
     .d-md-sm-xs-none{
@@ -397,6 +537,32 @@ optgroup{
     .network-img{
         width: 8.5rem;
         height: 6rem;
+    }
+
+    .interv-resume-select{
+        max-width: 100%;
+    }
+
+    .justify-content-sm-xs-center{
+        justify-content: center;
+    }
+
+    .start-app-content ul li.first{
+        flex: 0 0 55%;
+        justify-content: start !important;
+    }
+    
+    .start-app-content ul li.second{
+        flex: 0 0 35%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 70%;
+        text-align: left !important;
+    }
+
+    .ordering-line{
+        display: none;
     }
 }
 
@@ -430,6 +596,32 @@ optgroup{
     .network-img{
         width: 10rem;
         height: 6rem;
+    }
+
+    .interv-resume-select{
+        max-width: 100%;
+    }
+
+    .justify-content-sm-xs-center{
+        justify-content: center;
+    }
+
+    .start-app-content ul li.first{
+        flex: 0 0 55%;
+        justify-content: start !important;
+    }
+    
+    .start-app-content ul li.second{
+        flex: 0 0 35%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 70%;
+        text-align: left !important;
+    }
+
+    .ordering-line{
+        display: none;
     }
 }
 
@@ -466,11 +658,38 @@ optgroup{
         height: 6rem;
     }
 
+    .interv-resume-select{
+        max-width: 100%;
+    }
+
+    .justify-content-sm-xs-center{
+        justify-content: center;
+    }
+
+    .start-app-content ul li.first{
+        flex: 0 0 55%;
+        justify-content: start !important;
+    }
+    
+    .start-app-content ul li.second{
+        flex: 0 0 35%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 70%;
+        text-align: left !important;
+    }
+
+    .ordering-line{
+        display: none;
+    }
+
+    
     
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container{
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container{
         height: 100vh;
     }
     .dsply-md-none{
@@ -497,13 +716,38 @@ optgroup{
     .progress-da{
         width: 60%;
     }
+
+    .interv-resume-small-dvc-container{
+        display: none;
+    }
     
+    .interv-resume-info-div{
+        width: 88%;
+    }
+    
+    .interv-resume-list-item{
+        width: 20%;
+        height: 11rem;
+    }
+
+    .start-app-content ul li.first{
+        flex: 0 0 30%;
+        text-align: right;
+    }
+    
+    .start-app-content ul li.second{
+        flex: 0 0 20%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 30%;
+    }
     
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
 
-    .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container{
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container{
         height: 100vh;
     }
 
@@ -546,11 +790,46 @@ optgroup{
     .progress-da{
         width: 45%;
     }
+
+    .interv-resume-small-dvc-container{
+        display: none;
+    }
+
+    .interv-resume-info-div{
+        width: 88%;
+    }
+    
+    .interv-resume-list-item{
+        width: 16%;
+        height: 11rem;
+    }
+
+    .start-app-content ul li.first{
+        flex: 0 0 30%;
+        text-align: right;
+    }
+    
+    .start-app-content ul li.second{
+        flex: 0 0 20%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 30%;
+    }
+
+    .dsply-lg-none {
+        display: none;
+    }
+
+    .card.finance-card{
+        width: 18rem !important;
+    }
+
     
 }
 
 @media (min-width: 1200px){
-    .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container{
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .finance-container{
         height: 100vh;
     }
     .dsply-xl-lg-none{
@@ -591,9 +870,24 @@ optgroup{
         width: 30%;
     }
 
+    .interv-resume-small-dvc-container{
+        display: none;
+    }
+
     .interv-resume-info-div{
         width: 70%;
     }
 
+    .start-app-content ul li.first{
+        flex: 0 0 30%;
+        text-align: right;
+    }
     
+    .start-app-content ul li.second{
+        flex: 0 0 20%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 30%;
+    }
 } 
