@@ -6,7 +6,7 @@
     width: 9rem;
     height: 5rem;
 }
-.card {
+.alumni-testimonial-items .card{
     position: relative;
     display: flex;
     width: 16rem !important;
@@ -15,47 +15,47 @@
     border-radius: .69rem;
 }
 
-.card .card-body {
+.alumni-testimonial-items .card .card-body {
     padding: 1rem 1rem;
     padding-bottom: .5rem;
 }
 
-.card-body p {
+.alumni-testimonial-items .card-body p {
     font-size: 0.875rem;
     margin-bottom: .5rem;
     line-height: 1.5rem
 }
 
-.slick-prev:before {
+.alumni-testimonial-items .slick-prev:before {
     content: url('../img/icons/test-left.png') !important;
 }
 
-.slick-next:before {
+.alumni-testimonial-items .slick-next:before {
     content: url('../img/icons/test-right.png') !important; 
 }
 
-.items {
+.items .alumni-testimonial-items{
     width: 100%;
     margin: 0px auto;
 }
 
-.slick-slide {
+.alumni-testimonial-items .slick-slide {
     margin: .875rem
 }
 
-.slick-prev, .slick-next{
+.alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next{
     top: 100% !important;
 }
 
-.slick-prev{
+.alumni-testimonial-items .slick-prev{
     left: 45% !important;
 }
 
-.slick-next{
+.alumni-testimonial-items .slick-next{
     left: 52% !important;
 }
 
-.profile-image {
+.alumni-testimonial-items .profile-image {
     border-radius: 100%;
 }
 
@@ -66,15 +66,15 @@
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .slick-prev, .slick-next {
+    .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
         top: 50% !important;
     }
 
-    .slick-prev {
+    .alumni-testimonial-items .slick-prev {
         left: 40% !important;
     }
     
-    .slick-next {
+    .alumni-testimonial-items .slick-next {
         left: 55% !important;
     }
     
@@ -82,45 +82,45 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .slick-prev, .slick-next {
+    .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
         top: 95% !important;
     }
 
-    .slick-prev {
+    .alumni-testimonial-items .slick-prev {
         left: 40% !important;
     }
     
-    .slick-next {
+    .alumni-testimonial-items .slick-next {
         left: 55% !important;
     }
-    .card {
+    .alumni-testimonial-items .card {
         width: 13rem !important;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     
-    .slick-prev, .slick-next {
+    .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
         top: 93% !important;
     }
 
-    .slick-prev {
+    .alumni-testimonial-items .slick-prev {
         left: 42% !important;
     }
     
-    .slick-next {
+    .alumni-testimonial-items .slick-next {
         left: 58% !important;
     }
 
-    .card {
+    .alumni-testimonial-items .card {
         width: 12rem !important;
     }
 
-    .profile-image {
+    .alumni-testimonial-items .profile-image {
         width: 8.5rem !important;
     }
 
-    .alumni-logo-img {
+    .alumni-testimonial-items .alumni-logo-img {
         width: 8rem;
         height: 4.5rem;
     }
@@ -128,27 +128,27 @@
 
 @media (min-width: 330px) and (max-width: 576px) {
 
-    .slick-prev, .slick-next {
+    .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
         top: 90% !important;
     }
 
-    .slick-prev {
+    .alumni-testimonial-items .slick-prev {
         left: 40% !important;
     }
     
-    .slick-next {
+    .alumni-testimonial-items .slick-next {
         left: 55% !important;
     }
 
-    .card {
+    .alumni-testimonial-items .card {
         width: 12rem !important;
     }
 
-    .profile-image {
+    .alumni-testimonial-items .profile-image {
         width: 7rem !important;
     }
 
-    .alumni-logo-img {
+    .alumni-testimonial-items .alumni-logo-img {
         width: 7rem;
         height: 4.5rem;
     }
@@ -156,23 +156,23 @@
 
 @media screen and (max-width: 329px) {
 
-    .slick-prev, .slick-next {
+    .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
         top: 90% !important;
     }
 
-    .slick-prev {
+    .alumni-testimonial-items .slick-prev {
         left: 30% !important;
     }
     
-    .slick-next {
+    .alumni-testimonial-items .slick-next {
         left: 60% !important;
     }
 
-    .card {
+    .alumni-testimonial-items .card {
         width: 12rem !important;
     }
 
-    .profile-image {
+    .alumni-testimonial-items .profile-image {
         width: 6rem !important;
     }
 

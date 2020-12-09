@@ -1,15 +1,20 @@
 *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
     box-sizing: border-box;
     font-family: 'Montserrat', 'sans-serif'; 
 }
 
 *:focus {
     outline: none;
+    margin: 0;
+    padding: 0;
 }
 
 html, body{
     width: 100%;
-    overflow-x:hidden;
+   height: 100%;
+   
 }
 header{
     position: relative;
@@ -41,13 +46,23 @@ header{
 }
 
 .text-paragraph-36{
-    font-size: 1.28rem;
-    line-height: 1.4rem
+    font-size: 1.28rem !important;
+    line-height: 1.4rem !important
 }
 
 .text-paragraph-32{
     font-size: 1.2rem;
     line-height: 1.4rem
+}
+
+.text-paragraph-28{
+    font-size: .99rem !important;
+    line-height: 1.2rem !important;
+}
+
+.text-paragraph-26{
+    font-size: .95rem !important;
+    line-height: 1.2rem !important;
 }
 .text-paragraph-25{
     font-size: 0.9rem;
@@ -71,8 +86,8 @@ header{
 }
 
 .text-paragraph-16{
-    font-size: .68rem;
-    line-height: .9rem;
+    font-size: .6rem !important;
+    line-height: .8rem !important;
 }
 
 .text-heading-84{
@@ -163,7 +178,7 @@ header{
 }
 .progress-bar-title{
     position: absolute;
-    line-height: 1.9rem;
+    line-height: 1.9rem !important;
     color: white;
 }
 
@@ -280,6 +295,10 @@ header{
 
 
 /*****************Bootcamp program*********/
+
+.bootcamp-prog-select{
+    width: auto;
+}
 .bootcamp-prog-list li:hover {
     background-color: #0D224F;
 }
@@ -457,7 +476,7 @@ optgroup{
     top: 60%;
     bottom:0;
     background-color: #0E5BA8;
-    height: 5rem;
+    height: 6rem;
   }
   
 
@@ -499,12 +518,206 @@ optgroup{
 }
 
 
+/**********************************************Alumni opinions**************************************/
+.testimonial-opinion{
+    padding: 70px 30px 50px;
+    margin: 50px 30px 30px;
+    position: relative;
+    height: 35rem;
+    }
+
+
+.alumni-opinion-img-text-bgr{
+    border-radius: 1.3rem .1rem 1.3rem .1rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px #FAFAFC;
+}
+
+.alumni-opinion-job-bgr{
+    position: absolute;
+    top: -70px;
+    z-index: -1;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 23.5rem;
+    height: 35rem;
+    display: inline-block;
+}
+
+/* .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: red;
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  } */
+
+.testimonial-opinion .alumni-opinion-img-bgr{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+    
+.testimonial-opinion .alumni-opinion-img-bgr img{
+    width: 100%;
+    height: auto;
+}
+
+.alumni-opinion-description{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.owl-theme .owl-controls{
+    width: 100%;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+    top: 36%;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+    line-height: 1.1 !important;
+    display: flex !important;
+    align-items: center;
+    background: #418DD8 !important;
+    opacity: 1 !important;
+    padding: .5rem .5rem !important;
+}
+.owl-prev{
+    position: absolute;
+    left: 5%;
+}
+.owl-next{
+    position: absolute;
+    right: 5%;
+    }
+.owl-prev:after, .owl-next:after{
+    content: url(../img/icons/arrow-left.png);
+    }
+.owl-next:after{ 
+    content: url(../img/icons/arrow-right.png); 
+}
+
+/*********************************************Collabote companies*****************************/
+
+.collaborate-company-underline{
+    width: 16rem;
+    height: .1rem;
+    background-color: #e9e7e7;
+}
 
 
 
+/************************************************Schedule*************************/
+
+.schedule-btns, .contact-form{
+    border-radius: 1.2rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px #FAFAFC;
+}
+
+.contact-textarea >textarea{
+    border-radius: 0rem 0rem 0rem 1.5rem;
+    width: 100%;
+}
+
+.contact-inputs >input, .contact-textarea >textarea{
+    background-color: #F6F9FC;
+}
+
+.contact-inputs >input::placeholder, .contact-textarea >textarea::placeholder{
+    color: #0D224F;
+    font-style: italic;
+    opacity: .5;
+    font-size: 0.85rem;
+    line-height: .98rem
+}
+
+/* .contact-form-btn-div{
+    position: relative;
+    top: 13rem;
+    left: 55%;
+} */
+.contact-form-btn{
+    position: relative;
+    bottom: -14rem;
+    right: 3%;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    
+}
+
+.contact-form-btn-img{
+    width: 2.5rem;
+}
+
+.dropright .dropdown-toggle::after{
+    content: none;
+    border: none;
+    width: 2rem !important;
+}
+
+.contact-btn-padding{
+    padding: .7rem 2.7rem;
+}
+
+/**************************************************Footer******************************************/
 
 
+.footer-social-icons{
+    width: 1.1rem;
+    /* filter: brightness(0) invert(1); */
+}
 
+.footer-form-input{
+    background-color: #17376A;
+    width: 12rem;
+    height: 2rem;
+}
+
+.footer-form-input::placeholder{
+    color: #8B9BB5;
+    font-size: .6rem !important;
+    line-height: .8rem !important;
+    font-style: italic;
+}
+
+.footer-form-btn{
+    width: 3rem;
+    height: 2rem;
+    line-height: .5rem;
+}
+
+.footer-form-btn-img{
+    width: 1.3rem;
+}
+
+.footer-copy-line{
+    width: 4rem;
+    height: .01rem;
+    background-color: #616F8D;
+}
 
 
 
@@ -519,7 +732,7 @@ optgroup{
 @media screen and (max-width: 329px){
 
     .d-md-sm-xs-none{
-        display: none;
+        display: none !important;
     }
 
     .progress-ds{
@@ -539,6 +752,10 @@ optgroup{
         height: 6rem;
     }
 
+    .interv-resume-underline{
+        width: 5rem;
+    }
+
     .interv-resume-select{
         max-width: 100%;
     }
@@ -561,13 +778,93 @@ optgroup{
         text-align: left !important;
     }
 
+    .card.finance-card{
+        width: 19rem !important;
+    }
+
     .ordering-line{
         display: none;
     }
+
+    .align-items-xs-center{
+        align-items: center;
+    }
+
+    .flex-xs-column{
+        flex-direction: column;
+    }
+
+    .d-xs-flex{
+        display: flex;
+    }
+
+    .text-xs-center{
+        text-align: center !important;
+    }
+
+
+    .testimonial-opinion{
+        padding: 4.3rem -3.3rem 3.1rem;
+        margin: 50px 0px 30px;
+        position: relative;
+        height: 35rem;
+    }
+
+    .owl-prev{
+        position: absolute;
+        left: -1rem;
+    }
+
+    .owl-next{
+        position: absolute;
+        right: -1rem;
+    }
+
+
+    .owl-theme .owl-controls{
+        top: 46%;
+    }
+
+    .alumni-opinion-job-bgr{
+        position: absolute;
+        top: -10px;
+        z-index: -1;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 16.5rem;
+        height: 40rem;
+        display: inline-block;
+    }
+
+    .testimonial-opinion .alumni-opinion-img-bgr{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .alumni-opinion-description{
+        padding-top: 3rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .contact-btn-padding{
+        padding: .6rem 1.7rem;
+    }
+
+    .contact-form-btn{
+        position: relative;
+        bottom: 3.5rem;
+        right: -78%;
+    }
+
+   
 }
 
 
 @media (min-width: 330px) and (max-width: 576px){
+    .alumni-opinions-container{
+        height: 100vh;
+    }
     
     .d-xs-sm-none{
         display: none;
@@ -580,7 +877,7 @@ optgroup{
     }
 
     .d-md-sm-xs-none{
-        display: none;
+        display: none !important;
     }
     .progress-ds{
         width: 70%;
@@ -598,6 +895,10 @@ optgroup{
         height: 6rem;
     }
 
+    .interv-resume-underline{
+        width: 10rem;
+    }
+
     .interv-resume-select{
         max-width: 100%;
     }
@@ -623,9 +924,85 @@ optgroup{
     .ordering-line{
         display: none;
     }
+
+    .align-items-xs-center{
+        align-items: center;
+    }
+
+    .flex-xs-column{
+        flex-direction: column;
+    }
+
+    .d-xs-flex{
+        display: flex;
+    }
+
+    .text-xs-center{
+        text-align: center !important;
+    }
+
+    .testimonial-opinion{
+        padding: 4.3rem -.3rem 3.1rem;
+        margin: 50px 0px 30px;
+        position: relative;
+        height: 35rem;
+    }
+
+    .owl-prev{
+        position: absolute;
+        left: -.1rem;
+    }
+
+    .owl-next{
+        position: absolute;
+        right: -.1rem;
+    }
+
+
+    .owl-theme .owl-controls{
+        top: 32%;
+    }
+
+    .alumni-opinion-job-bgr{
+        position: absolute;
+        top: -40px;
+        z-index: -1;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 23.5rem;
+        height: 36rem;
+        display: inline-block;
+    }
+
+    .testimonial-opinion .alumni-opinion-img-bgr{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .alumni-opinion-description{
+        padding-top: 3rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .contact-btn-padding{
+        padding: .6rem 2.2rem;
+    }
+    
+    .contact-form-btn{
+        position: relative;
+        bottom: 3.5rem;
+        right: -70%;
+    }
+
+
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
+    .alumni-opinions-container{
+        height: 100vh;
+    }
+
     .d-xs-sm-none{
         display: none;
     }
@@ -637,10 +1014,10 @@ optgroup{
     }
 
     .aspiring-heading-center{
-        flex: 0 0 600px;
+        flex: 0 0 550px;
     }
     .d-md-sm-xs-none{
-        display: none;
+        display: none !important;
     }
     .progress-ds{
         width: 98%;
@@ -684,12 +1061,48 @@ optgroup{
         display: none;
     }
 
-    
+    .testimonial-opinion{
+        padding: 70px 0px 50px;
+        margin: 50px 0px 30px;
+        position: relative;
+        height: 35rem;
+    }
+
+    .owl-prev{
+        position: absolute;
+        left: -1rem;
+    }
+
+    .owl-next{
+        position: absolute;
+        right: -1rem;
+    }
+
+
+    .owl-theme .owl-controls{
+        top: 32%;
+    }
+
+    .testimonial-opinion .alumni-opinion-img-bgr{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .alumni-opinion-description{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .contact-form-btn{
+        position: relative;
+        bottom: 3rem;
+        right: -85%;
+    }
     
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container{
+@media (min-width: 768px) and (max-width: 992px) {
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
     .dsply-md-none{
@@ -702,7 +1115,7 @@ optgroup{
         flex: 0 0 370px;
     }
     .d-md-sm-xs-none{
-        display: none;
+        display: none !important;
     }
 
     .progress-ds{
@@ -740,14 +1153,26 @@ optgroup{
     }
     
     .start-app-content ul li.third{
-        flex: 0 0 30%;
+        flex: 0 0 32%;
     }
-    
+
+    .owl-theme .owl-controls{
+        top: 36%;
+    }
+
+    .contact-form-btn{
+        position: relative;
+        bottom: -14rem;
+        right: 5%;
+    }
+
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
 
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container{
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
 
@@ -817,7 +1242,7 @@ optgroup{
         flex: 0 0 30%;
     }
 
-    .dsply-lg-none {
+    .col-lg-none {
         display: none;
     }
 
@@ -825,11 +1250,22 @@ optgroup{
         width: 18rem !important;
     }
 
+    .owl-theme .owl-controls{
+        top: 36%;
+    }
+
+    .contact-form-btn{
+        position: relative;
+        bottom: -14rem;
+        right: 4%;
+    }
+
+
     
 }
 
 @media (min-width: 1200px){
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .networking-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .finance-container{
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
     .dsply-xl-lg-none{

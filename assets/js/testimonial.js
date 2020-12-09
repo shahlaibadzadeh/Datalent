@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('.items').slick({
+    $('.items.alumni-testimonial-items').slick({
     infinite: true,
     speed: 800,
     autoplay: false,

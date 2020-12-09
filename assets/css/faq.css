@@ -1,0 +1,141 @@
+.faq-total-container{
+    background-color: #F6F7F8;
+}
+
+.accordionTwo .panel-group {
+    margin-bottom: 0
+}
+
+.accordionTwo .panel {
+    background-color: white;
+    box-shadow: none;
+    border-bottom: 10px solid transparent;
+    border-radius: 1.8rem ;
+    margin: 0;
+}
+
+.accordionTwo .panel-default {
+    border: 0
+}
+
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.accordionTwo .panel .panel-heading a.collapsed {
+    background-color: white;
+    display: block;
+    padding: .75rem 1.25rem
+}
+
+.accordionTwo .panel .panel-heading a {
+    display: block;
+    padding: .75rem 1.25rem;
+}
+
+
+
+.accordionTwo .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 1.25rem 1.25rem 1.25rem 1.8rem;
+    background: white;
+    color: #0D224F;
+    opacity: .5;
+}
+
+
+.accordionTwo .panel .panel-heading a:after,
+.accordionTwo .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 1.2rem;
+    font-weight: 600;
+    float: right;
+    width: 1.4rem;
+    display: block;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFF
+}
+
+.accordionTwo .panel .panel-heading a.collapsed:after {
+    content: "\2b";
+    color: white;
+    background-color:#1C69B5;
+}
+
+.accordionTwo .panel .panel-heading a:after {
+    content: "\2212";
+    color: white;
+    background: #1C69B5
+}
+
+a:link {
+    text-decoration: none;
+    color: #0D224F;
+}
+
+
+
+@media (min-width: 1200px){
+
+    .accordionFaqLeft{
+        flex: 0 0 500px;
+    }
+        
+    .accordionFaqRight{
+        flex: 0 0 500px;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .accordionFaqLeft{
+        flex: 0 0 450px;
+    }
+        
+    .accordionFaqRight{
+        flex: 0 0 450px;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .accordionFaqLeft{
+        flex: 0 0 350px;
+    }
+        
+    .accordionFaqRight{
+        flex: 0 0 350px;
+    }
+
+   
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   
+
+    
+    
+    
+}
+
+@media (min-width: 330px) and (max-width: 576px) {
+
+    
+}
+
+@media screen and (max-width: 329px) {
+
+    
+}
