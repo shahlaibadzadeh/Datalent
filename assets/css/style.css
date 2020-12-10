@@ -297,7 +297,7 @@ header{
 /*****************Bootcamp program*********/
 
 .bootcamp-prog-select{
-    width: auto;
+    width: 100%;
 }
 .bootcamp-prog-list li:hover {
     background-color: #0D224F;
@@ -683,8 +683,14 @@ optgroup{
 }
 
 /**************************************************Footer******************************************/
-
-
+/* .footer-container{
+    position: relative;
+}
+.contact-form-container{
+    position: absolute;
+    bottom: ;
+    z-index: -1;
+} */
 .footer-social-icons{
     width: 1.1rem;
     /* filter: brightness(0) invert(1); */

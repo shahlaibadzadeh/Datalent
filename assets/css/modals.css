@@ -1,0 +1,68 @@
+#applyModal .modal-content, #scheduleMeetModal .modal-content{
+    border-radius: .9rem !important;
+}
+
+.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn{
+    border-radius: 0 0 .9rem .9rem;
+}
+
+.apply-modal-icon-img{
+    width: 2.5rem;
+}
+
+.apply-modal-icon-line{
+    width: 2rem;
+    height: .1rem;
+    background-color: lightgray;
+}
+
+.apply-icon-blue-list{
+    background-color: #EBF3FB;
+    border-radius: 100%;
+}
+
+.apply-icon-blue{
+    filter: invert(23%) sepia(75%) saturate(1501%) hue-rotate(190deg) brightness(100%) contrast(97%);
+
+}
+
+.modals-input-bgr{
+    background-color: #F6F9FC;
+}
+
+#apply-modal-form >input::placeholder, .apply-input-select-flex > select, .apply-input-select-flex >input, 
+#scheduleCall-modal-form >input::placeholder, #scheduleCall-modal-form >textarea::placeholder, #scheduleCall-modal-form >label,
+#scheduleMeetModal-modal-form >input::placeholder, #scheduleMeetModal-modal-form >textarea::placeholder, #scheduleMeetModal-modal-form >label{
+    font-size: .8rem !important;
+    line-height: .98rem !important;
+    font-style: italic;
+    color: #828DA6;
+}
+
+
+/***************************************Bootcamp program download Modal****************/
+
+#downloadProgModal .modal-content{
+    border-radius: 3rem 0 3rem 3rem;
+}
+
+.downloadProgModal-modal-sbmt-btn{
+    border-radius: 100%;
+    width: 15%;
+}
+
+.downloadProgModal-sbmt-img{
+    width: 2rem;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+.downloadProgModal-input-btn-flex >input{
+    border-radius: 1rem 0 0 1rem ;
+}
+.downloadProgModal-input-btn-flex >input::placeholder{
+    font-size: .8rem !important;
+    line-height: .98rem !important;
+    font-style: italic;
+    color: #828DA6;
+}
