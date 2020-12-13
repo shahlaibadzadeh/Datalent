@@ -9,14 +9,14 @@
 .accordionTwo .panel {
     background-color: white;
     box-shadow: none;
-    border-bottom: 10px solid transparent;
     border-radius: 1.8rem ;
     margin: 0;
+    
 }
 
-.accordionTwo .panel-default {
+/* .accordionTwo .panel-default {
     border: 0
-}
+} */
 
 
 .panel-title {
@@ -25,7 +25,6 @@
 }
 
 .accordionTwo .panel .panel-heading a.collapsed {
-    background-color: white;
     display: block;
     padding: .75rem 1.25rem
 }
@@ -65,16 +64,16 @@
 .accordionTwo .panel .panel-heading a.collapsed:after {
     content: "\2b";
     color: white;
-    background-color:#1C69B5;
+    background-image: linear-gradient(to right top, #3e8ad6, #347eca, #2972bf, #1d66b3, #0e5ba8);
 }
 
 .accordionTwo .panel .panel-heading a:after {
     content: "\2212";
     color: white;
-    background: #1C69B5
+    background-image: linear-gradient(to right top, #3e8ad6, #347eca, #2972bf, #1d66b3, #0e5ba8);
 }
 
-a:link {
+.panel-title a:link {
     text-decoration: none;
     color: #0D224F;
 }
@@ -84,11 +83,11 @@ a:link {
 @media (min-width: 1200px){
 
     .accordionFaqLeft{
-        flex: 0 0 500px;
+        flex: 0 0 450px;
     }
         
     .accordionFaqRight{
-        flex: 0 0 500px;
+        flex: 0 0 450px;
     }
 
 }
@@ -132,10 +131,20 @@ a:link {
 
 @media (min-width: 330px) and (max-width: 576px) {
 
+    .faq-heading{
+        font-size: 0.85rem !important;
+        line-height: .98rem !important
+    }
+
     
 }
 
-@media screen and (max-width: 329px) {
+@media screen and (max-width: 330px) {
+
+    .faq-heading{
+        font-size: 0.85rem !important;
+        line-height: .98rem !important
+    }
 
     
 }

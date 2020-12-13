@@ -1,8 +1,11 @@
-#applyModal .modal-content, #scheduleMeetModal .modal-content{
+.modal-content{
+    border: 0;
+}
+#applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content{
     border-radius: .9rem !important;
 }
 
-.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn{
+.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn, .moneyBackModal-modal-sbmt-btn{
     border-radius: 0 0 .9rem .9rem;
 }
 
@@ -30,7 +33,7 @@
     background-color: #F6F9FC;
 }
 
-#apply-modal-form >input::placeholder, .apply-input-select-flex > select, .apply-input-select-flex >input, 
+#apply-modal-form >input::placeholder, .apply-input-select-flex > select, .apply-input-select-flex >input,  #apply-modal-form >textarea::placeholder,
 #scheduleCall-modal-form >input::placeholder, #scheduleCall-modal-form >textarea::placeholder, #scheduleCall-modal-form >label,
 #scheduleMeetModal-modal-form >input::placeholder, #scheduleMeetModal-modal-form >textarea::placeholder, #scheduleMeetModal-modal-form >label{
     font-size: .8rem !important;
@@ -39,7 +42,28 @@
     color: #828DA6;
 }
 
+.modal-top-title{
+    position: absolute;
+    top: -2.5rem;
+    left: 30%;
+}
 
+.modalApply-top-title{
+
+    position: absolute;
+    top: -2.5rem;
+    left: 25%;
+
+}
+
+
+.modalCall-top-title{
+    position: absolute;
+    top: -2.5rem;
+    left: 20%;
+    right: 15%;
+
+}
 /***************************************Bootcamp program download Modal****************/
 
 #downloadProgModal .modal-content{
@@ -48,7 +72,6 @@
 
 .downloadProgModal-modal-sbmt-btn{
     border-radius: 100%;
-    width: 15%;
 }
 
 .downloadProgModal-sbmt-img{
@@ -65,4 +88,244 @@
     line-height: .98rem !important;
     font-style: italic;
     color: #828DA6;
+}
+
+/*******************************Talent fund Modal*********************/
+
+.talentFundModal-modal-sbmt-btn{
+    border-radius: .9rem 0 .9rem 0;
+}
+
+
+@media (min-width: 1200px){
+
+    .downloadProgModal-modal-sbmt-btn{
+        border-radius: 100%;
+        width: 3.6rem;
+    }
+
+    .talentFundModalLeft:after{
+        content:"";
+        position:absolute;
+        top: 15%;
+        right:0;
+        width: .07rem;
+        height: 70%;
+        background:#0d224f25;
+        opacity: .5;
+    }
+
+    .talentFund-large-title{
+        position: absolute;
+        top: -3.5rem;
+    }
+   
+    .talentFund-large-title1{
+        left: 20%;
+    }
+
+    .talentFund-large-title2{
+        left: 40%;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .downloadProgModal-modal-sbmt-btn{
+        border-radius: 100%;
+        width: 3.5rem;
+    }
+
+    .talentFundModalLeft:after{
+        content:"";
+        position:absolute;
+        top: 15%;
+        right:0;
+        width: .07rem;
+        height: 70%;
+        background:#0d224f25;
+        opacity: .5;
+    }
+
+    .talentFund-large-title{
+        position: absolute;
+        top: -3.5rem;
+    }
+   
+    .talentFund-large-title1{
+        left: 20%;
+    }
+
+    .talentFund-large-title2{
+        left: 40%;
+    }
+
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .downloadProgModal-modal-sbmt-btn{
+        border-radius: 100%;
+        width: 3.5rem;
+    }
+
+    .modal-large {
+        max-width: 800px !important;
+    }
+
+    .talentFundModalLeft:after{
+        content:"";
+        position:absolute;
+        top: 15%;
+        right:0;
+        width: .07rem;
+        height: 70%;
+        background:#0d224f25;
+        opacity: .5;
+    }
+
+    .talentFund-large-title{
+        position: absolute;
+        top: -3.5rem;
+    }
+   
+    .talentFund-large-title1{
+        left: 20%;
+    }
+
+    .talentFund-large-title2{
+        left: 40%;
+    }
+    
+   
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .downloadProgModal-modal-sbmt-btn{
+        border-radius: 100%;
+        width: 3.6rem;
+    }
+
+    .talentFund-title1{
+        position: absolute;
+        top: -3.5rem;
+    }
+
+    .talentFundModal-modal-sbmt-btn{
+        width: 50% !important;
+    }
+
+    
+}
+
+@media (min-width: 330px) and (max-width: 576px) {
+    .downloadProgModal-modal-sbmt-btn{
+        border-radius: 100%;
+        width: 3.6rem;
+    }
+
+    .talentFund-title1{
+        position: absolute;
+        top: -3.5rem;
+    }
+
+    .talentFundModal-modal-sbmt-btn{
+        width: 50% !important;
+    }
+
+    .modal-top-title{
+        position: absolute;
+        top: -2.5rem;
+        left: 27%;
+    }
+
+    
+}
+
+@media (min-width: 470px) and (max-width: 576px){
+
+    .modalApply-top-title{
+
+        position: absolute;
+        top: -2.5rem;
+        left: 26%;
+        right: 18%;
+    }
+    .modalCall-top-title{
+        position: absolute;
+        top: -2.5rem;
+        left: 20%;
+        right: 15%;
+
+    }
+
+}
+
+@media (min-width: 330px) and (max-width: 470px){
+
+    .modalApply-top-title{
+
+        position: absolute;
+        top: -2.5rem;
+        left: 20%;
+        right: 15%;
+    }
+
+    .modalCall-top-title{
+        position: absolute;
+        top: -2.5rem;
+        left: 20%;
+        right: 15%;
+
+    }
+
+}
+@media screen and (max-width: 330px) {
+
+    .apply-modal-icon-img{
+        width: 2.2rem;
+    }
+
+    .downloadProgModal-modal-sbmt-btn{
+        border-radius: 100%;
+        width: 25%;
+    }
+
+    .talentFund-title1{
+        position: absolute;
+        top: -3.5rem;
+    }
+
+    .talentFundModal-modal-sbmt-btn{
+        width: 50% !important;
+    }
+
+    .modal-top-title{
+        position: absolute;
+        top: -2.5rem;
+        left: 20%;
+    }
+
+    .modalApply-top-title{
+
+        position: absolute;
+        top: -2.5rem;
+        left: 18%;
+        right: 15%;
+    }
+    
+    .modalCall-top-title{
+        position: absolute;
+        top: -2.5rem;
+        left: 20%;
+        right: 15%;
+
+    }
 }

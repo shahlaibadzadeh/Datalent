@@ -14,6 +14,7 @@
 html, body{
     width: 100%;
    height: 100%;
+   scroll-behavior: smooth;
    
 }
 header{
@@ -70,8 +71,8 @@ header{
 }
 
 .text-paragraph-24{
-    font-size: 0.85rem;
-    line-height: .98rem
+    font-size: 0.85rem !important;
+    line-height: .98rem !important
 }
 
 
@@ -120,6 +121,19 @@ header{
 }
 .blue-bgr{
     background-color: #0E5BA8;
+    
+}
+
+.blue-bgr-hover:hover{
+    color: #0E5BA8 !important;
+    background-color: white;
+    border: .05rem solid #0E5BA8;
+}
+
+.landing-btn-apply-hover:hover{
+    color: white !important;
+    background-color: transparent;
+    border: .05rem solid white;
 }
 
 .blue-bold-bgr{
@@ -130,9 +144,6 @@ header{
     background-color: #0D224F;
 }
 
-/* .blue-bgr:hover{
-    
-} */
 
 .blue-bold-bgr-btn:hover{
     border: 1px solid #0D224F;
@@ -194,7 +205,7 @@ header{
 .nav-item > a:after{
     content: '';
     display: block;
-    height: 1px;
+    height: .005rem;
     background: #EFF2F7;
     transform: scaleX(0);
     transition: transform .3s;
@@ -202,6 +213,10 @@ header{
 .nav-item > a:hover:after{
     transform: scaleX(1);
     transition: transform .3s;
+}
+
+.nav-link{
+    display: inline !important;
 }
 
 .toggle-icon {
@@ -264,6 +279,10 @@ header{
     border: 1px solid white;
 }
 
+.plan-button:hover{
+    background-color: #0E5BA8;
+    border: .05rem solid #0E5BA8;
+}
 
 .become-d-s{
     position: relative;
@@ -352,7 +371,7 @@ optgroup{
 .network-images-container{
     border-radius: 1.2rem;
     background-color: white;
-    box-shadow: 0px 0px 10px 10px #FAFAFC;
+    box-shadow: 0px 0px 40px 8px #FAFAFC;
     /* max-width: 225px; */
 }
 
@@ -446,10 +465,10 @@ optgroup{
     transform: scale(1);
     
 }
-.mentor-img:hover{
+/* .mentor-img:hover{
     transform: scale(1.6);
     
-}
+} */
 
 .mentor-name{
     transition: all .3s ease-in-out;
@@ -509,12 +528,28 @@ optgroup{
 
 .btn-tution-padding{
     padding: .65rem 2.45rem;
+    border: .05rem solid #0E5BA8;
 }
 
+
+
 .pay-tution-btn{
-    border: 1px solid #418DD8;
+    border: .05rem solid #418DD8;
     padding: .65rem 1.6rem;
     color: #418DD8;
+}
+
+.pay-tution-btn:hover{
+    background-color: #418DD8;
+    color: white;
+}
+
+.bg-sale-color{
+    background-color: #d0021b;
+}
+
+.tution-discount-text{
+    color: #d9b210;
 }
 
 
@@ -530,7 +565,7 @@ optgroup{
 .alumni-opinion-img-text-bgr{
     border-radius: 1.3rem .1rem 1.3rem .1rem;
     background-color: white;
-    box-shadow: 0px 0px 5px 5px #FAFAFC;
+    box-shadow: 0px 0px 20px 1px #FAFAFC;
 }
 
 .alumni-opinion-job-bgr{
@@ -626,6 +661,12 @@ optgroup{
     background-color: #e9e7e7;
 }
 
+.collaborate-company-slider-underline{
+    width: 16rem;
+    height: .05rem;
+    background-color: #ffffff23;
+}
+
 
 
 /************************************************Schedule*************************/
@@ -633,7 +674,7 @@ optgroup{
 .schedule-btns, .contact-form{
     border-radius: 1.2rem;
     background-color: white;
-    box-shadow: 0px 0px 10px 10px #FAFAFC;
+    box-shadow: 0px 0px 40px 10px #FAFAFC;
 }
 
 .contact-textarea >textarea{
@@ -735,10 +776,33 @@ optgroup{
 
 
 
-@media screen and (max-width: 329px){
+@media screen and (max-width: 330px){
 
     .d-md-sm-xs-none{
         display: none !important;
+    }
+    .d-xs-sm-none{
+        display: none !important;
+    }
+
+    .d-xs-none{
+        display: none !important;
+    }
+
+    .justify-content-xs-center{
+        justify-content: center;
+    }
+
+    .mx-xs-auto{
+        margin: 0 auto;
+    }
+
+    .landing-center {
+        margin-top: 8rem;
+    }
+
+    .btn-padding{
+        padding: .4rem 1.4rem;
     }
 
     .progress-ds{
@@ -754,7 +818,7 @@ optgroup{
     }
 
     .network-img{
-        width: 8.5rem;
+        width: 7rem;
         height: 6rem;
     }
 
@@ -785,7 +849,11 @@ optgroup{
     }
 
     .card.finance-card{
-        width: 19rem !important;
+        width: 16.5rem !important;
+    }
+
+    .card.tution-total-card{
+        width: 15rem !important;
     }
 
     .ordering-line{
@@ -800,7 +868,7 @@ optgroup{
         flex-direction: column;
     }
 
-    .d-xs-flex{
+    .d-sm-xs-flex{
         display: flex;
     }
 
@@ -813,7 +881,7 @@ optgroup{
         padding: 4.3rem -3.3rem 3.1rem;
         margin: 50px 0px 30px;
         position: relative;
-        height: 35rem;
+        height: 40rem;
     }
 
     .owl-prev{
@@ -839,7 +907,7 @@ optgroup{
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
         width: 16.5rem;
-        height: 40rem;
+        height: 36rem;
         display: inline-block;
     }
 
@@ -851,6 +919,12 @@ optgroup{
     .alumni-opinion-description{
         padding-top: 3rem;
         padding-bottom: 1.2rem;
+        font-size: .78rem !important;
+        line-height: .9rem !important;
+    }
+
+    .collaborate-company-slider-underline{
+        width: 10rem;
     }
 
     .contact-btn-padding{
@@ -861,6 +935,8 @@ optgroup{
         position: relative;
         bottom: 3.5rem;
         right: -78%;
+        width: 3.7rem;
+        height: 3.7rem;
     }
 
    
@@ -868,13 +944,28 @@ optgroup{
 
 
 @media (min-width: 330px) and (max-width: 576px){
-    .alumni-opinions-container{
-        height: 100vh;
-    }
     
     .d-xs-sm-none{
         display: none;
     }
+
+    .d-xs-none{
+        display: none !important;
+    }
+
+    .justify-content-xs-center{
+        justify-content: center;
+    }
+
+    .mx-xs-auto{
+        margin: 0 auto;
+    }
+
+    .landing-center {
+        margin-top: 8rem;
+    }
+    
+
     .icon-width{
         width: 3rem;
     }
@@ -885,6 +976,15 @@ optgroup{
     .d-md-sm-xs-none{
         display: none !important;
     }
+
+    .btn-padding{
+        padding: .6rem 2.2rem;
+    }
+
+    .card.tution-total-card{
+        width: 18rem !important;
+    }
+
     .progress-ds{
         width: 70%;
     }
@@ -939,7 +1039,7 @@ optgroup{
         flex-direction: column;
     }
 
-    .d-xs-flex{
+    .d-sm-xs-flex{
         display: flex;
     }
 
@@ -991,6 +1091,14 @@ optgroup{
         padding-bottom: 1.2rem;
     }
 
+    .card.finance-card{
+        width: 19rem !important;
+    }
+
+    .collaborate-company-slider-underline{
+        width: 12rem;
+    }
+
     .contact-btn-padding{
         padding: .6rem 2.2rem;
     }
@@ -998,7 +1106,9 @@ optgroup{
     .contact-form-btn{
         position: relative;
         bottom: 3.5rem;
-        right: -70%;
+        right: -81%;
+        width: 4rem;
+        height: 4rem;
     }
 
 
@@ -1012,11 +1122,20 @@ optgroup{
     .d-xs-sm-none{
         display: none;
     }
+
+    .landing-center {
+        margin-top: 9rem;
+    }
+
     .icon-width{
         width: 4rem;
     }
     .icon-width-check{
         width: 1.5rem;
+    }
+
+    .d-sm-xs-flex{
+        display: flex;
     }
 
     .aspiring-heading-center{
@@ -1108,9 +1227,10 @@ optgroup{
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
+    .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
+
     .dsply-md-none{
         display: none;
     }
@@ -1178,7 +1298,7 @@ optgroup{
 
 @media (min-width: 992px) and (max-width: 1199px){
 
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
+    .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
 
@@ -1271,9 +1391,10 @@ optgroup{
 }
 
 @media (min-width: 1200px){
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
+    #particles-js, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
+
     .dsply-xl-lg-none{
         display: none;
     }
