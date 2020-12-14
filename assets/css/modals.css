@@ -1,11 +1,11 @@
 .modal-content{
     border: 0;
 }
-#applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content{
+#applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, #scheduleAdviser .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content{
     border-radius: .9rem !important;
 }
 
-.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn, .moneyBackModal-modal-sbmt-btn{
+.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn, .scheduleAdviser-modal-sbmt-btn,  .moneyBackModal-modal-sbmt-btn{
     border-radius: 0 0 .9rem .9rem;
 }
 
@@ -34,8 +34,9 @@
 }
 
 #apply-modal-form >input::placeholder, .apply-input-select-flex > select, .apply-input-select-flex >input,  #apply-modal-form >textarea::placeholder,
-#scheduleCall-modal-form >input::placeholder, #scheduleCall-modal-form >textarea::placeholder, #scheduleCall-modal-form >label,
-#scheduleMeetModal-modal-form >input::placeholder, #scheduleMeetModal-modal-form >textarea::placeholder, #scheduleMeetModal-modal-form >label{
+#scheduleCall-modal-form >input::placeholder, #scheduleCall-modal-form >textarea::placeholder, #scheduleCall-modal-form >label, #scheduleCall-modal-form .input-date, #scheduleCall-modal-form .input-time,
+#scheduleMeetModal-modal-form >input::placeholder, #scheduleMeetModal-modal-form >textarea::placeholder, #scheduleMeetModal-modal-form >label, #scheduleMeetModal-modal-form .input-date, #scheduleMeetModal-modal-form .input-time,
+#scheduleAdviser-modal-form >input::placeholder, #scheduleAdviser-modal-form >textarea::placeholder, #scheduleAdviser-modal-form >label, #scheduleAdviser-modal-form .input-date, #scheduleAdviser-modal-form .input-time{
     font-size: .8rem !important;
     line-height: .98rem !important;
     font-style: italic;
@@ -96,7 +97,40 @@
     border-radius: .9rem 0 .9rem 0;
 }
 
+.input-time{
+    width: 25%;
+}
 
+.input-time::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.input-date{
+    width: 75%;
+    position: relative;
+}
+
+.input-date::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
 @media (min-width: 1200px){
 
     .downloadProgModal-modal-sbmt-btn{

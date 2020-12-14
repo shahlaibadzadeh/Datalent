@@ -6,7 +6,7 @@ $(document).ready(function(){
     autoplay: false,
     autoplaySpeed: 2000,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     responsive: [
     {
     breakpoint: 1024,
@@ -19,15 +19,22 @@ $(document).ready(function(){
     {
         breakpoint: 800,
         settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
         }
         },
     {
+        breakpoint: 660,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        }
+        },
+    {
     breakpoint: 600,
     settings: {
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     }
     },

@@ -46,6 +46,11 @@ header{
     font-style: italic;
 }
 
+.text-paragraph-40{
+    font-size: 1.5rem !important;
+    line-height: 1.4rem !important
+}
+
 .text-paragraph-36{
     font-size: 1.28rem !important;
     line-height: 1.4rem !important
@@ -121,6 +126,10 @@ header{
 }
 .blue-bgr{
     background-color: #0E5BA8;
+    box-shadow: inset 0 0 0 0 #0E5BA8;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
     
 }
 
@@ -134,14 +143,21 @@ header{
     color: white !important;
     background-color: transparent;
     border: .05rem solid white;
+    box-shadow: inset 400px 50px 0 0 transparent;
 }
 
 .blue-bold-bgr{
     background-color: #0D224F;
+    
 }
+
 
 .blue-bold-bgr-btn{
     background-color: #0D224F;
+    box-shadow: inset 0 0 0 0 #0D224F;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
 
@@ -149,22 +165,31 @@ header{
     border: 1px solid #0D224F;
     color: #0D224F;
     background: none;
+    box-shadow: inset 400px 50px 0 0 none;
 }
 
 .bgr-none-btn{
     border: 1px solid #0D224F;
     background: none;
+    box-shadow: inset 0 0 0 0 #0D224F;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 } 
 
 .bgr-none-btn:hover{
     border: 1px solid transparent;
     color: white;
     background-color: #0D224F;
-
+    box-shadow: inset 400px 50px 0 0 #0D224F;
 }
 
 .lghtgray-bgr{
     background-color: #EFF2F7;
+    box-shadow: inset 0 0 0 0 #EFF2F7;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
 .prog-plan-bgr{
@@ -277,11 +302,17 @@ header{
     color: white;
     background-color: transparent;
     border: 1px solid white;
+    box-shadow: inset 0 0 0 0 #418DD8;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+
 }
 
 .plan-button:hover{
     background-color: #0E5BA8;
     border: .05rem solid #0E5BA8;
+    box-shadow: inset 400px 50px 0 0 #0E5BA8;
 }
 
 .become-d-s{
@@ -320,6 +351,7 @@ header{
 }
 .bootcamp-prog-list li:hover {
     background-color: #0D224F;
+    box-shadow: inset 400px 0 0 0 #0D224F;
 }
 
 .bootcamp-prog-list li:hover .bootcamp-prog-list-heading{
@@ -431,7 +463,8 @@ optgroup{
 .interv-resume-list-item:hover{
     color: white !important;
     background: #0E5BA8;
-    transform: scale(1.03);
+    transform: scale(1.03) !important;
+    transition: all .1s ease-in-out !important;
 }
 
 
@@ -461,17 +494,19 @@ optgroup{
     border-radius: 100%;
     width: 5rem;
     height: 5rem;
-    transition: all .3s ease-in-out;
-    transform: scale(1);
+    transition: all .3s ease-in-out !important;
+    transform: scale(1) !important;
     
 }
-/* .mentor-img:hover{
-    transform: scale(1.6);
-    
-} */
+.mentor-img-scale{
+    transform: scale(1.4) !important;
+    border: solid .1rem #0D224F;
+    transition: all .3s ease-in-out !important;
+}
 
 .mentor-name{
     transition: all .3s ease-in-out;
+    
 }
 
 /***********************************************Start app***********************************/
@@ -499,9 +534,7 @@ optgroup{
   }
   
 
-.animate-start-app{
-    opacity:0;
-}
+ 
 
 
 /**************************************************Finance part***********************************/
@@ -537,11 +570,17 @@ optgroup{
     border: .05rem solid #418DD8;
     padding: .65rem 1.6rem;
     color: #418DD8;
+    box-shadow: inset 0 0 0 0 #418DD8;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
 .pay-tution-btn:hover{
     background-color: #418DD8;
     color: white;
+    box-shadow: inset 400px 50px 0 0 #418DD8;
+    
 }
 
 .bg-sale-color{
@@ -1227,7 +1266,7 @@ optgroup{
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
+    .become-d-s-container, .aspiring-total-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
 
@@ -1298,7 +1337,7 @@ optgroup{
 
 @media (min-width: 992px) and (max-width: 1199px){
 
-    .become-d-s-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
+    #particles-js, .become-d-s-container, .aspiring-total-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .collaborate-company-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
 
@@ -1310,6 +1349,18 @@ optgroup{
     }
     .list-center{
         flex: 0 0 400px;
+    }
+
+    .landing-center {
+        margin-top: 8rem;
+    }
+
+    .landing-buttons {
+        margin-top: 3rem;
+    }
+
+    .social-media {
+        margin-top: 13rem;
     }
 
     .bootcamp-prog-small-dvc-container{
@@ -1391,7 +1442,7 @@ optgroup{
 }
 
 @media (min-width: 1200px){
-    #particles-js, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
+    #particles-js, .aspiring-total-container, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .collaborate-company-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
     }
 

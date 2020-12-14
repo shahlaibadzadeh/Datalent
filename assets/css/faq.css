@@ -73,7 +73,7 @@
     background-image: linear-gradient(to right top, #3e8ad6, #347eca, #2972bf, #1d66b3, #0e5ba8);
 }
 
-.panel-title a:link {
+.panel-title a:link, .panel-title a:hover  {
     text-decoration: none;
     color: #0D224F;
 }

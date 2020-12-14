@@ -1,7 +1,9 @@
 .alumni-testimonial-container{
     background-color: #0E5BA8;
 }
-
+.slick-slider div{
+    transition: none;
+}
 .alumni-logo-img{
     width: 9rem;
     height: 5rem;
