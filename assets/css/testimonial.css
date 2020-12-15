@@ -68,9 +68,9 @@
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
+    /* .alumni-testimonial-items .slick-prev, .alumni-testimonial-items .slick-next {
         top: 50% !important;
-    }
+    } */
 
     .alumni-testimonial-items .slick-prev {
         left: 40% !important;

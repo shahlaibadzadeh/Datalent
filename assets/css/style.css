@@ -18,6 +18,12 @@ html, body{
    
 }
 
+a{
+    cursor: pointer;
+}
+.fp-tableCell{
+    vertical-align:0% !important
+}
 /* #fullpage{
     height: 100vh;
 }
@@ -1369,9 +1375,9 @@ optgroup{
 
 @media (min-width: 992px) and (max-width: 1199px){
 
-    #particles-js, .become-d-s-container, .aspiring-total-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .collaborate-company-container, .faq-total-container, .schedule-contact-container{
+    /* #particles-js, .become-d-s-container, .aspiring-total-container, .bootcamp-program-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .collaborate-company-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
-    }
+    } */
 
     .dsply-xl-lg-none{
         display: none;
@@ -1474,9 +1480,9 @@ optgroup{
 }
 
 @media (min-width: 1200px){
-    #particles-js, .aspiring-total-container, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .collaborate-company-container, .faq-total-container, .schedule-contact-container{
+    /* #particles-js, .aspiring-total-container, .become-d-s-container, .bootcamp-program-container, .salary-expectation-network-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .finance-container, .alumni-opinions-container, .collaborate-company-container, .faq-total-container, .schedule-contact-container{
         height: 100vh;
-    }
+    } */
 
     .dsply-xl-lg-none{
         display: none;
