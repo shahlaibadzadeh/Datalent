@@ -17,6 +17,14 @@ html, body{
    scroll-behavior: smooth;
    
 }
+
+/* #fullpage{
+    height: 100vh;
+}
+
+#fullpage .section{
+    height: 100vh;
+} */
 header{
     position: relative;
 }
@@ -80,6 +88,10 @@ header{
     line-height: .98rem !important
 }
 
+.text-paragraph-22{
+    font-size: .81rem !important;
+    line-height: .92rem !important;
+}
 
 .text-paragraph-20{
     font-size: .78rem !important;
@@ -126,10 +138,9 @@ header{
 }
 .blue-bgr{
     background-color: #0E5BA8;
-    box-shadow: inset 0 0 0 0 #0E5BA8;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
     
 }
 
@@ -143,7 +154,6 @@ header{
     color: white !important;
     background-color: transparent;
     border: .05rem solid white;
-    box-shadow: inset 400px 50px 0 0 transparent;
 }
 
 .blue-bold-bgr{
@@ -154,10 +164,9 @@ header{
 
 .blue-bold-bgr-btn{
     background-color: #0D224F;
-    box-shadow: inset 0 0 0 0 #0D224F;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
 }
 
 
@@ -165,31 +174,27 @@ header{
     border: 1px solid #0D224F;
     color: #0D224F;
     background: none;
-    box-shadow: inset 400px 50px 0 0 none;
 }
 
 .bgr-none-btn{
     border: 1px solid #0D224F;
     background: none;
-    box-shadow: inset 0 0 0 0 #0D224F;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
 } 
 
 .bgr-none-btn:hover{
     border: 1px solid transparent;
     color: white;
     background-color: #0D224F;
-    box-shadow: inset 400px 50px 0 0 #0D224F;
 }
 
 .lghtgray-bgr{
     background-color: #EFF2F7;
-    box-shadow: inset 0 0 0 0 #EFF2F7;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
 }
 
 .prog-plan-bgr{
@@ -302,22 +307,20 @@ header{
     color: white;
     background-color: transparent;
     border: 1px solid white;
-    box-shadow: inset 0 0 0 0 #418DD8;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
 
 }
 
 .plan-button:hover{
     background-color: #0E5BA8;
     border: .05rem solid #0E5BA8;
-    box-shadow: inset 400px 50px 0 0 #0E5BA8;
 }
 
 .become-d-s{
     position: relative;
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 
 .become-d-s-heading{
@@ -351,7 +354,6 @@ header{
 }
 .bootcamp-prog-list li:hover {
     background-color: #0D224F;
-    box-shadow: inset 400px 0 0 0 #0D224F;
 }
 
 .bootcamp-prog-list li:hover .bootcamp-prog-list-heading{
@@ -464,7 +466,7 @@ optgroup{
     color: white !important;
     background: #0E5BA8;
     transform: scale(1.03) !important;
-    transition: all .1s ease-in-out !important;
+    transition: all .2s ease-out !important;
 }
 
 
@@ -501,12 +503,16 @@ optgroup{
 .mentor-img-scale{
     transform: scale(1.4) !important;
     border: solid .1rem #0D224F;
-    transition: all .3s ease-in-out !important;
+    transition: all .2s ease-out !important;
 }
 
 .mentor-name{
     transition: all .3s ease-in-out;
-    
+}
+
+.mentor-img-opacity-less{
+    opacity: .6;
+
 }
 
 /***********************************************Start app***********************************/
@@ -533,8 +539,17 @@ optgroup{
     height: 6rem;
   }
   
-
+.second h6{
+    transition: all .3s ease-out !important;
+    transform: scale(1) !important;
+    cursor: pointer;
+}
  
+.second h6:hover{
+    transform: scale(1.1) !important;
+    transition: all .2s ease-out !important;
+
+}
 
 
 /**************************************************Finance part***********************************/
@@ -570,16 +585,14 @@ optgroup{
     border: .05rem solid #418DD8;
     padding: .65rem 1.6rem;
     color: #418DD8;
-    box-shadow: inset 0 0 0 0 #418DD8;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
 }
 
 .pay-tution-btn:hover{
     background-color: #418DD8;
     color: white;
-    box-shadow: inset 400px 50px 0 0 #418DD8;
     
 }
 
@@ -752,6 +765,17 @@ optgroup{
     width: 2.5rem;
 }
 
+.contact-form-btn{
+    transition: all .3s ease-out !important;
+    transform: scale(1) !important;
+}
+ 
+.contact-form-btn:hover{
+    transform: scale(1.1) !important;
+    transition: all .2s ease-out !important;
+
+}
+
 .dropright .dropdown-toggle::after{
     content: none;
     border: none;
@@ -873,6 +897,9 @@ optgroup{
         justify-content: center;
     }
 
+    .mentor-img{
+        margin-bottom: 1.2rem;
+    }
     .start-app-content ul li.first{
         flex: 0 0 55%;
         justify-content: start !important;
@@ -1306,6 +1333,11 @@ optgroup{
     .interv-resume-list-item{
         width: 20%;
         height: 11rem;
+    }
+
+    .interv-resume-list-item>h6{
+        font-size: 0.9rem !important;
+        line-height: 1.2rem !important
     }
 
     .start-app-content ul li.first{

@@ -5,6 +5,7 @@ $(document).ready(function(){
     speed: 800,
     autoplay: false,
     autoplaySpeed: 2000,
+    waitForAnimate: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
