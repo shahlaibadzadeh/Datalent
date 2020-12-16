@@ -198,9 +198,9 @@ header{
 
 .lghtgray-bgr{
     background-color: #EFF2F7;
-    -webkit-transition: ease-out 0.2s;
-    -moz-transition: ease-out 0.2s;
-    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.08s;
+    -moz-transition: ease-out 0.08s;
+    transition: ease-out 0.08s;
 }
 
 .prog-plan-bgr{
@@ -265,7 +265,7 @@ header{
 }
 
 .landing-center {
-    margin-top: 11rem;
+    margin-top: 10rem;
 }
 
 .social-media {
@@ -428,6 +428,7 @@ optgroup{
     height: 9rem;
 }
 
+
 /*****************************************Interview and Resume**************************/
 
 .interv-resume-underline{
@@ -459,6 +460,7 @@ optgroup{
     height: 9rem;
     border-radius: 1rem;
     cursor: pointer;
+    transition: all .2s ease-out ;
 }
 
 /* .interv-resume-list-line{
@@ -472,7 +474,7 @@ optgroup{
     color: white !important;
     background: #0E5BA8;
     transform: scale(1.03) !important;
-    transition: all .2s ease-out !important;
+    transition: all .2s ease-out ;
 }
 
 
@@ -524,7 +526,7 @@ optgroup{
 /***********************************************Start app***********************************/
 
 .start-app-order-one {
-    padding: 1rem 1.85rem !important;
+    padding: 1rem 1.87rem !important;
     border-radius: 100%;
 } 
 
@@ -565,6 +567,7 @@ optgroup{
     width: 20.8rem !important;
     border-radius: 1%;
     position: relative;
+    cursor: pointer;
 }
 
 .finance-card-btn{
@@ -623,7 +626,7 @@ optgroup{
 .alumni-opinion-img-text-bgr{
     border-radius: 1.3rem .1rem 1.3rem .1rem;
     background-color: white;
-    box-shadow: 0px 0px 20px 1px #FAFAFC;
+    box-shadow: 0px 0px 5px 5px #FAFAFC;
 }
 
 .alumni-opinion-job-bgr{
@@ -638,24 +641,6 @@ optgroup{
     display: inline-block;
 }
 
-/* .owl-dots {
-    text-align: center;
-    padding-top: 15px;
-  }
-  .owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    background: red;
-    margin: 0 3px;
-  }
-  .owl-dots button.owl-dot.active {
-    background-color: #000;
-  }
-  .owl-dots button.owl-dot:focus {
-    outline: none;
-  } */
 
 .testimonial-opinion .alumni-opinion-img-bgr{
     width: 9rem;
@@ -680,36 +665,48 @@ optgroup{
     padding-bottom: 3rem;
 }
 
-.owl-theme .owl-controls{
+.owl-theme .owl-nav{
     width: 100%;
     height: 50px;
     opacity: 1;
     position: absolute;
-    top: 36%;
+    top: 35%;
 }
 
-.owl-theme .owl-controls .owl-buttons div{
-    line-height: 1.1 !important;
-    display: flex !important;
-    align-items: center;
-    background: #418DD8 !important;
-    opacity: 1 !important;
+
+.owl-carousel .owl-nav [class*=owl-] {
+	background: #418DD8  !important;
+	line-height: 1 !important;
+    border-radius: 100% !important;
     padding: .5rem .5rem !important;
 }
-.owl-prev{
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    padding: .5rem .5rem !important;
+    outline: none;
+}
+
+.owl-prev, .owl-next{
     position: absolute;
+    transition: all .2s ease-out;
+}
+
+.owl-prev:hover, .owl-next:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.1);
+}
+.owl-prev{
     left: 5%;
 }
 .owl-next{
-    position: absolute;
     right: 5%;
     }
-.owl-prev:after, .owl-next:after{
+/* .owl-prev:after, .owl-next:after{
     content: url(../img/icons/arrow-left.png);
     }
 .owl-next:after{ 
     content: url(../img/icons/arrow-right.png); 
-}
+} */
 
 /*********************************************Collabote companies*****************************/
 
@@ -958,17 +955,17 @@ optgroup{
 
     .owl-prev{
         position: absolute;
-        left: -1rem;
+        left: -.4rem;
     }
 
     .owl-next{
         position: absolute;
-        right: -1rem;
+        right: -.4rem;
     }
 
 
-    .owl-theme .owl-controls{
-        top: 46%;
+    .owl-theme .owl-nav{
+        top: 30%;
     }
 
     .alumni-opinion-job-bgr{
@@ -991,7 +988,7 @@ optgroup{
     .alumni-opinion-description{
         padding-top: 3rem;
         padding-bottom: 1.2rem;
-        font-size: .78rem !important;
+        font-size: .8rem !important;
         line-height: .9rem !important;
     }
 
@@ -1137,7 +1134,7 @@ optgroup{
     }
 
 
-    .owl-theme .owl-controls{
+    .owl-theme .owl-nav{
         top: 32%;
     }
 
@@ -1149,7 +1146,7 @@ optgroup{
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
         width: 23.5rem;
-        height: 36rem;
+        height: 37rem;
         display: inline-block;
     }
 
@@ -1161,6 +1158,8 @@ optgroup{
     .alumni-opinion-description{
         padding-top: 3rem;
         padding-bottom: 1.2rem;
+        font-size: 0.9rem !important;
+    line-height: .98rem !important
     }
 
     .card.finance-card{
@@ -1276,7 +1275,7 @@ optgroup{
     }
 
 
-    .owl-theme .owl-controls{
+    .owl-theme .owl-nav{
         top: 32%;
     }
 
@@ -1359,8 +1358,8 @@ optgroup{
         flex: 0 0 32%;
     }
 
-    .owl-theme .owl-controls{
-        top: 36%;
+    .owl-theme .owl-nav{
+        top: 33%;
     }
 
     .contact-form-btn{
@@ -1465,7 +1464,7 @@ optgroup{
         width: 18rem !important;
     }
 
-    .owl-theme .owl-controls{
+    .owl-theme .owl-nav{
         top: 36%;
     }
 

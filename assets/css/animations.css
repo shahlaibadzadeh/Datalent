@@ -6,13 +6,13 @@ opacity: 0;
 .animation-first-order{
 opacity: 0;
 -webkit-transform: scale(.5);
--webkit-animation: animationFirstOrder .05s linear .1s 1 forwards;
+-webkit-animation: animationFirstOrder .15s linear .05s 1 forwards;
 
 -moz-transform: scale(.5);
--moz-animation: animationFirstOrder .05s linear .1s 1 forwards;
+-moz-animation: animationFirstOrder .15s linear .05s 1 forwards;
 
 transform: scale(.5);
-animation: animationFirstOrder .05s linear .1s 1 forwards;
+animation: animationFirstOrder .15s linear .05s 1 forwards;
 }
 
 @-webkit-keyframes animationFirstOrder {
@@ -33,13 +33,13 @@ animation: animationFirstOrder .05s linear .1s 1 forwards;
 .animation-first-text{
 opacity: 0;
 -webkit-transform: scale(.8);
--webkit-animation: animationFirst .05s linear .3s 1 forwards;
+-webkit-animation: animationFirst .15s linear .3s 1 forwards;
 
 -moz-transform: scale(.8);
--moz-animation: animationFirst .05s linear .3s 1 forwards;
+-moz-animation: animationFirst .15s linear .3s 1 forwards;
 
 transform: scale(.8);
-animation: animationFirst .05s linear .3s 1 forwards;
+animation: animationFirst .15s linear .3s 1 forwards;
 }
 
 @-webkit-keyframes animationFirst {
@@ -60,13 +60,13 @@ animation: animationFirst .05s linear .3s 1 forwards;
 .animation-second-order{
 opacity: 0;
 -webkit-transform: scale(.5);
--webkit-animation: animationSecondOrder .05s linear .5s 1 forwards;
+-webkit-animation: animationSecondOrder .15s linear .4s 1 forwards;
 
 -moz-transform: scale(.5);
--moz-animation: animationSecondOrder .05s linear .5s 1 forwards;
+-moz-animation: animationSecondOrder .15s linear .4s 1 forwards;
 
 transform: scale(.5);
-animation: animationSecondOrder .05s linear .5s 1 forwards;
+animation: animationSecondOrder .15s linear .4s 1 forwards;
 }
 
 @-webkit-keyframes animationSecondOrder {
@@ -87,13 +87,13 @@ animation: animationSecondOrder .05s linear .5s 1 forwards;
 .animation-second-text{
 opacity: 0;
 -webkit-transform: scale(.8);
--webkit-animation: animationSecond .05s linear .7s 1 forwards;
+-webkit-animation: animationSecond .15s linear .5s 1 forwards;
 
 -moz-transform: scale(.8);
--moz-animation: animationSecond .05s linear .7s 1 forwards;
+-moz-animation: animationSecond .15s linear .5s 1 forwards;
 
 transform: scale(.8);
-animation: animationSecond .05s linear .7s 1 forwards;
+animation: animationSecond .15s linear .5s 1 forwards;
 }
 
 @-webkit-keyframes animationSecond {
@@ -114,13 +114,13 @@ animation: animationSecond .05s linear .7s 1 forwards;
 .animation-third-order{
 opacity: 0;
 -webkit-transform: scale(.5);
--webkit-animation: animationThirdOrder .05s linear .9s 1 forwards;
+-webkit-animation: animationThirdOrder .15s linear .6s 1 forwards;
 
 -moz-transform: scale(.5);
--moz-animation: animationThirdOrder .05s linear .9s 1 forwards;
+-moz-animation: animationThirdOrder .15s linear .6s 1 forwards;
 
 transform: scale(.5);
-animation: animationThirdOrder .05s linear .9s 1 forwards;
+animation: animationThirdOrder .15s linear .6s 1 forwards;
 
 }
 
@@ -142,13 +142,13 @@ animation: animationThirdOrder .05s linear .9s 1 forwards;
 .animation-third-text{
 opacity: 0;
 -webkit-transform: scale(.8);
--webkit-animation: animationThird .05s linear 1.1s 1 forwards;
+-webkit-animation: animationThird .15s linear .7s 1 forwards;
 
 -moz-transform: scale(.8);
--moz-animation: animationThird .05s linear 1.1s 1 forwards;
+-moz-animation: animationThird .15s linear .7s 1 forwards;
 
 transform: scale(.8);
-animation: animationThird .05s linear 1.1s 1 forwards;
+animation: animationThird .15s linear .7s 1 forwards;
 }
 
 @-webkit-keyframes animationThird {
@@ -168,13 +168,13 @@ animation: animationThird .05s linear 1.1s 1 forwards;
 .animation-fourth-order{
 opacity: 0;
 -webkit-transform: scale(.5);
--webkit-animation: animationFourthOrder .05s linear 1.3s 1 forwards;
+-webkit-animation: animationFourthOrder .15s linear .8s 1 forwards;
 
 -moz-transform: scale(.5);
--moz-animation: animationFourthOrder .05s linear 1.3s 1 forwards;
+-moz-animation: animationFourthOrder .15s linear .8s 1 forwards;
 
 transform: scale(.5);
-animation: animationFourthOrder .05s linear 1.3s 1 forwards;
+animation: animationFourthOrder .15s linear .8s 1 forwards;
 
 }
 
@@ -196,13 +196,13 @@ animation: animationFourthOrder .05s linear 1.3s 1 forwards;
 .animation-fourth-text{
 opacity: 0;
 -webkit-transform: scale(.8);
--webkit-animation: animationFourth .05s linear 1.5s 1 forwards;
+-webkit-animation: animationFourth .1s linear .9s 1 forwards;
 
 -moz-transform: scale(.8);
--moz-animation: animationFourth .05s linear 1.5s 1 forwards;
+-moz-animation: animationFourth .15s linear .9s 1 forwards;
 
 transform: scale(.8);
-animation: animationFourth .05s linear 1.5s 1 forwards;
+animation: animationFourth .15s linear .9s 1 forwards;
 }
 
 @-webkit-keyframes animationFourth {
@@ -475,36 +475,6 @@ opacity: 1;
    100%   {-webkit-transform: translateX(0);
       transform: translateX(0);  }
    }
-/* .slideInLeft {
-   -webkit-animation-name: slideInLeft;
-   animation-name: slideInLeft;
-   -webkit-animation-duration: 1s;
-   animation-duration: 1s;
-   -webkit-animation-fill-mode: both;
-   animation-fill-mode: both;
-   }
-   @-webkit-keyframes slideInLeft {
-   0% {
-   -webkit-transform: translateX(-100%);
-   transform: translateX(-100%);
-   visibility: visible;
-   }
-   100% {
-   -webkit-transform: translateX(0);
-   transform: translateX(0);
-   }
-   }
-   @keyframes slideInLeft {
-   0% {
-   -webkit-transform: translateX(-100%);
-   transform: translateX(-100%);
-   visibility: visible;
-   }
-   100% {
-   -webkit-transform: translateX(0);
-   transform: translateX(0);
-   }
-   }  */
 
 
 
@@ -536,8 +506,8 @@ opacity: 1;
 .fadeInUpTution {
    -webkit-animation-name: fadeInUpTution;
    animation-name: fadeInUpTution;
-   -webkit-animation-duration: .3s;
-   animation-duration: .3s;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
    }
    @-webkit-keyframes fadeInUpTution {
    0% {

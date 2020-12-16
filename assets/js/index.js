@@ -1,8 +1,9 @@
 new fullpage('#fullPage',{
 autoScrolling: true,
-scrollingSpeed: 500,
+scrollingSpeed: 700,
+paddingTop: '1em',
 fitToSection: true,
-responsiveWidth: 1024,
+responsiveWidth: 1199,
 keyboardScrolling: true,
 
 afterLoad: (origin, destination, direction) => {
@@ -240,10 +241,14 @@ $(document).ready(function(){
         itemsDesktop:[1000,1],
         itemsDesktopSmall:[979,1],
         itemsTablet:[768,1],
-        pagination:false,
+        autoplaySpeed: 700,
+        navSpeed: 700,
+        dots:false,
         navigation:true,
-        navigationText:["",""],
-        autoPlay:false
+        navText: ["<img src='assets/img/icons/arrow-left.png'>","<img src='assets/img/icons/arrow-right.png'>"],
+        autoplay:true,
+        nav: true,
+        loop: true
     });
 });
 
