@@ -1,3 +1,6 @@
+$(function(){
+    $('.selectpicker').selectpicker();
+});
 new fullpage('#fullPage',{
 autoScrolling: true,
 scrollingSpeed: 700,

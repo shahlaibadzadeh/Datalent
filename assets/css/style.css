@@ -118,6 +118,9 @@ header{
     line-height: .8rem !important;
 }
 
+.text-heading-100{
+    font-size: 5rem;
+}
 .text-heading-84{
     font-size: 3.2rem;
 }

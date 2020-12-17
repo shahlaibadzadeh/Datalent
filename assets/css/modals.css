@@ -21,11 +21,13 @@
     -moz-transition: ease-out 0.2s !important;
     transition: ease-out 0.2s !important;
 }
-#applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, #scheduleAdviser .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content{
+#applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, 
+#scheduleAdviser .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content, #payMethodModal .modal-content{
     border-radius: .9rem !important;
 }
 
-.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn, .scheduleAdviser-modal-sbmt-btn,  .moneyBackModal-modal-sbmt-btn{
+.apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn, .scheduleAdviser-modal-sbmt-btn, 
+.moneyBackModal-modal-sbmt-btn, .payMethodModal-modal-sbmt-btn{
     border-radius: 0 0 .9rem .9rem;
 }
 
@@ -147,6 +149,17 @@
         width: 3.6rem;
     }
 
+    .payMethodModalLeft:after{
+        content:"";
+        position:absolute;
+        top: 8%;
+        right:0;
+        width: .07rem;
+        height: 92%;
+        background:#0d224f86;
+        opacity: 1;
+    }
+
     .talentFundModalLeft:after{
         content:"";
         position:absolute;
@@ -180,6 +193,17 @@
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
         width: 3.5rem;
+    }
+
+    .payMethodModalLeft:after{
+        content:"";
+        position:absolute;
+        top: 15%;
+        right:0;
+        width: .07rem;
+        height: 80%;
+        background:#0d224f25;
+        opacity: 1;
     }
 
     .talentFundModalLeft:after{
@@ -219,6 +243,17 @@
 
     .modal-large {
         max-width: 800px !important;
+    }
+
+    .payMethodModalLeft:after{
+        content:"";
+        position:absolute;
+        top: 15%;
+        right:0;
+        width: .07rem;
+        height: 80%;
+        background:#0d224f25;
+        opacity: 1;
     }
 
     .talentFundModalLeft:after{
