@@ -1,6 +1,26 @@
 .modal-content{
     border: 0;
 }
+
+.padding-modal-btn{
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+
+.modal-btn-hover-blue:hover{
+    background-color: #0E5BA8 !important;
+    -webkit-transition: ease-out 0.2s !important;
+    -moz-transition: ease-out 0.2s !important;
+    transition: ease-out 0.2s !important;
+}
+
+.modal-btn-hover-bluelight:hover{
+    background-color: #0D224F !important;
+    -webkit-transition: ease-out 0.2s !important;
+    -moz-transition: ease-out 0.2s !important;
+    transition: ease-out 0.2s !important;
+}
 #applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, #scheduleAdviser .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content{
     border-radius: .9rem !important;
 }
@@ -56,6 +76,8 @@
     left: 25%;
 
 }
+
+
 
 
 .modalCall-top-title{
