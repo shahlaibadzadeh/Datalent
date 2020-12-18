@@ -104,9 +104,9 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
                             <li class="nav-item mr-xl-4 mr-lg-2 mr-sm-1 pb-sm-3 pb-3">
                                 <a class="nav-link text-white" id="elaqe">Əlaqə</a>
                             </li>
-                            <li class="nav-item mr-xl-4 mr-lg-2 mr-sm-1 pb-sm-4 pb-5">
-                                <div class="dropdown nav-link">
-                                    <a class=" text-white btn btn-secondary border-0 bg-transparent dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li class="nav-item mr-xl-0 mr-lg-2 mr-sm-1 pb-sm-3 pb-3">
+                                <!-- <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       Dropdown link
                                     </a>
                                   
@@ -115,7 +115,7 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
                                       <a class="dropdown-item" href="#">Another action</a>
                                       <a class="dropdown-item" href="#">Something else here</a>
                                     </div>
-                                  </div>
+                                  </div> -->
                             </li>
                         </ul>
                     </div>
@@ -1845,22 +1845,48 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
 
     <div class="modal-body mb-4">
         <h5 class="modal-title text-paragraph-36 font-regular blue-heading-bold modalApply-top-title text-center" id="exampleModalLabel">Data Science Bootcamp</h5>
-        <div class="apply-modal-icons d-flex justify-content-center mb-3">
+        <div class="apply-modal-icons d-flex justify-content-center mb-1">
             <ul class="list-unstyled d-flex">
-                <li class="apply-icon-blue-list p-2 mr-2">
+                <li class="apply-icon-blue-list p-2 mr-2" id="icon-muraciet">
                     <img src="assets/img/icons/google-forms.svg" alt="Google forms" class="apply-modal-icon-img apply-icon-blue">
                 </li>
                 <li class="d-flex align-items-center mr-3">
                     <div class="apply-modal-icon-line"></div>
                 </li>
-                <li class="d-flex align-items-center mr-3">
+                <li class="d-flex align-items-center mr-3" id="icon-task">
                     <img src="assets/img/icons/checklists.svg" alt="Checklist" class="apply-modal-icon-img icons-gray">
                 </li>
                 <li class="d-flex align-items-center mr-3">
                     <div class="apply-modal-icon-line"></div>
                 </li>
-                <li class="d-flex align-items-center">
+                <li class="d-flex align-items-center" id="icon-interv">
                     <img src="assets/img/icons/conversation.svg" alt="Conversation" class="apply-modal-icon-img icons-gray">
+                </li>
+            </ul>
+        </div>
+
+        <div class=" d-flex justify-content-center mb-1">
+            <ul class="list-unstyled d-flex">
+                <li class="p-2 mr-2" >
+                    <h6 class=" color-input" id="icon-text-muraciet">
+                        Müraciət
+                    </h6>
+                </li>
+                <li class="d-flex align-items-center mr-3">
+                    <div class="apply-modal-icon-line"></div>
+                </li>
+                <li class="d-flex align-items-center mr-3">
+                    <h6 id="icon-text-task" class=" color-input">
+                        Texniki Tapşırıq
+                    </h6>
+                </li>
+                <li class="d-flex align-items-center mr-3">
+                    <div class="apply-modal-icon-line"></div>
+                </li>
+                <li class="d-flex align-items-center" id="icon-text-interv">
+                    <h6 class=" color-input" >
+                        Müsahibə
+                    </h6>
                 </li>
             </ul>
         </div>
@@ -1869,12 +1895,12 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
 
         <div class="apply-modal-form-content">
             <form method="POST"  autocomplete="off" action="" id="apply-modal-form">
-                <input required type="text" placeholder="Full Name" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-                <input required type="email" name="" id="" placeholder="Email" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-                <input  required type="tel" name="" id="" placeholder="Phone Number" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
+                <input required type="text" placeholder="Full Name" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+                <input required type="email" name="" id="" placeholder="Email" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+                <input  required type="tel" name="" id="" placeholder="Phone Number" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
                 <div class="apply-input-select-flex d-flex">
-                    <input type="number" name="" id="" placeholder="Age" class="modals-input-bgr w-25 border-0 py-2 pl-4 mr-3">
-                    <select id="" class="modals-input-bgr w-75 select-border py-2 pl-4">
+                    <input type="number" name="" id="" placeholder="Age" class="modals-input-bgr color-input w-25 border-0 py-3 pl-4 mr-3">
+                    <select id="" class="modals-input-bgr w-75 select-border color-input py-3 pl-4">
                         <optgroup>
             
                             <option value="one" >
@@ -1927,15 +1953,36 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
     <div class="modal-body mb-4 p-4">
         <h5 class="modal-title text-paragraph-36 font-regular blue-heading-bold modalCall-top-title text-center" id="exampleModalLabel">Zəng görüşü təyin edin</h5>
         <form method="POST" autocomplete="off" action="" id="scheduleCall-modal-form">
-            <input type="text" required placeholder="Full Name" name="Full Name" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input type="email" required name="Email" id="" placeholder="Email" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input required type="tel" name="Phone Number" id="" placeholder="Phone Number" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input type="text" required name="Call Subject" id="" placeholder="Call Subject" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <textarea name="Detailed Information" id="" cols="30" rows="3" placeholder="Detailed Information about call" class="w-100 modals-input-bgr border-0 mb-2 pt-3 pl-4 " ></textarea>
-            <label for="scheduleCallTime" class="text-paragraph-20 font-italic ">Available Time</label>
+            <input type="text" required placeholder="Full Name" name="Full Name" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input type="email" required name="Email" id="" placeholder="Email" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input required type="tel" name="Phone Number" id="" placeholder="Phone Number" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input type="text" required name="Call Subject" id="" placeholder="Call Subject" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <textarea name="Detailed Information" id="" cols="30" rows="4" placeholder="Detailed Information about call" class="w-100 color-input modals-input-bgr border-0 mb-2 pt-3 pl-4 " ></textarea>
+            <label for="scheduleCallTime" class="text-paragraph-20 color-input font-italic ">Available Time</label>
             <div class="scheduleCall-input-select-flex d-flex">
-                <input required type="time" name="scheduleCallTime" id="" value="15:00" class="modals-input-bgr input-time w-25 border-0 py-2 pl-2 mr-3">
-                <input required type="date" name="scheduleCallDate" id="" value="2012-12-12" class="modals-input-bgr input-date border-0 w-75 pl-4">
+                <!-- <input required type="time" name="scheduleCallTime" id="" value="15:00" class="modals-input-bgr input-time w-25 border-0 py-2 pl-2 mr-3"> -->
+                <select id="" class="modals-input-bgr color-input w-25 select-border py-3 pl-1 mr-3">
+                    <optgroup>
+        
+                        <option value="one" >
+                            <h6 class="font-regular text-paragraph-20 color-parag my-auto">9:00-12:00</h6>
+                        </option>
+                        
+                        <option value="two">
+                            <h6 class="font-regular color-parag text-paragraph-20 ">12:00-15:00</h6>
+                        </option>
+
+                        <option value="three">
+                            <h6 class="font-regular color-parag text-paragraph-20 my-auto">15:00-18:00</h6>
+                        </option>
+
+                        <option value="three">
+                            <h6 class="font-regular color-parag text-paragraph-20 my-auto">18:00-21:00</h6>
+                        </option>
+            
+                    </optgroup>
+                </select>
+                <input required type="date" name="scheduleCallDate" id="" value="2012-12-12" class="modals-input-bgr color-input input-date border-0 py-3 w-75 pl-4">
             </div>
         </form>
         
@@ -1972,15 +2019,35 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
         <h5 class="modal-title text-paragraph-36 font-regular blue-heading-bold modal-top-title" id="exampleModalLabel">Görüş təyin edin</h5>
         <form method="POST" autocomplete="off" action="" id="scheduleMeetModal-modal-form">
             
-            <input required type="text" placeholder="Full Name" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input required type="email" name="" id="" placeholder="Email" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input required type="tel" name="" id="" placeholder="Phone Number" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input required type="text" name="" id="" placeholder="Meeting Subject" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <textarea name="" id="" cols="30" rows="3" placeholder="Detailed Information about call" class="w-100 modals-input-bgr border-0 mb-2 pt-3 pl-4 " ></textarea>
-            <label for="scheduleMeetModal" class="text-paragraph-20 font-italic ">Available Time</label>
+            <input required type="text" placeholder="Full Name" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input required type="email" name="" id="" placeholder="Email" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input required type="tel" name="" id="" placeholder="Phone Number" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input required type="text" name="" id="" placeholder="Meeting Subject" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <textarea name="" id="" cols="30" rows="4" placeholder="Detailed Information about call" class="w-100 color-input modals-input-bgr border-0 mb-2 pt-3 pl-4 " ></textarea>
+            <label for="scheduleMeetModal" class="text-paragraph-20 color-input font-italic ">Available Time</label>
             <div class="scheduleMeetModal-input-select-flex d-flex">
-                <input required type="time" name="scheduleMeetModal" id="" value="15:00" class="modals-input-bgr input-time w-25 border-0 py-2 pl-2 mr-3">
-                <input required type="date" name="" id="" value="2012-12-12" class="modals-input-bgr input-date border-0 pl-4 w-75">
+                <select id="" class="modals-input-bgr w-25 color-input select-border py-3 pl-1 mr-3">
+                    <optgroup>
+        
+                        <option value="one" >
+                            <h6 class="font-regular text-paragraph-20 color-parag my-auto">9:00-12:00</h6>
+                        </option>
+                        
+                        <option value="two">
+                            <h6 class="font-regular color-parag text-paragraph-20 ">12:00-15:00</h6>
+                        </option>
+
+                        <option value="three">
+                            <h6 class="font-regular color-parag text-paragraph-20 my-auto">15:00-18:00</h6>
+                        </option>
+
+                        <option value="three">
+                            <h6 class="font-regular color-parag text-paragraph-20 my-auto">18:00-21:00</h6>
+                        </option>
+            
+                    </optgroup>
+                </select>
+                <input required type="date" name="" id="" value="2012-12-12" class="modals-input-bgr color-input input-date border-0 py-3 pl-4 w-75">
             </div>
         </form>
         
@@ -2015,13 +2082,33 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
     <div class="modal-body mb-4 p-4">
         <h5 class="modal-title text-paragraph-36 font-regular blue-heading-bold modalCall-top-title text-center" id="exampleModalLabel">Məsləhət saatı təyin edin</h5>
         <form method="POST" autocomplete="off" action="" id="scheduleAdviser-modal-form">
-            <input type="text" required placeholder="Full Name" name="Full Name" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input required type="email" name="" id="" placeholder="Email" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <input required type="tel" name="Phone Number" id="" placeholder="Phone Number" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-            <label for="scheduleCallTime" class="text-paragraph-20 font-italic ">Available Time</label>
+            <input type="text" required placeholder="Full Name" name="Full Name" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input required type="email" name="" id="" placeholder="Email" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <input required type="tel" name="Phone Number" id="" placeholder="Phone Number" class="w-100 color-input modals-input-bgr border-0 mb-4 py-3 pl-4">
+            <label for="scheduleCallTime" class="text-paragraph-20 color-input font-italic ">Available Time</label>
             <div class="scheduleCall-input-select-flex d-flex">
-                <input required type="time" name="scheduleCallTime" id="" value="15:00" class="modals-input-bgr input-time w-25 border-0 py-2 pl-2 mr-3">
-                <input required type="date" name="" id="" value="2012-12-12" class="modals-input-bgr input-date border-0 pl-4 w-75">
+                <select id="" class="modals-input-bgr w-25 select-border color-input py-3 pl-1 mr-3">
+                    <optgroup>
+        
+                        <option value="one" >
+                            <h6 class="font-regular text-paragraph-20 color-parag my-auto">9:00-12:00</h6>
+                        </option>
+                        
+                        <option value="two">
+                            <h6 class="font-regular color-parag text-paragraph-20 ">12:00-15:00</h6>
+                        </option>
+
+                        <option value="three">
+                            <h6 class="font-regular color-parag text-paragraph-20 my-auto">15:00-18:00</h6>
+                        </option>
+
+                        <option value="three">
+                            <h6 class="font-regular color-parag text-paragraph-20 my-auto">18:00-21:00</h6>
+                        </option>
+            
+                    </optgroup>
+                </select>
+                <input required type="date" name="" id="" value="2012-12-12" class="modals-input-bgr color-input input-date border-0 py-3 pl-4 w-75">
             </div>
         </form>
         
@@ -2048,7 +2135,7 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
     <div class="modal-content">
 
     <div class="modal-header border-0 pl-4 pr-2 pt-3">
-        <h5 class="modal-title text-paragraph-28 font-regular blue-heading-bold modalDownload-top-title text-center" id="exampleModalLabel">Tədris porqramını yükləmək üçün emailinizi daxil edin</h5>
+        <h5 class="modal-title text-paragraph-28 font-regular blue-heading-bold modalDownload-top-title text-center" id="exampleModalLabel">Tədris proqramını yükləmək üçün emailinizi daxil edin</h5>
         <button type="button" class="close btn-outline-none" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
@@ -2172,10 +2259,10 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
                 <h5 class="modal-title text-paragraph-36 font-regular blue-heading-bold text-center talentFund-large-title talentFund-large-title2 d-xs-sm-none" id="exampleModalLabel">Apply</h5>
                 <h5 class="modal-title text-paragraph-36 font-regular blue-heading-bold d-xl-none d-lg-none d-md-none pb-xl-0 pb-lg-0 pb-md-0 pb-sm-5 pb-5" id="exampleModalLabel">Apply</h5>
                 <form method="POST" autocomplete="off" action="" id="apply-modal-form">
-                    <input required type="text" placeholder="Full Name" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-                    <input required type="email" name="" id="" placeholder="Email" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-                    <input required type="tel" name="" id="" placeholder="Phone Number" class="w-100 modals-input-bgr border-0 mb-4 py-2 pl-4">
-                    <textarea name="" id="" cols="30" rows="8" placeholder="Motivation Letter" class="w-100 modals-input-bgr border-0 mb-2 pt-3 pl-4 " ></textarea>
+                    <input required type="text" placeholder="Full Name" class="w-100 modals-input-bgr color-input border-0 mb-4 py-3 pl-4">
+                    <input required type="email" name="" id="" placeholder="Email" class="w-100 modals-input-bgr color-input border-0 mb-4 py-3 pl-4">
+                    <input required type="tel" name="" id="" placeholder="Phone Number" class="w-100 modals-input-bgr color-input border-0 mb-4 py-3 pl-4">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Motivation Letter" class="w-100 modals-input-bgr color-input border-0 mb-2 pt-3 pl-4 " ></textarea>
                 </form>
 
             </div>

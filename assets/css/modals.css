@@ -7,6 +7,17 @@
     padding-bottom: .7rem;
 }
 
+.modal-btn-hover-blue{
+    -webkit-transition: ease-out 0.2s !important;
+    -moz-transition: ease-out 0.2s !important;
+    transition: ease-out 0.2s !important;
+}
+
+.modal-btn-hover-bluelight{
+    -webkit-transition: ease-out 0.2s !important;
+    -moz-transition: ease-out 0.2s !important;
+    transition: ease-out 0.2s !important;
+}
 
 .modal-btn-hover-blue:hover{
     background-color: #0E5BA8 !important;
@@ -55,10 +66,10 @@
     background-color: #F6F9FC;
 }
 
-#apply-modal-form >input::placeholder, .apply-input-select-flex > select, .apply-input-select-flex >input,  #apply-modal-form >textarea::placeholder,
-#scheduleCall-modal-form >input::placeholder, #scheduleCall-modal-form >textarea::placeholder, #scheduleCall-modal-form >label, #scheduleCall-modal-form .input-date, #scheduleCall-modal-form .input-time,
-#scheduleMeetModal-modal-form >input::placeholder, #scheduleMeetModal-modal-form >textarea::placeholder, #scheduleMeetModal-modal-form >label, #scheduleMeetModal-modal-form .input-date, #scheduleMeetModal-modal-form .input-time,
-#scheduleAdviser-modal-form >input::placeholder, #scheduleAdviser-modal-form >textarea::placeholder, #scheduleAdviser-modal-form >label, #scheduleAdviser-modal-form .input-date, #scheduleAdviser-modal-form .input-time{
+.color-input, #apply-modal-form >input::placeholder, #apply-modal-form >textarea::placeholder,
+#scheduleCall-modal-form >input::placeholder,#scheduleCall-modal-form >textarea::placeholder, 
+#scheduleMeetModal-modal-form >input::placeholder, #scheduleMeetModal-modal-form >textarea::placeholder,
+#scheduleAdviser-modal-form >input::placeholder, #scheduleAdviser-modal-form >textarea::placeholder{
     font-size: .8rem !important;
     line-height: .98rem !important;
     font-style: italic;
@@ -79,15 +90,36 @@
 
 }
 
-
-
-
 .modalCall-top-title{
     position: absolute;
     top: -2.5rem;
     left: 20%;
     right: 15%;
 
+}
+
+
+#icon-text-muraciet, #icon-text-task, #icon-text-interv{
+    display: none;
+    transition: all .2s ease-out;
+  }
+
+#icon-muraciet:hover #icon-text-muraciet{
+    display: block;
+    transition: all .2s ease-out;
+}
+
+#icon-task:hover #icon-text-task{
+    display: block;
+    
+    transition: all .2s ease-out;
+}
+
+
+#icon-interv:hover  #icon-text-interv{
+    display: block;
+    
+    transition: all .2s ease-out;
 }
 /***************************************Bootcamp program download Modal****************/
 
@@ -343,6 +375,8 @@
         right: 15%;
 
     }
+
+
 
 }
 
