@@ -52,6 +52,24 @@
     background-color: lightgray;
 }
 
+#icon-text-interv, #icon-text-task, #icon-text-muraciet{
+    opacity: 0;
+}
+
+#icon-interv, #icon-muraciet, #icon-task{
+    cursor: pointer;
+}
+.apply-modal-icon-line-tr1{
+    width: 2.4rem;
+    height: .1rem;
+    background-color: transparent;
+}
+.apply-modal-icon-line-tr2{
+    width: 1.4rem;
+    height: .1rem;
+    background-color: transparent;
+}
+
 .apply-icon-blue-list{
     background-color: #EBF3FB;
     border-radius: 100%;
@@ -98,29 +116,6 @@
 
 }
 
-
-#icon-text-muraciet, #icon-text-task, #icon-text-interv{
-    display: none;
-    transition: all .2s ease-out;
-  }
-
-#icon-muraciet:hover #icon-text-muraciet{
-    display: block;
-    transition: all .2s ease-out;
-}
-
-#icon-task:hover #icon-text-task{
-    display: block;
-    
-    transition: all .2s ease-out;
-}
-
-
-#icon-interv:hover  #icon-text-interv{
-    display: block;
-    
-    transition: all .2s ease-out;
-}
 /***************************************Bootcamp program download Modal****************/
 
 #downloadProgModal .modal-content{
@@ -262,6 +257,12 @@
         left: 40%;
     }
 
+    .apply-modal-icon-line-tr2{
+        width: 1rem;
+        height: .1rem;
+        background-color: transparent;
+    }
+
     
     
 }
@@ -312,6 +313,12 @@
         left: 40%;
     }
     
+
+    .apply-modal-icon-line-tr2{
+        width: 1rem;
+        height: .1rem;
+        background-color: transparent;
+    }
    
     
 }
@@ -439,5 +446,11 @@
         left: 20%;
         right: 15%;
 
+    }
+
+    .apply-modal-icon-line-tr1{
+        width: 2rem;
+        height: .1rem;
+        background-color: transparent;
     }
 }

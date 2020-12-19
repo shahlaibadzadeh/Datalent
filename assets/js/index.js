@@ -1,3 +1,4 @@
+/**********************************************Start app hover effects*********************** */
 $('.first-order >h6').hover(function(){
     $('.first-text > h6 ').css('transform','scale(1.1)');
     $('.first-text > div').css('transform','scale(1.1)');
@@ -38,6 +39,33 @@ $('.first-order >h6').hover(function(){
     $('.fourth-text > h6 ').css('transform','scale(1)');
     $('.fourth-text > div').css('transform','scale(1)');
   });
+
+/***************************************************Apply modal icon hover***************************** */
+  $('#icon-muraciet').hover(function(){
+    $('#icon-text-muraciet').css('opacity','.7');
+    $('#icon-text-muraciet').css('transition','all .2s ease-out');
+  }, function(){
+    $('#icon-text-muraciet').css('opacity','0');
+    $('#icon-text-muraciet').css('transition','all .2s ease-out');
+  });
+
+  $('#icon-task').hover(function(){
+    $('#icon-text-task').css('opacity','.7');
+    $('#icon-text-task').css('transition','all .2s ease-out');
+  }, function(){
+    $('#icon-text-task').css('opacity','0');
+    $('#icon-text-task').css('transition','all .2s ease-out');
+  });
+
+  $('#icon-interv').hover(function(){
+    $('#icon-text-interv').css('opacity','.7');
+    $('#icon-text-interv').css('transition','all .2s ease-out');
+  }, function(){
+    $('#icon-text-interv').css('opacity','0');
+    $('#icon-text-interv').css('transition','all .2s ease-out');
+  });
+
+  /*********************************************Fullpage.js*********************************** */
 new fullpage('#fullPage',{
 autoScrolling: true,
 scrollingSpeed: 700,
