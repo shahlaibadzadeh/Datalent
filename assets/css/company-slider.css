@@ -1,32 +1,18 @@
 .company-img{
-     width: 12rem;
-     border-radius: .5rem;
+  width: 12rem;
+  border-radius: .5rem;
 
-   }
-
+}
 
 .slick-prev, .slick-next{
-    transition: all .2s ease-out;
-  }
+  transition: all .2s ease-out;
+}
+
 .slick-prev:hover, .slick-next:hover{
   transition: all .2s ease-out;
   transform: scale(1.1) translate(0,-50%);;
 }
 
-@media (min-width: 1200px){
-
-}
-
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-     
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-   
-}
 
 @media (min-width: 576px) and (max-width: 767px) {
 
@@ -35,15 +21,13 @@
     border-radius: .5rem;
 
   }
-    
-
-    
+   
 }
 
 @media (min-width: 330px) and (max-width: 576px) {
     
-.company-img{
-  margin: 0 auto;
+  .company-img{
+    margin: 0 auto;
     width: 12rem;
     border-radius: .5rem;
 
@@ -54,12 +38,12 @@
 @media screen and (max-width: 330px) {
 
   .company-img{
-    margin: 0 auto;
+      margin: 0 auto;
       width: 12rem;
       border-radius: .5rem;
   
     }
 
-   
+  
     
 }

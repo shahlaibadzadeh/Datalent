@@ -1,5 +1,3 @@
-
-
 $('.company-slider').slick({
   dots: false,
   autoplay: true,

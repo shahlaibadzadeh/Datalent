@@ -40,6 +40,7 @@ $('.first-order >h6').hover(function(){
     $('.fourth-text > div').css('transform','scale(1)');
   });
 
+
 /***************************************************Apply modal icon hover***************************** */
   $('#icon-muraciet').hover(function(){
     $('#icon-text-muraciet').css('opacity','.7');
@@ -65,7 +66,9 @@ $('.first-order >h6').hover(function(){
     $('#icon-text-interv').css('transition','all .2s ease-out');
   });
 
-  /*********************************************Fullpage.js*********************************** */
+
+
+/*********************************************Fullpage.js*********************************** */
 new fullpage('#fullPage',{
 autoScrolling: true,
 scrollingSpeed: 700,
@@ -76,7 +79,6 @@ keyboardScrolling: true,
 
 afterLoad: (origin, destination, direction) => {
 const section = destination.item;
-console.log(section)
 
 if(section.id =="become-d-s-container"){
 $('.become-d-s-container').each( function(i){
@@ -91,7 +93,6 @@ var right = $('.become-d-s-icon-text-right')
 }); 
 }
 
-
 if(section.id =="aspiring-total-container"){
 $('.aspiring-total-container').each( function(i){
 var left = $('.aspiring-d-s-left');
@@ -104,7 +105,6 @@ var right = $('.aspiring-d-s-right')
 
 }); 
 }
-
 
 if(section.id =="salary-expectation-network-container"){
 $('.salary-container').each( function(i){
@@ -119,7 +119,6 @@ var progress3 = $('.progress-bar3');
 }); 
 }
 
-
 if(section.id =="interv-resume-container"){
 $('.interv-resume-container').each( function(i){
 var interResumeListItem = $('.interv-resume-list-item');
@@ -129,8 +128,6 @@ var interResumeListItem = $('.interv-resume-list-item');
         
 }); 
 }
-
-
 
 if(section.id =="start-app-container"){
 $('.animate-start-app').each( function(i){
@@ -153,37 +150,28 @@ fourthText.addClass('animation-fourth-text');
 }); 
 }
 
-
 if(section.id =="finance-container"){
 $('.finance-container').each( function(i){
 var financeHeading = $('.finance-heading-animate');
     
     financeHeading.addClass('fadeInUpTution');
     financeHeading.css("opacity","1")
-
 }); 
 }
-
 
 if(section.id =="finance-container"){
 
 $('.finance-container').each( function(i){
 var tutionCard = $('.tution-total-card');
-
-
-    
     tutionCard.addClass('slideInRightTution');
     tutionCard.css("opacity","1")
 }); 
 }
 
-
 if(section.id =="schedule-contact-container"){
 
 $('.schedule-contact-container').each( function(i){
-var contactContainers = $('.contactScheduleAnimation');
-
-    
+var contactContainers = $('.contactScheduleAnimation');    
     contactContainers.addClass('zoomIn');
     contactContainers.css("opacity","1")
 
@@ -191,34 +179,33 @@ var contactContainers = $('.contactScheduleAnimation');
 }
 
 if(section.id == "mentors-container"){
-var removeClass = true;
-var $mentorName = $('.mentor-name');
-var $mentorAbout = $('.mentor-about-div');
-$mentorImg = $('.mentor-imgs  .mentor-img').click(function() {
-$('.mentor-imgs  .mentor-img').removeClass("mentor-img-scale").filter('#' + this.id).addClass("mentor-img-scale")
-removeClass = false;
-$(this).css('opacity','1')
-.closest('.mentor-img-list')
-.siblings('.mentor-img-list')
-.find('.mentor-img')
-.css('opacity', '0.6')
-$mentorName.hide().filter('#name-' + this.id).show();
-$mentorAbout.hide().filter('#about-' + this.id).show();
-});
+  var removeClass = true;
+  var $mentorName = $('.mentor-name');
+  var $mentorAbout = $('.mentor-about-div');
+  $mentorImg = $('.mentor-imgs  .mentor-img').click(function() {
+  $('.mentor-imgs  .mentor-img').removeClass("mentor-img-scale").filter('#' + this.id).addClass("mentor-img-scale")
+  removeClass = false;
+  $(this).css('opacity','1')
+  .closest('.mentor-img-list')
+  .siblings('.mentor-img-list')
+  .find('.mentor-img')
+  .css('opacity', '0.6')
+  $mentorName.hide().filter('#name-' + this.id).show();
+  $mentorAbout.hide().filter('#about-' + this.id).show();
+  });
 
-$("html").click(function () {
-if (removeClass) {
-$('.mentor-imgs .mentor-img').removeClass("mentor-img-scale");
-$('.mentor-imgs .mentor-img').css('opacity','1')
-.closest('.mentor-img-list')
-.siblings('.mentor-img-list')
-.find('.mentor-img')
-.css('opacity', '1')
+  $("html").click(function () {
+  if (removeClass) {
+  $('.mentor-imgs .mentor-img').removeClass("mentor-img-scale");
+  $('.mentor-imgs .mentor-img').css('opacity','1')
+  .closest('.mentor-img-list')
+  .siblings('.mentor-img-list')
+  .find('.mentor-img')
+  .css('opacity', '1')
+  }
+  removeClass = true;
+  });
 }
-removeClass = true;
-});
-}
-
 
 }
 });
@@ -250,28 +237,6 @@ fullpage_api.moveTo(13);
 $(document).on('click', '#elaqe', function(){
 fullpage_api.moveTo(14);
 });
-// function sendForm(e){
-//   e.preventDefault();
-// }
-
-// $('#form-button-submit').on('click', function(e){
-//    e.preventDefault();
-
-//    var name = $('input#name').val(),
-//        email = $('input#email').val(),
-//        comments = $('textarea#comments').val(),
-//        formData = 'name=' + name + '&email=' + email + '&comments=' + comments;
-
-//     $.ajax({
-//       type: 'post',
-//       url: 'js/sendEmail.php',
-//       data: formData,
-//       success: function(results) {
-//         $('ul#response').html(results);
-//       }
-//     });
-// });
-
 
 //Bootcamp program on hover show content
 var $progInfoDiv = $('.prog-info-div'),
@@ -286,7 +251,6 @@ $intervInfoDiv.hide().filter('#interv-' + this.id).show();
 });
 
 //Bootcamp program select option
-
 $(document).ready(function(){
 $("select").change(function(){
 $(this).find("option:selected").each(function(){
@@ -301,8 +265,7 @@ if(optionValue){
 }).change();
 });
 
-
-
+/***************Alumni opinion slider******/
 $(document).ready(function(){
     $("#testimonial-slider-opinion").owlCarousel({
         items:1,

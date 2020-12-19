@@ -2,7 +2,6 @@
 opacity: 0;
 }
 
-
 .animation-first-order{
 opacity: 0;
 -webkit-transform: scale(.5);
@@ -27,8 +26,6 @@ animation: animationFirstOrder .15s linear .05s 1 forwards;
 0% { transform: scale(.5); opacity: 0; }
 100%   { transform: scale(1); opacity: 1;  }
 }
-
-
 
 .animation-first-text{
 opacity: 0;
@@ -55,8 +52,6 @@ animation: animationFirst .15s linear .3s 1 forwards;
 100%   { transform: scale(1); opacity: 1;  }
 }
 
-
-
 .animation-second-order{
 opacity: 0;
 -webkit-transform: scale(.5);
@@ -82,8 +77,6 @@ animation: animationSecondOrder .15s linear .4s 1 forwards;
 100%   { transform: scale(1); opacity: 1;  }
 }
 
-
-
 .animation-second-text{
 opacity: 0;
 -webkit-transform: scale(.8);
@@ -108,8 +101,6 @@ animation: animationSecond .15s linear .5s 1 forwards;
 0% { transform: scale(.8); opacity: 0; }
 100%   { transform: scale(1); opacity: 1;  }
 }
-
-
 
 .animation-third-order{
 opacity: 0;
@@ -137,8 +128,6 @@ animation: animationThirdOrder .15s linear .6s 1 forwards;
 100%   { transform: scale(1); opacity: 1;  }
 }
 
-
-
 .animation-third-text{
 opacity: 0;
 -webkit-transform: scale(.8);
@@ -163,7 +152,6 @@ animation: animationThird .15s linear .7s 1 forwards;
 0% { transform: scale(.8); opacity: 0; }
 100%   { transform: scale(1); opacity: 1;  }
 }
-
 
 .animation-fourth-order{
 opacity: 0;
@@ -191,8 +179,6 @@ animation: animationFourthOrder .15s linear .8s 1 forwards;
 100%   { transform: scale(1); opacity: 1;  }
 }
 
-
-
 .animation-fourth-text{
 opacity: 0;
 -webkit-transform: scale(.8);
@@ -217,7 +203,6 @@ animation: animationFourth .15s linear .9s 1 forwards;
 0% { transform: scale(.8); opacity: 0; }
 100%   { transform: scale(1); opacity: 1;  }
 }
-
 
 
 /*******************************************************Interview Resume*****************************************/
@@ -331,7 +316,6 @@ transform: none;
 
 /****************************************************Aspiring****************************************/
 
-
 .aspiring-ds{
 opacity: 0;
 }
@@ -382,7 +366,7 @@ opacity: 1;
    -moz-animation: progress1 .4s forwards;
    
    animation: progress1 .4s forwards;
-   }
+}
    
    @-webkit-keyframes progress1 {
    0% { -webkit-transform: translateX(-100%);
@@ -406,18 +390,16 @@ opacity: 1;
       transform: translateX(0);  }
    }
    
-   
-   
-   .progress2{
-      opacity: 1;
+.progress2{
+   opacity: 1;
    -webkit-animation: progress2 .4s forwards;
-   
+
    -moz-animation: progress2 .4s forwards;
-   
+
    animation: progress2 .4s forwards;
    animation-fill-mode: both;
    animation-delay: .2s;
-   }
+}
    
    @-webkit-keyframes progress2 {
    0% { -webkit-transform: translateX(-100%);
@@ -441,18 +423,16 @@ opacity: 1;
       transform: translateX(0);  }
    }
    
+.progress3{
+   opacity: 1;
+   -webkit-animation: progress3 .4s forwards;
    
+   -moz-animation: progress3 .4s forwards;
    
-   .progress3{
-      opacity: 1;
-      -webkit-animation: progress3 .4s forwards;
-      
-      -moz-animation: progress3 .4s forwards;
-      
-      animation: progress3 .4s forwards;
-      animation-fill-mode: both;
-      animation-delay: .5s;
-   }
+   animation: progress3 .4s forwards;
+   animation-fill-mode: both;
+   animation-delay: .5s;
+}
    
    @-webkit-keyframes progress3 {
    0% { -webkit-transform: translateX(-100%);
@@ -530,40 +510,40 @@ opacity: 1;
    opacity: 1;
    -webkit-transform: none;
    }
-   } 
+} 
 
 
 
-   .tution-total-card{
-      opacity: 0;
+.tution-total-card{
+   opacity: 0;
+}
+.slideInRightTution {
+   -webkit-animation-name: slideInRightTution;
+   animation-name: slideInRightTution;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
    }
-   .slideInRightTution {
-      -webkit-animation-name: slideInRightTution;
-      animation-name: slideInRightTution;
-      -webkit-animation-duration: 1s;
-      animation-duration: 1s;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-      }
-      @-webkit-keyframes slideInRightTution {
-      0% {
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-      visibility: visible;
-      }
-      100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      }
-      }
-      @keyframes slideInRightTution {
-      0% {
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-      visibility: visible;
-      }
-      100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      }
-      } 
+   @-webkit-keyframes slideInRightTution {
+   0% {
+   -webkit-transform: translateX(100%);
+   transform: translateX(100%);
+   visibility: visible;
+   }
+   100% {
+   -webkit-transform: translateX(0);
+   transform: translateX(0);
+   }
+   }
+   @keyframes slideInRightTution {
+   0% {
+   -webkit-transform: translateX(100%);
+   transform: translateX(100%);
+   visibility: visible;
+   }
+   100% {
+   -webkit-transform: translateX(0);
+   transform: translateX(0);
+   }
+   } 
