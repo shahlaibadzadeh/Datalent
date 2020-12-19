@@ -39,6 +39,10 @@ header{
     position: relative;
 }
 
+.text-end{
+    text-align: end;
+}
+
 .font-light{
     font-weight: 300;
 }
@@ -935,6 +939,11 @@ optgroup{
         margin: 0 auto;
     }
 
+    .logo-img {
+        width: 6.7rem;
+        height: 2rem;
+    }
+
     .landing-center {
         margin-top: 8rem;
     }
@@ -942,7 +951,14 @@ optgroup{
     .dropdown.language {
         position: absolute; 
         right: 5rem;
-        top: 1.5rem;
+        top: 1.1rem;
+        border: .05rem solid lightgray;
+        padding: .2rem .5rem;
+        border-radius: .2rem;
+    }
+
+    .dropdown.language div a{
+        padding: .5rem;
     }
 
     .dropdown.language a{
@@ -984,6 +1000,8 @@ optgroup{
 
     .mentor-img{
         margin-bottom: 1.2rem;
+        width: 4.2rem;
+        height: 4.2rem;
     }
     .start-app-content ul li.first{
         flex: 0 0 55%;
@@ -1116,6 +1134,11 @@ optgroup{
         margin: 0 auto;
     }
 
+    .logo-img {
+        width: 6.7rem;
+        height: 2rem;
+    }
+
     .landing-center {
         margin-top: 8rem;
     }
@@ -1123,7 +1146,14 @@ optgroup{
     .dropdown.language {
         position: absolute; 
         right: 6rem;
-        top: 1.5rem;
+        top: 1.1rem;
+        border: .05rem solid lightgray;
+        padding: .2rem .5rem;
+        border-radius: .2rem;
+    }
+
+    .dropdown.language div a{
+        padding: .5rem;
     }
 
     .dropdown.language a{
@@ -1172,6 +1202,11 @@ optgroup{
 
     .interv-resume-select{
         max-width: 100%;
+    }
+    .mentor-img{
+        width: 4.2rem;
+        height: 4.2rem;
+        
     }
 
     .justify-content-sm-xs-center{
@@ -1281,7 +1316,7 @@ optgroup{
 
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .alumni-opinions-container{
         height: 100vh;
     }
@@ -1294,6 +1329,11 @@ optgroup{
         display: none;
     }
 
+    .logo-img {
+        width: 6.7rem;
+        height: 2rem;
+    }
+
     .landing-center {
         margin-top: 9rem;
     }
@@ -1301,7 +1341,14 @@ optgroup{
     .dropdown.language {
         position: absolute; 
         right: 6rem;
-        top: 1.5rem;
+        top: 1.3rem;
+        border: .05rem solid lightgray;
+        padding: .2rem .5rem;
+        border-radius: .2rem;
+    }
+
+    .dropdown.language div a{
+        padding: .5rem;
     }
 
     .dropdown.language a{
@@ -1349,6 +1396,12 @@ optgroup{
         justify-content: center;
     }
 
+    .mentor-img{
+        width: 4.2rem;
+        height: 4.2rem;
+        
+    }
+    
     .start-app-content ul li.first{
         flex: 0 0 55%;
         justify-content: start !important;
@@ -1422,6 +1475,12 @@ optgroup{
     .dsply-md-none{
         display: none;
     }
+
+    .logo-img {
+        width: 6.7rem;
+        height: 2rem;
+    }
+
     .aspiring-heading-center{
         flex: 0 0 600px;
     }
@@ -1460,6 +1519,12 @@ optgroup{
     .interv-resume-list-item>h6{
         font-size: 0.9rem !important;
         line-height: 1.2rem !important
+    }
+
+    .mentor-img{
+        width: 4.2rem;
+        height: 4.2rem;
+        
     }
 
     .start-app-content ul li.first{
@@ -1558,6 +1623,12 @@ optgroup{
     .interv-resume-list-item{
         width: 16%;
         height: 11rem;
+    }
+
+    .mentor-img{
+        width: 4.2rem;
+        height: 4.2rem;
+        
     }
 
     .start-app-content ul li.first{
