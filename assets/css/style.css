@@ -61,6 +61,30 @@ header{
     font-style: italic;
 }
 
+.scrollTop{
+    border-radius: 100%;
+    width: 3.1rem;
+    height: 3rem;
+}
+
+.start-app-container .scrollTop{
+    background-color: #0E5BA8;
+}
+
+.aspiring-total-container .scrollTop, .salary-expectation-network-container .scrollTop, .alumni-testimonial-container .scrollTop,
+.interv-resume-container .scrollTop, .mentors-container .scrollTop, .start-app-container .scrollTop, .finance-container .scrollTop,
+.alumni-opinions-container .scrollTop, .collaborate-company-container .scrollTop, .faq-total-container .scrollTop,
+.schedule-contact-container .scrollTop{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.bootcamp-program-container .scrollTop {
+    position: absolute;
+    bottom: 2rem;
+}
+
 .lightgray-font{
     color: #828DA6;
 }
@@ -276,6 +300,10 @@ header{
     transform: scaleX(1);
     transition: transform .2s;
 }
+
+.dropdown.language:hover>.dropdown-menu {
+    display: block;
+  }
 
 .nav-item > a:after{
     content: '';

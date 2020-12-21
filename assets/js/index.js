@@ -69,6 +69,10 @@ $('.first-order >h6').hover(function(){
 
 
 /*********************************************Fullpage.js*********************************** */
+
+function topFunction(){
+  fullpage_api.moveTo(1);
+}
 new fullpage('#fullPage',{
 autoScrolling: true,
 scrollingSpeed: 700,
