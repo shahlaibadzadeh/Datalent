@@ -65,6 +65,14 @@ header{
     border-radius: 100%;
     width: 3.1rem;
     height: 3rem;
+    transition: all .2s ease-out;
+}
+
+.scrollTop:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 .start-app-container .scrollTop{
