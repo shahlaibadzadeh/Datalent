@@ -124,6 +124,16 @@
 
 .downloadProgModal-modal-sbmt-btn{
     border-radius: 100%;
+    -webkit-transition: ease-out 0.2s !important;
+    -moz-transition: ease-out 0.2s !important;
+    transition: ease-out 0.2s !important;
+}
+
+.downloadProgModal-modal-sbmt-btn:hover{
+    background-color: #0E5BA8;
+    -webkit-transition: ease-out 0.2s !important;
+    -moz-transition: ease-out 0.2s !important;
+    transition: ease-out 0.2s !important;    
 }
 
 .downloadProgModal-sbmt-img{
@@ -173,7 +183,7 @@
 
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 3.6rem;
+        width: 3.3rem;
     }
 
     .payMethodModalLeft:after{
