@@ -79,7 +79,7 @@ header{
     background-color: #0E5BA8;
 }
 
-.aspiring-total-container .scrollTop, .salary-expectation-network-container .scrollTop, .alumni-testimonial-container .scrollTop,
+/* .aspiring-total-container .scrollTop, .salary-expectation-network-container .scrollTop, .alumni-testimonial-container .scrollTop,
 .interv-resume-container .scrollTop, .mentors-container .scrollTop, .start-app-container .scrollTop, .finance-container .scrollTop,
 .alumni-opinions-container .scrollTop, .collaborate-company-container .scrollTop, .faq-total-container .scrollTop,
 .schedule-contact-container .scrollTop{
@@ -91,7 +91,7 @@ header{
 .bootcamp-program-container .scrollTop {
     position: absolute;
     bottom: 2rem;
-}
+} */
 
 .lightgray-font{
     color: #828DA6;
@@ -110,6 +110,11 @@ header{
 .text-paragraph-32{
     font-size: 1.2rem;
     line-height: 1.4rem
+}
+
+.text-paragraph-30{
+    font-size: 1.1rem !important;
+    line-height: 1.2rem !important;
 }
 
 .text-paragraph-28{
@@ -264,7 +269,6 @@ header{
     background-color: white;
 }
 .progress-bar-title{
-    position: absolute;
     line-height: 1.9rem !important;
     color: white;
 }
@@ -552,6 +556,9 @@ optgroup{
     transition: all .2s ease-out ;
 }
 
+.interv-resume-select{
+    width: 100%;
+}
 
 /***********************************************Mentors******************************************/
 
@@ -929,6 +936,9 @@ optgroup{
     .scrollTop{
         display: none;
     }
+    .d-xs-none{
+        display: none;
+    }
 
     .d-md-sm-xs-none{
         display: none !important;
@@ -984,15 +994,15 @@ optgroup{
     }
 
     .progress-ds{
-        width: 90%;
+        width: 85%;
     }
 
     .progress-de{
-        width: 80%;
+        width: 100%;
     }
 
     .progress-da{
-        width: 55%;
+        width: 85%;
     }
 
     .network-img{
@@ -1197,15 +1207,15 @@ optgroup{
     }
 
     .progress-ds{
-        width: 70%;
+        width: 97%;
     }
 
     .progress-de{
-        width: 60%;
+        width: 87%;
     }
 
     .progress-da{
-        width: 40%;
+        width: 92%;
     }
     .network-img{
         width: 10rem;
@@ -1393,12 +1403,16 @@ optgroup{
     .d-md-sm-xs-none{
         display: none !important;
     }
+
+    .progress-bar-title{
+        position: absolute;
+    }
     .progress-ds{
-        width: 98%;
+        width: 70%;
     }
 
     .progress-de{
-        width: 87%;
+        width: 57%;
     }
 
     .progress-da{
@@ -1511,22 +1525,26 @@ optgroup{
         flex: 0 0 600px;
     }
     .list-center{
-        flex: 0 0 370px;
+        flex: 0 0 350px;
     }
     .d-md-sm-xs-none{
         display: none !important;
     }
 
+    .progress-bar-title{
+        position: absolute;
+    }
+
     .progress-ds{
-        width: 93%;
+        width: 50%;
     }
 
     .progress-de{
-        width: 83%;
+        width: 43%;
     }
 
     .progress-da{
-        width: 60%;
+        width: 50%;
     }
 
     .interv-resume-small-dvc-container{
@@ -1593,7 +1611,7 @@ optgroup{
         flex: 0 0 600px;
     }
     .list-center{
-        flex: 0 0 400px;
+        flex: 0 0 430px;
     }
 
     .landing-center {
@@ -1626,12 +1644,16 @@ optgroup{
         flex: 0 0 420px;
     }
 
+    .progress-bar-title{
+        position: absolute;
+    }
+
     .progress-ds{
-        width: 80%;
+        width: 50%;
     }
 
     .progress-de{
-        width: 70%;
+        width: 40%;
     }
 
     .progress-da{
@@ -1700,7 +1722,7 @@ optgroup{
         flex: 0 0 600px;
     }
     .list-center{
-        flex: 0 0 380px;
+        flex: 0 0 530px;
     }
 
     .bootcamp-prog-small-dvc-container{
@@ -1719,16 +1741,20 @@ optgroup{
         flex: 0 0 670px;
     }
 
+    .progress-bar-title{
+        position: absolute;
+    }
+
     .progress-ds{
         width: 55%;
     }
     
     .progress-de{
-        width: 40%;
+        width: 50%;
     }
 
     .progress-da{
-        width: 30%;
+        width: 60%;
     }
 
     .interv-resume-small-dvc-container{
@@ -1737,6 +1763,7 @@ optgroup{
 
     .interv-resume-info-div{
         width: 70%;
+        height: 10rem;
     }
 
     .start-app-content ul li.first{
