@@ -83,6 +83,86 @@ fitToSection: true,
 responsiveWidth: 1199,
 keyboardScrolling: true,
 
+onLeave: function(origin, destination, direction){
+  if(origin.index == 2 && direction =='down'|| origin.index == 2 && direction =='up'){
+    $('.aspiring-total-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.aspiring-total-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 3 && direction =='down'|| origin.index == 3 && direction =='up'){
+    $('.bootcamp-program-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.bootcamp-program-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 4 && direction =='down'|| origin.index == 4 && direction =='up'){
+    $('.salary-expectation-network-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.salary-expectation-network-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 5 && direction =='down'|| origin.index == 5 && direction =='up'){
+    $('.alumni-testimonial-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.alumni-testimonial-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 6 && direction =='down'|| origin.index == 6 && direction =='up'){
+    $('.interv-resume-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.interv-resume-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 7 && direction =='down'|| origin.index == 7 && direction =='up'){
+    $('.mentors-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.mentors-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 8 && direction =='down'|| origin.index == 8 && direction =='up'){
+    $('.start-app-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.start-app-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 9 && direction =='down'|| origin.index == 9 && direction =='up'){
+    $('.finance-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.finance-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 10 && direction =='down'|| origin.index == 10 && direction =='up'){
+    $('.alumni-opinions-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.alumni-opinions-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 11 && direction =='down'|| origin.index == 11 && direction =='up'){
+    $('.collaborate-company-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.collaborate-company-container .scrollTop').css("display", "block")
+  }
+
+  if(origin.index == 12 && direction =='down'|| origin.index == 12 && direction =='up'){
+    $('.faq-total-container .scrollTop').css("display", "none")
+  }
+  else{
+    $('.faq-total-container .scrollTop').css("display", "block")
+  }
+
+},
+
 afterLoad: (origin, destination, direction) => {
 const section = destination.item;
 
@@ -157,6 +237,7 @@ fourthText.addClass('animation-fourth-text');
 }
 
 if(section.id =="finance-container"){
+
 $('.finance-container').each( function(i){
 var financeHeading = $('.finance-heading-animate');
     

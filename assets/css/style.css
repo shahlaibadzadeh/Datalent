@@ -79,7 +79,7 @@ header{
     background-color: #0E5BA8;
 }
 
-/* .aspiring-total-container .scrollTop, .salary-expectation-network-container .scrollTop, .alumni-testimonial-container .scrollTop,
+.aspiring-total-container .scrollTop, .salary-expectation-network-container .scrollTop, .alumni-testimonial-container .scrollTop,
 .interv-resume-container .scrollTop, .mentors-container .scrollTop, .start-app-container .scrollTop, .finance-container .scrollTop,
 .alumni-opinions-container .scrollTop, .collaborate-company-container .scrollTop, .faq-total-container .scrollTop,
 .schedule-contact-container .scrollTop{
@@ -91,7 +91,7 @@ header{
 .bootcamp-program-container .scrollTop {
     position: absolute;
     bottom: 2rem;
-} */
+}
 
 .lightgray-font{
     color: #828DA6;
@@ -503,8 +503,8 @@ optgroup{
 }
 
 .network-img{
-    width: 14rem;
-    height: 9rem;
+    width: 13rem;
+    height: 8rem;
 }
 
 
@@ -748,6 +748,8 @@ optgroup{
 .alumni-opinion-description{
     padding-top: 6rem;
     padding-bottom: 3rem;
+    height: 17rem;
+    min-height: 17rem;
 }
 
 .owl-theme .owl-nav{
@@ -993,17 +995,17 @@ optgroup{
         padding: .4rem 1.4rem;
     }
 
-    .progress-ds{
+    .progress{
         width: 85%;
     }
 
-    .progress-de{
+    /* .progress-de{
         width: 100%;
     }
 
     .progress-da{
         width: 85%;
-    }
+    } */
 
     .network-img{
         width: 7rem;
@@ -1113,6 +1115,8 @@ optgroup{
         padding-bottom: 1.2rem;
         font-size: .8rem !important;
         line-height: .9rem !important;
+        height: 24rem;
+        min-height: 24rem;        
     }
 
     .collaborate-company-slider-underline{
@@ -1206,17 +1210,17 @@ optgroup{
         width: 18rem !important;
     }
 
-    .progress-ds{
+    .progress{
         width: 97%;
     }
 
-    .progress-de{
+    /* .progress-de{
         width: 87%;
     }
 
     .progress-da{
         width: 92%;
-    }
+    } */
     .network-img{
         width: 10rem;
         height: 6rem;
@@ -1292,7 +1296,7 @@ optgroup{
 
 
     .owl-theme .owl-nav{
-        top: 32%;
+        top: 38%;
     }
 
     .alumni-opinion-job-bgr{
@@ -1316,7 +1320,9 @@ optgroup{
         padding-top: 3rem;
         padding-bottom: 1.2rem;
         font-size: 0.9rem !important;
-    line-height: .98rem !important
+        line-height: .98rem !important;
+        height: 21rem;
+        min-height: 21rem;   
     }
 
     .card.finance-card{
@@ -1407,17 +1413,17 @@ optgroup{
     .progress-bar-title{
         position: absolute;
     }
-    .progress-ds{
+    .progress{
         width: 70%;
     }
 
-    .progress-de{
+    /* .progress-de{
         width: 57%;
     }
 
     .progress-da{
         width: 65%;
-    }
+    } */
     .network-img{
         width: 10rem;
         height: 6rem;
@@ -1535,17 +1541,17 @@ optgroup{
         position: absolute;
     }
 
-    .progress-ds{
+    .progress{
         width: 50%;
     }
 
-    .progress-de{
+    /* .progress-de{
         width: 43%;
     }
 
     .progress-da{
         width: 50%;
-    }
+    } */
 
     .interv-resume-small-dvc-container{
         display: none;
@@ -1648,17 +1654,17 @@ optgroup{
         position: absolute;
     }
 
-    .progress-ds{
+    .progress{
         width: 50%;
     }
 
-    .progress-de{
+    /* .progress-de{
         width: 40%;
     }
 
     .progress-da{
         width: 45%;
-    }
+    } */
 
     .interv-resume-small-dvc-container{
         display: none;
@@ -1745,17 +1751,17 @@ optgroup{
         position: absolute;
     }
 
-    .progress-ds{
+    .progress{
         width: 55%;
     }
     
-    .progress-de{
+    /* .progress-de{
         width: 50%;
     }
 
     .progress-da{
         width: 60%;
-    }
+    } */
 
     .interv-resume-small-dvc-container{
         display: none;
