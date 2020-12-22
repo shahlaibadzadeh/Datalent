@@ -85,80 +85,83 @@ keyboardScrolling: true,
 
 onLeave: function(origin, destination, direction){
   if(origin.index == 2 && direction =='down'|| origin.index == 2 && direction =='up'){
-    $('.aspiring-total-container .scrollTop').css("display", "none")
+    
+    $('.aspiring-total-container .scrollTop').css("opacity", "0");
+    
   }
   else{
-    $('.aspiring-total-container .scrollTop').css("display", "block")
+    
+    $('.aspiring-total-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 3 && direction =='down'|| origin.index == 3 && direction =='up'){
-    $('.bootcamp-program-container .scrollTop').css("display", "none")
+    $('.bootcamp-program-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.bootcamp-program-container .scrollTop').css("display", "block")
+    $('.bootcamp-program-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 4 && direction =='down'|| origin.index == 4 && direction =='up'){
-    $('.salary-expectation-network-container .scrollTop').css("display", "none")
+    $('.salary-expectation-network-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.salary-expectation-network-container .scrollTop').css("display", "block")
+    $('.salary-expectation-network-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 5 && direction =='down'|| origin.index == 5 && direction =='up'){
-    $('.alumni-testimonial-container .scrollTop').css("display", "none")
+    $('.alumni-testimonial-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.alumni-testimonial-container .scrollTop').css("display", "block")
+    $('.alumni-testimonial-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 6 && direction =='down'|| origin.index == 6 && direction =='up'){
-    $('.interv-resume-container .scrollTop').css("display", "none")
+    $('.interv-resume-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.interv-resume-container .scrollTop').css("display", "block")
+    $('.interv-resume-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 7 && direction =='down'|| origin.index == 7 && direction =='up'){
-    $('.mentors-container .scrollTop').css("display", "none")
+    $('.mentors-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.mentors-container .scrollTop').css("display", "block")
+    $('.mentors-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 8 && direction =='down'|| origin.index == 8 && direction =='up'){
-    $('.start-app-container .scrollTop').css("display", "none")
+    $('.start-app-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.start-app-container .scrollTop').css("display", "block")
+    $('.start-app-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 9 && direction =='down'|| origin.index == 9 && direction =='up'){
-    $('.finance-container .scrollTop').css("display", "none")
+    $('.finance-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.finance-container .scrollTop').css("display", "block")
+    $('.finance-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 10 && direction =='down'|| origin.index == 10 && direction =='up'){
-    $('.alumni-opinions-container .scrollTop').css("display", "none")
+    $('.alumni-opinions-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.alumni-opinions-container .scrollTop').css("display", "block")
+    $('.alumni-opinions-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 11 && direction =='down'|| origin.index == 11 && direction =='up'){
-    $('.collaborate-company-container .scrollTop').css("display", "none")
+    $('.collaborate-company-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.collaborate-company-container .scrollTop').css("display", "block")
+    $('.collaborate-company-container .scrollTop').css("opacity", "1")
   }
 
   if(origin.index == 12 && direction =='down'|| origin.index == 12 && direction =='up'){
-    $('.faq-total-container .scrollTop').css("display", "none")
+    $('.faq-total-container .scrollTop').css("opacity", "0")
   }
   else{
-    $('.faq-total-container .scrollTop').css("display", "block")
+    $('.faq-total-container .scrollTop').css("opacity", "1")
   }
 
 },
