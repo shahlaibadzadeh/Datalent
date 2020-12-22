@@ -936,7 +936,7 @@ optgroup{
 @media screen and (max-width: 330px){
 
     .scrollTop{
-        display: none;
+        display: none !important;
     }
     .d-xs-none{
         display: none;
@@ -1141,7 +1141,7 @@ optgroup{
 @media (min-width: 330px) and (max-width: 576px){
 
     .scrollTop{
-        display: none;
+        display: none !important;
     }
     
     .d-xs-sm-none{
@@ -1351,7 +1351,7 @@ optgroup{
 @media (min-width: 576px) and (max-width: 768px) {
 
     .scrollTop{
-        display: none;
+        display: none !important;
     }
 
     .alumni-opinions-container{
@@ -1504,7 +1504,7 @@ optgroup{
 @media (min-width: 768px) and (max-width: 992px) {
 
     .scrollTop{
-        display: none;
+        display: none !important;
     }
 
     .become-d-s-container, .aspiring-total-container, .alumni-testimonial-container, .interv-resume-container, .mentors-container, .start-app-container, .alumni-opinions-container, .faq-total-container, .schedule-contact-container{
@@ -1607,7 +1607,7 @@ optgroup{
 @media (min-width: 992px) and (max-width: 1199px){
 
     .scrollTop{
-        display: none;
+        display: none !important;
     }
 
      .dsply-xl-lg-none{
