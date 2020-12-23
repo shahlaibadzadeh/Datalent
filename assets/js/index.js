@@ -304,10 +304,22 @@ $(document).on('click', '#esasMeqamlar', function(){
 fullpage_api.moveTo(2);
 });
 
+$(document).on('click', '#aspiring', function(){
+  fullpage_api.moveTo(3);
+});
+  
 $(document).on('click', '#tedrisPlani', function(){
 fullpage_api.moveTo(4);
 });
 
+$(document).on('click', '#salary', function(){
+  fullpage_api.moveTo(5);
+});
+
+$(document).on('click', '#alumniCarousel', function(){
+  fullpage_api.moveTo(6);
+});
+    
 $(document).on('click', '#karyera', function(){
 fullpage_api.moveTo(7);
 });
@@ -316,8 +328,20 @@ $(document).on('click', '#muellimler', function(){
 fullpage_api.moveTo(8);
 });
 
+$(document).on('click', '#startApp', function(){
+  fullpage_api.moveTo(9);
+});
+
 $(document).on('click', '#tehsilHaqqi', function(){
 fullpage_api.moveTo(10);
+});
+
+$(document).on('click', '#alumniOpinion', function(){
+  fullpage_api.moveTo(11);
+});  
+
+$(document).on('click', '#collaborate', function(){
+  fullpage_api.moveTo(12);
 });
 
 $(document).on('click', '#faq', function(){
