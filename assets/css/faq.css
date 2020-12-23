@@ -44,6 +44,8 @@
     font-weight: 600;
     float: right;
     display: block;
+    min-width: 1.4rem !important;
+    width: 1.4rem;
     height: 1.4rem;
     line-height: 1.4rem;
     text-align: center;
@@ -51,20 +53,7 @@
     color: #FFF
 }
 
-.accordionTwo .panel.line1 .panel-heading a:after,
-.accordionTwo .panel.line1 .panel-heading a.collapsed:after{
-    width: 1.4rem;
-}
 
-.accordionTwo .panel.line2 .panel-heading a:after,
-.accordionTwo .panel.line2 .panel-heading a.collapsed:after{
-    width: 2.1rem;
-}
-
-.accordionTwo .panel.line3 .panel-heading a:after,
-.accordionTwo .panel.line3 .panel-heading a.collapsed:after{
-    width: 3.3rem;  
-}
 
 .accordionTwo .panel .panel-heading a.collapsed:after {
     content: "\2b";
