@@ -191,6 +191,7 @@
 	padding: 20px;
 	border: none;
 }
+
 .modal-confirm .modal-header {
 	background: #0D224F;
 	border-bottom: none;   
@@ -198,15 +199,7 @@
 	margin: -20px -20px 0;
 	padding: 35px;
 }
-/* .modal-confirm h4 {
-	text-align: center;
-	font-size: 36px;
-	margin: 10px 0;
-} */
-.modal-confirm .form-control, .modal-confirm .btn {
-	min-height: 40px;
-	border-radius: 3px; 
-}
+
 .modal-confirm .close {
 	position: absolute;
 	top: 15px;
