@@ -1,0 +1,12 @@
+body{
+    background-color: #0D224F
+}
+
+
+@media screen and (max-width: 330px) {
+
+    .maintenance-heading{
+        font-size: 2.1rem !important;
+    }
+    
+}

@@ -33,8 +33,13 @@
     transition: ease-out 0.2s !important;
 }
 #applyModal .modal-content, #scheduleCallModal .modal-content, #scheduleMeetModal .modal-content, 
-#scheduleAdviser .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content, #payMethodModal .modal-content{
+#scheduleAdviser .modal-content, #moneyBackModal .modal-content, #talentFundModal .modal-content, #payMethodModal .modal-content,
+#successModal .modal-content{
     border-radius: .9rem !important;
+}
+
+#successModal .modal-header{
+    border-radius: .9rem.9rem 0 0 !important;
 }
 
 .apply-modal-sbmt-btn, .scheduleCall-modal-sbmt-btn, .scheduleMeetModal-modal-sbmt-btn, .scheduleAdviser-modal-sbmt-btn, 
@@ -179,6 +184,57 @@
     top: 0;
     width: auto;
 }
+
+/*************************************************Success Modal***********************************/
+
+.modal-confirm .modal-content {
+	padding: 20px;
+	border: none;
+}
+.modal-confirm .modal-header {
+	background: #0D224F;
+	border-bottom: none;   
+	position: relative;
+	margin: -20px -20px 0;
+	padding: 35px;
+}
+/* .modal-confirm h4 {
+	text-align: center;
+	font-size: 36px;
+	margin: 10px 0;
+} */
+.modal-confirm .form-control, .modal-confirm .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-confirm .close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #fff;
+	text-shadow: none;
+}
+.modal-confirm .close:hover {
+	opacity: 0.8;
+}
+.modal-confirm .icon-box {
+	color: #fff;		
+	width: 95px;
+	height: 95px;
+	display: inline-block;
+	border-radius: 50%;
+	z-index: 9;
+	border: 5px solid #fff;
+	padding: 15px;
+	text-align: center;
+}
+.modal-confirm .icon-box i {
+	font-size: 64px;
+	margin: -4px 0 0 -4px;
+}
+
+
+
 @media (min-width: 1200px){
 
     .downloadProgModal-modal-sbmt-btn{
