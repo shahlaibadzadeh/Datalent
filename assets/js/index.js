@@ -1,3 +1,14 @@
+
+
+// document.querySelector("#applyModalOpen").addEventListener('click', function() {
+//   document.querySelector("#applyModal").style.display = 'block';
+//   document.querySelector("body").style.overflow = 'hidden';
+// });
+
+// document.querySelector("#applyModalClose").addEventListener('click', function() {
+//   document.querySelector("#applyModal").style.display = 'none';
+//   document.querySelector("body").style.overflow = 'visible';
+// });
 /**********************************************Start app hover effects*********************** */
 $('.first-order >h6').hover(function(){
     $('.first-text > h6 ').css('transform','scale(1.1)');

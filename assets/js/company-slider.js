@@ -1,16 +1,16 @@
 $('.company-slider').slick({
   dots: false,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 2000,
   infinite: true,
   speed: 300,
-  slidesToShow: 6,
+  slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1400,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false
@@ -19,7 +19,7 @@ $('.company-slider').slick({
     {
       breakpoint: 1170,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false
@@ -28,7 +28,7 @@ $('.company-slider').slick({
     {
       breakpoint: 1150,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false
@@ -37,7 +37,7 @@ $('.company-slider').slick({
     {
       breakpoint: 1100,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false

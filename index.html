@@ -143,7 +143,7 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
         <div class="landing-btns-div text-center">
 
             <div class="landing-buttons btn-group pb-md-5 pb-sm-5 ">
-                <button class="apply-button landing-btn-apply-hover blue-bgr btn-outline-none btn-padding mr-lg-4 mr-md-4 mr-sm-4 mr-4" data-toggle="modal" data-target="#applyModal">Müraciət et</button>
+                <button id="applyModalOpen" class="apply-button landing-btn-apply-hover blue-bgr btn-outline-none btn-padding mr-lg-4 mr-md-4 mr-sm-4 mr-4" data-toggle="modal" data-target="#applyModal">Müraciət et</button>
                 <button class="plan-button  btn-outline-none btn-padding " data-toggle="modal" data-target="#downloadProgModal">Tədris Planı</button>
 
             </div>
@@ -1410,66 +1410,26 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
         </div>
 
         <div class="container-fluid light-blue-bgr py-5">
-            <div class="row company-slider mx-auto" style="width: 90%;" >
-                <div class="col-md-12">
+            <div class="row company-slider mx-auto" style="width: 60%;" >
                     <div class="details">
                         <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/elevate.png" alt="Elevate Company">
                     </div>
-                </div>
 
-                <div class="col-md-12">
                     <div class="details">
                         <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/amazon.png" alt="Amazon Company">
                     </div>
-                </div>
 
-                <div class="col-md-12">
                     <div class="details">
                         <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/chase.png" alt="Chase Company">
                     </div>
-                </div>
 
-                <div class="col-md-12">
                     <div class="details">
                         <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/galaxy.png" alt="Galaxy Company">
                     </div>
-                </div>
 
-                <div class="col-md-12">
-                    <div class="details">
-                        <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/bcg.png" alt="BCG Company">
-                    </div>
-                </div>
+                    
 
-                <div class="col-md-12">
-                    <div class="details">
-                        <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/capital.png" alt="Capital Company">
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="details">
-                        <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/verizon.png" alt="Verizon Company">
-                    </div>
-                </div>
                 
-                <div class="col-md-12">
-                    <div class="details">
-                        <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/nielsen-brd.png" alt="Nielsen Company">
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="details">
-                        <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/google-brd.png" alt="Nielsen Company">
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="details">
-                        <img class="company-img bg-white py-4 px-1" src="assets/img/icons/logo/morgan-brd.png" alt="Nielsen Company">
-                    </div>
-                </div>
             
             </div>
 
@@ -1831,7 +1791,7 @@ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9e
 
     <div class="modal-header border-0 mt-3">
         
-        <button type="button" class="close btn-outline-none" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close btn-outline-none" id="applyModalClose" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
     </div>
