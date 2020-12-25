@@ -36,10 +36,10 @@
     content: url('../img/icons/test-right.png') !important; 
 }
 
-.items .alumni-testimonial-items{
+.items.alumni-testimonial-items{
     width: 100%;
-    margin: 0px auto;
 }
+
 
 .alumni-testimonial-items .slick-slide {
     margin: .875rem
@@ -66,6 +66,13 @@
     height: .004rem;
     background-color: #dfdede;
 }
+@media (min-width: 1200px) {
+    .items.alumni-testimonial-items > .slick-list > .slick-track{
+        display: flex;
+        justify-content: center;
+      }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     
     .alumni-testimonial-items .slick-prev {
@@ -75,6 +82,8 @@
     .alumni-testimonial-items .slick-next {
         left: 55% !important;
     }
+
+    
     
 }
 

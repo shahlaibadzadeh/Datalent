@@ -1,6 +1,6 @@
 $('.company-slider').slick({
   dots: false,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 2000,
   infinite: true,
   speed: 300,

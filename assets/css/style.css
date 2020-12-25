@@ -25,7 +25,7 @@ a{
 }
 
 .width-fit-content{
-    width: fit-content;
+    width: fit-content !important;
 }
 
 header{
