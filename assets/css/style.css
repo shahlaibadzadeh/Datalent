@@ -1023,6 +1023,10 @@ optgroup{
         max-width: 100%;
     }
 
+    .interv-resume-info-small{
+        height: 18rem;
+    }
+
     .justify-content-sm-xs-center{
         justify-content: center;
     }
@@ -1236,6 +1240,10 @@ optgroup{
     .interv-resume-select{
         max-width: 100%;
     }
+    .interv-resume-info-small{
+        height: 16rem;
+    }
+
     .mentor-img{
         width: 4.2rem;
         height: 4.2rem;
@@ -1436,6 +1444,10 @@ optgroup{
         max-width: 100%;
     }
 
+    .interv-resume-info-small{
+        height: 16rem;
+    }
+
     .justify-content-sm-xs-center{
         justify-content: center;
     }
@@ -1562,8 +1574,8 @@ optgroup{
     
     .interv-resume-info-div{
         width: 88%;
+        height: 12rem;
     }
-    
     .interv-resume-list-item{
         width: 20%;
         height: 11rem;
@@ -1675,6 +1687,7 @@ optgroup{
 
     .interv-resume-info-div{
         width: 88%;
+        height: 14rem;
     }
     
     .interv-resume-list-item{

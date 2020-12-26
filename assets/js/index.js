@@ -399,7 +399,7 @@ $intervInfoDiv.hide().filter('#interv-' + this.id).show();
 
 //Bootcamp program select option
 $(document).ready(function(){
-$("select").change(function(){
+$("#bootcamp-program-select").change(function(){
 $(this).find("option:selected").each(function(){
 var optionValue = $(this).attr("value");
 if(optionValue){
@@ -412,6 +412,19 @@ if(optionValue){
 }).change();
 });
 
+$(document).ready(function(){
+  $("#interv-resume-select").change(function(){
+  $(this).find("option:selected").each(function(){
+  var optionValue = $(this).attr("value");
+  if(optionValue){
+      $(".intCont").not("." + optionValue).hide();
+      $("." + optionValue).show();
+  } else{
+      $(".intCont").hide();
+  }
+  });
+  }).change();
+});
 /***************Alumni opinion slider******/
 $(document).ready(function(){
     $("#testimonial-slider-opinion").owlCarousel({
