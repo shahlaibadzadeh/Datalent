@@ -1,14 +1,35 @@
+/***************************************When Modal open not Scroll*****************************/
 
+var modalOpenBtns = document.querySelectorAll('.modalOpen')
+for (var i = 0; i < modalOpenBtns.length; i++) {
+  modalOpenBtns[i].addEventListener('click', function(event) {
+    document.querySelector("body").style.overflow = 'hidden';
+  });
+}
 
-// document.querySelector("#applyModalOpen").addEventListener('click', function() {
-//   document.querySelector("#applyModal").style.display = 'block';
-//   document.querySelector("body").style.overflow = 'hidden';
-// });
+var modalCloseBtns = document.querySelectorAll('.closeModal')
+for (var i = 0; i < modalCloseBtns.length; i++) {
+  modalCloseBtns[i].addEventListener('click', function(event) {
+    document.querySelector("body").style.overflow = 'visible';
+  });
+}
 
-// document.querySelector("#applyModalClose").addEventListener('click', function() {
-//   document.querySelector("#applyModal").style.display = 'none';
-//   document.querySelector("body").style.overflow = 'visible';
-// });
+/**********************Not scroll for Fullpage.js*********/
+var modalsOpenBtns = document.querySelectorAll('.modalOpen')
+for (var i = 0; i < modalsOpenBtns.length; i++) {
+  modalsOpenBtns[i].addEventListener('click', function() {
+    fullpage_api.setAllowScrolling(false);
+    fullpage_api.setKeyboardScrolling(false);
+  });
+}
+
+var modalsCloseBtns = document.querySelectorAll('.closeModal')
+for (var i = 0; i < modalsCloseBtns.length; i++) {
+  modalsCloseBtns[i].addEventListener('click', function() {
+    fullpage_api.setAllowScrolling(true);
+    fullpage_api.setKeyboardScrolling(true);
+  });
+}
 /**********************************************Start app hover effects*********************** */
 $('.first-order >h6').hover(function(){
     $('.first-text > h6 ').css('transform','scale(1.1)');
@@ -88,6 +109,7 @@ function topFunction(){
 }
 new fullpage('#fullPage',{
 autoScrolling: true,
+normalScrollElements: '.modal',
 scrollingSpeed: 700,
 paddingTop: '1em',
 fitToSection: true,
