@@ -20,9 +20,6 @@ html, body{
 a{
     cursor: pointer;
 }
-.fp-tableCell{
-    vertical-align:0% !important
-}
 
 .width-fit-content{
     width: fit-content !important;
@@ -351,7 +348,7 @@ header{
 }
 
 .social-media {
-    margin-top: 17rem;
+    margin-top: 16rem;
 }
 
 .social-media .social-icons {
@@ -373,7 +370,7 @@ header{
 }
 
 .landing-buttons {
-    margin-top: 6.25rem;
+    margin-top: 6.1rem;
     font-size: .87rem;
 }
 
@@ -534,9 +531,7 @@ optgroup{
 .interv-resume-info-div{
     border-radius: .5rem;
 }
-.interv-resume{
-    position: absolute;
-}
+
 .interv-resume-list-item{
     width: 13%;
     height: 9rem;
@@ -545,12 +540,6 @@ optgroup{
     transition: all .2s ease-out ;
 }
 
-/* .interv-resume-list-line{
-    position: relative;
-    width: 22rem;
-    height: .1rem;
-    background-color: #0E5BA8;
-} */
 
 .interv-resume-list-item:hover{
     color: white !important;
