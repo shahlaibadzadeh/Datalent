@@ -343,13 +343,6 @@ header{
     filter: invert(92%) sepia(67%) saturate(15%) hue-rotate(242deg) brightness(104%) contrast(50%);
 }
 
-.landing-center {
-    padding-top: 11rem;
-}
-
-.social-media {
-    padding-top: 14rem;
-}
 
 .social-media .social-icons {
     transition: transform 0.3s ease;
@@ -369,10 +362,7 @@ header{
     line-height: 1.1rem;
 }
 
-.landing-buttons {
-    padding-top: 3rem;
-    font-size: .87rem;
-}
+
 
 .btn-padding{
     padding: .6rem 2.8rem;
@@ -1735,10 +1725,23 @@ optgroup{
     
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) and (max-width:1400px){
     .dsply-xl-lg-none{
         display: none;
     }
+    .landing-center {
+        padding-top: 11rem;
+    }
+    
+    .social-media {
+        padding-top: 17rem;
+    }
+    
+    .landing-buttons {
+        padding-top: 3rem;
+        font-size: .87rem;
+    }
+
     .aspiring-heading-center{
         flex: 0 0 600px;
     }
@@ -1800,3 +1803,96 @@ optgroup{
         flex: 0 0 30%;
     }
 } 
+
+@media (min-width: 1400px){
+
+    .dsply-xl-lg-none{
+        display: none;
+    }
+    .landing-center {
+        padding-top: 11rem;
+    }
+    
+    .social-media {
+        padding-top: 17rem;
+    }
+    
+    .landing-buttons {
+        padding-top: 3rem;
+        font-size: .87rem;
+    }
+
+    .aspiring-heading-center{
+        flex: 0 0 600px;
+    }
+    .list-center{
+        flex: 0 0 530px;
+    }
+
+    .bootcamp-prog-small-dvc-container{
+        display: none;
+    }
+
+    .bootcamp-prog-heading-div{
+        flex: 0 0 340px;
+        height: 320px;
+    }
+
+    .bootcamp-prog-ul{
+        height: 100%;
+    }
+    .bootcamp-prog-info-div{
+        flex: 0 0 670px;
+    }
+
+    .progress-bar-title{
+        position: absolute;
+    }
+
+    .progress{
+        width: 55%;
+    }
+    
+    /* .progress-de{
+        width: 50%;
+    }
+
+    .progress-da{
+        width: 60%;
+    } */
+
+    .interv-resume-small-dvc-container{
+        display: none;
+    }
+
+    .interv-resume-info-div{
+        width: 70%;
+        height: 10rem;
+    }
+
+    .start-app-content ul li.first{
+        flex: 0 0 30%;
+        text-align: right;
+    }
+    
+    .start-app-content ul li.second{
+        flex: 0 0 20%;
+    }
+    
+    .start-app-content ul li.third{
+        flex: 0 0 30%;
+    } 
+
+    .landing-center {
+        padding-top: 11rem;
+    }
+    
+    .social-media {
+        padding-top: 17rem;
+    }
+    
+    .landing-buttons {
+        padding-top: 7rem;
+        font-size: .87rem;
+    }
+}

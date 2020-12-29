@@ -123,6 +123,11 @@
 
 /***************************************Bootcamp program download Modal****************/
 
+.modalDownload-top-title{
+    position: absolute;
+    top: 1.1rem;
+    left: 5%;
+}
 #downloadProgModal .modal-content{
     border-radius: 2rem 0 2rem 2rem;
 }
@@ -442,8 +447,12 @@
 
     }
 
-
-
+    .modalDownload-top-title{
+        position: absolute;
+        top: 1.1rem;
+        left: 5%;
+        right: 10%;
+    }
 }
 
 @media (min-width: 330px) and (max-width: 470px){
@@ -462,6 +471,13 @@
         left: 20%;
         right: 15%;
 
+    }
+
+    .modalDownload-top-title{
+        position: absolute;
+        top: 1.1rem;
+        left: 5%;
+        right: 10%;
     }
 
 }
@@ -511,5 +527,12 @@
         width: 2rem;
         height: .1rem;
         background-color: transparent;
+    }
+
+    .modalDownload-top-title{
+        position: absolute;
+        top: 1.1rem;
+        left: 5%;
+        right: 12%;
     }
 }

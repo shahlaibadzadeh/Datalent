@@ -438,7 +438,7 @@ $(document).ready(function(){
         dots:false,
         navigation:true,
         navText: ["<img src='assets/img/icons/arrow-left.png'>","<img src='assets/img/icons/arrow-right.png'>"],
-        autoplay:true,
+        autoplay:false,
         nav: true,
         loop: true
     });
