@@ -113,7 +113,7 @@ normalScrollElements: '.modal',
 scrollingSpeed: 700,
 paddingTop: '1em',
 fitToSection: true,
-responsiveWidth: 1199,
+responsiveWidth: 1200,
 keyboardScrolling: true,
 
 onLeave: function(origin, destination, direction){
