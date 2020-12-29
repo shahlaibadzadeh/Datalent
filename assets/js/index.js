@@ -14,22 +14,7 @@ for (var i = 0; i < modalCloseBtns.length; i++) {
   });
 }
 
-/**********************Not scroll for Fullpage.js*********/
-var modalsOpenBtns = document.querySelectorAll('.modalOpen')
-for (var i = 0; i < modalsOpenBtns.length; i++) {
-  modalsOpenBtns[i].addEventListener('click', function() {
-    fullpage_api.setAllowScrolling(false);
-    fullpage_api.setKeyboardScrolling(false);
-  });
-}
 
-var modalsCloseBtns = document.querySelectorAll('.closeModal')
-for (var i = 0; i < modalsCloseBtns.length; i++) {
-  modalsCloseBtns[i].addEventListener('click', function() {
-    fullpage_api.setAllowScrolling(true);
-    fullpage_api.setKeyboardScrolling(true);
-  });
-}
 /**********************************************Start app hover effects*********************** */
 $('.first-order >h6').hover(function(){
     $('.first-text > h6 ').css('transform','scale(1.1)');
@@ -104,156 +89,12 @@ $('.first-order >h6').hover(function(){
 
 
 
-function topFunction(){
-  fullpage_api.moveTo(1);
-}
-new fullpage('#fullPage',{
-autoScrolling: true,
-normalScrollElements: '.modal',
-scrollingSpeed: 700,
-paddingTop: '1em',
-fitToSection: true,
-responsiveWidth: 1200,
-keyboardScrolling: true,
-
-onLeave: function(origin, destination, direction){
-  if(origin.index == 2 && direction =='down'|| origin.index == 2 && direction =='up'){
-    
-    $('.aspiring-total-container .scrollTop').css("opacity", "0");
-    
-  }
-  else{
-    
-    $('.aspiring-total-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 3 && direction =='down'|| origin.index == 3 && direction =='up'){
-    $('.bootcamp-program-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.bootcamp-program-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 4 && direction =='down'|| origin.index == 4 && direction =='up'){
-    $('.salary-expectation-network-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.salary-expectation-network-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 5 && direction =='down'|| origin.index == 5 && direction =='up'){
-    $('.alumni-testimonial-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.alumni-testimonial-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 6 && direction =='down'|| origin.index == 6 && direction =='up'){
-    $('.interv-resume-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.interv-resume-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 7 && direction =='down'|| origin.index == 7 && direction =='up'){
-    $('.mentors-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.mentors-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 8 && direction =='down'|| origin.index == 8 && direction =='up'){
-    $('.start-app-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.start-app-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 9 && direction =='down'|| origin.index == 9 && direction =='up'){
-    $('.finance-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.finance-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 10 && direction =='down'|| origin.index == 10 && direction =='up'){
-    $('.alumni-opinions-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.alumni-opinions-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 11 && direction =='down'|| origin.index == 11 && direction =='up'){
-    $('.collaborate-company-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.collaborate-company-container .scrollTop').css("opacity", "1")
-  }
-
-  if(origin.index == 12 && direction =='down'|| origin.index == 12 && direction =='up'){
-    $('.faq-total-container .scrollTop').css("opacity", "0")
-  }
-  else{
-    $('.faq-total-container .scrollTop').css("opacity", "1")
-  }
-
-},
-
-afterLoad: (origin, destination, direction) => {
-const section = destination.item;
-
-if(section.id =="become-d-s-container"){
-$('.become-d-s-container').each( function(i){
-var left = $('.become-d-s-icon-text-left');
-var right = $('.become-d-s-icon-text-right')
-
-    left.addClass('fadeInLeft');
-    left.css("opacity","1")
-    right.addClass('fadeInRight')
-    right.css("opacity","1")
-
-}); 
-}
-
-if(section.id =="aspiring-total-container"){
-$('.aspiring-total-container').each( function(i){
-var left = $('.aspiring-d-s-left');
-var right = $('.aspiring-d-s-right')
-    
-    left.addClass('zoomIn');
-    left.css("opacity","1")
-    right.addClass('zoomIn')
-    right.css("opacity","1")
-
-}); 
-}
-
-if(section.id =="salary-expectation-network-container"){
-$('.salary-container').each( function(i){
-var progress1 = $('.progress-bar1');
-var progress2 = $('.progress-bar2');
-var progress3 = $('.progress-bar3');
-    
-    progress1.addClass('progress1');
-    progress2.addClass('progress2');
-    progress3.addClass('progress3');
-
-}); 
-}
-
-if(section.id =="interv-resume-container"){
-$('.interv-resume-container').each( function(i){
-var interResumeListItem = $('.interv-resume-list-item');
-
-    interResumeListItem.addClass('fadeInUp');
-    interResumeListItem.css("opacity","1")
-        
-}); 
-}
-
-if(section.id =="start-app-container"){
-$('.animate-start-app').each( function(i){
-var firstOrder = $('.first-order');
+$(document).ready(function() {
+            
+  $(window).scroll( function(){
+  
+      $('.animate-start-app').each( function(i){
+          var firstOrder = $('.first-order');
 var firstText = $('.first-text');
 var secondOrder = $('.second-order');
 var secondText = $('.second-text');
@@ -261,129 +102,181 @@ var thirdOrder = $('.third-order');
 var thirdText = $('.third-text');
 var fourthOrder = $('.fourth-order');
 var fourthText = $('.fourth-text');
-    firstOrder.addClass('animation-first-order');
-firstText.addClass('animation-first-text');
-secondOrder.addClass('animation-second-order');
-secondText.addClass('animation-second-text');
-thirdOrder.addClass('animation-third-order');
-thirdText.addClass('animation-third-text');
-fourthOrder.addClass('animation-fourth-order');
-fourthText.addClass('animation-fourth-text');
-}); 
-}
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              firstOrder.addClass('animation-first-order');
+      firstText.addClass('animation-first-text');
+      secondOrder.addClass('animation-second-order');
+      secondText.addClass('animation-second-text');
+      thirdOrder.addClass('animation-third-order');
+      thirdText.addClass('animation-third-text');
+      fourthOrder.addClass('animation-fourth-order');
+      fourthText.addClass('animation-fourth-text');
+                  
+          }
+          
+      }); 
 
-if(section.id =="finance-container"){
 
-$('.finance-container').each( function(i){
-var financeHeading = $('.finance-heading-animate');
-    
-    financeHeading.addClass('fadeInUpTution');
-    financeHeading.css("opacity","1")
-}); 
-}
+      $('.become-d-s-container').each( function(i){
+          var left = $('.become-d-s-icon-text-left');
+          var right = $('.become-d-s-icon-text-right')
 
-if(section.id =="finance-container"){
 
-$('.finance-container').each( function(i){
-var tutionCard = $('.tution-total-card');
-    tutionCard.addClass('slideInRightTution');
-    tutionCard.css("opacity","1")
-}); 
-}
+          var bottom_of_object = $(this).offset().top+500;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              left.addClass('fadeInLeft');
+              left.css("opacity","1")
+              right.addClass('fadeInRight')
+              right.css("opacity","1")
+                  
+          }
+          
+      }); 
 
-if(section.id =="schedule-contact-container"){
+      $('.aspiring-total-container').each( function(i){
+          var left = $('.aspiring-d-s-left');
+          var right = $('.aspiring-d-s-right')
 
-$('.schedule-contact-container').each( function(i){
-var contactContainers = $('.contactScheduleAnimation');    
-    contactContainers.addClass('zoomIn');
-    contactContainers.css("opacity","1")
 
-});  
-}
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height()+200;
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              left.addClass('zoomIn');
+              left.css("opacity","1")
+              right.addClass('zoomIn')
+              right.css("opacity","1")
+                  
+          }
+          
+      }); 
 
-if(section.id == "mentors-container"){
-  var removeClass = true;
-  var $mentorName = $('.mentor-name');
-  var $mentorAbout = $('.mentor-about-div');
-  $mentorImg = $('.mentor-imgs  .mentor-img').click(function() {
-  $('.mentor-imgs  .mentor-img').removeClass("mentor-img-scale").filter('#' + this.id).addClass("mentor-img-scale")
-  removeClass = false;
-  $(this).css('opacity','1')
-  .closest('.mentor-img-list')
-  .siblings('.mentor-img-list')
-  .find('.mentor-img')
-  .css('opacity', '0.6')
-  $mentorName.hide().filter('#name-' + this.id).show();
-  $mentorAbout.hide().filter('#about-' + this.id).show();
-  });
+      $('.salary-container').each( function(i){
+          var progress1 = $('.progress-bar1');
+          var progress2 = $('.progress-bar2');
+          var progress3 = $('.progress-bar3');
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              progress1.addClass('progress1');
+              progress2.addClass('progress2');
+              progress3.addClass('progress3');
+                  
+          }
+          
+      }); 
 
-  $("html").click(function () {
-  if (removeClass) {
-  $('.mentor-imgs .mentor-img').removeClass("mentor-img-scale");
-  $('.mentor-imgs .mentor-img').css('opacity','1')
-  .closest('.mentor-img-list')
-  .siblings('.mentor-img-list')
-  .find('.mentor-img')
-  .css('opacity', '1')
-  }
-  removeClass = true;
-  });
-}
+      $('.interv-resume-container').each( function(i){
+          var interResumeListItem = $('.interv-resume-list-item');
 
-}
-});
 
-$(document).on('click', '#esasMeqamlar', function(){
-fullpage_api.moveTo(2);
-});
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height()+200;
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              interResumeListItem.addClass('fadeInUp');
+              interResumeListItem.css("opacity","1")
+                  
+          }
+          
+      }); 
 
-$(document).on('click', '#aspiring', function(){
-  fullpage_api.moveTo(3);
-});
+
+      $('.finance-container').each( function(i){
+          var financeHeading = $('.finance-heading-animate');
+
+
+          var bottom_of_object = $(this).offset().top;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              financeHeading.addClass('fadeInUpTution');
+              financeHeading.css("opacity","1")
+                  
+          }
+          
+      }); 
+
+      
+
+      $('.finance-container').each( function(i){
+          var tutionCard = $('.tution-total-card');
+
+
+          var bottom_of_object = $(this).offset().top;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              tutionCard.addClass('slideInRightTution');
+              tutionCard.css("opacity","1")
+                  
+          }
+          
+      }); 
+
+      $('.schedule-contact-container').each( function(i){
+          var contactContainers = $('.contactScheduleAnimation');
+
+
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height()+200;
+          
+          if( bottom_of_window > bottom_of_object ){
+              
+              contactContainers.addClass('zoomIn');
+              contactContainers.css("opacity","1")
+                  
+          }
+          
+      }); 
   
-$(document).on('click', '#tedrisPlani', function(){
-fullpage_api.moveTo(4);
+  });
+  
 });
 
-$(document).on('click', '#salary', function(){
-  fullpage_api.moveTo(5);
+
+var removeClass = false;
+var $mentorName = $('.mentor-name');
+var $mentorAbout = $('.mentor-about-div');
+$mentorImg = $('.mentor-imgs  .mentor-img').click(function() {
+    $('.mentor-imgs  .mentor-img').removeClass("mentor-img-scale").filter('#' + this.id).addClass("mentor-img-scale")
+    removeClass = false;
+    $(this).css('opacity','1')
+   .closest('.mentor-img-list')
+   .siblings('.mentor-img-list')
+   .find('.mentor-img')
+   .css('opacity', '0.6')
+    $mentorName.hide().filter('#name-' + this.id).show();
+    $mentorAbout.hide().filter('#about-' + this.id).show();
 });
 
-$(document).on('click', '#alumniCarousel', function(){
-  fullpage_api.moveTo(6);
-});
-    
-$(document).on('click', '#karyera', function(){
-fullpage_api.moveTo(7);
-});
-
-$(document).on('click', '#muellimler', function(){
-fullpage_api.moveTo(8);
-});
-
-$(document).on('click', '#startApp', function(){
-  fullpage_api.moveTo(9);
+$("html").click(function (evt) {
+  if(evt.target.id == "particles-js"){
+    if (removeClass) {
+        $('.mentor-imgs .mentor-img').removeClass("mentor-img-scale");
+        $('.mentor-imgs .mentor-img').css('opacity','1')
+        .closest('.mentor-img-list')
+        .siblings('.mentor-img-list')
+        .find('.mentor-img')
+        .css('opacity', '1')
+    }
+    removeClass = true;
+  }
 });
 
-$(document).on('click', '#tehsilHaqqi', function(){
-fullpage_api.moveTo(10);
-});
-
-$(document).on('click', '#alumniOpinion', function(){
-  fullpage_api.moveTo(11);
-});  
-
-$(document).on('click', '#collaborate', function(){
-  fullpage_api.moveTo(12);
-});
-
-$(document).on('click', '#faq', function(){
-fullpage_api.moveTo(13);
-});
-
-$(document).on('click', '#elaqe', function(){
-fullpage_api.moveTo(14);
-});
 
 //Bootcamp program on hover show content
 var $progInfoDiv = $('.prog-info-div'),
