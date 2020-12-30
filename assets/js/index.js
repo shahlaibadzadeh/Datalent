@@ -197,7 +197,7 @@ var fourthText = $('.fourth-text');
           var financeHeading = $('.finance-heading-animate');
 
 
-          var bottom_of_object = $(this).offset().top;
+          var bottom_of_object = $(this).offset().top+100;
           var bottom_of_window = $(window).scrollTop() + $(window).height();
           
           if( bottom_of_window > bottom_of_object ){
@@ -215,7 +215,7 @@ var fourthText = $('.fourth-text');
           var tutionCard = $('.tution-total-card');
 
 
-          var bottom_of_object = $(this).offset().top;
+          var bottom_of_object = $(this).offset().top+100;
           var bottom_of_window = $(window).scrollTop() + $(window).height();
           
           if( bottom_of_window > bottom_of_object ){
