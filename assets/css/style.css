@@ -307,15 +307,15 @@ header{
 }
 
 .landing-center {
-    padding-top: 11rem;
+    padding-top: 11%;
 }
 
 .social-media {
-    padding-top: 17rem;
+    padding-top: 17%;
 }
 
 .landing-buttons {
-    padding-top: 5rem;
+    padding-top: 5%;
     font-size: .87rem;
 }
 
@@ -470,8 +470,8 @@ optgroup{
 }
 
 .network-img{
-    width: 13rem;
-    height: 8rem;
+    width: 12rem;
+    height: 7rem;
 }
 
 
