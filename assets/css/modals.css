@@ -262,6 +262,7 @@
         opacity: .5;
     }
 
+    
     .talentFund-large-title{
         position: absolute;
         top: -3.5rem;
@@ -273,6 +274,7 @@
 
     .talentFund-large-title2{
         left: 40%;
+        right: 60%;
     }
 
 }
@@ -319,6 +321,7 @@
 
     .talentFund-large-title2{
         left: 40%;
+        right: 60%;
     }
 
     .apply-modal-icon-line-tr2{
@@ -375,6 +378,7 @@
 
     .talentFund-large-title2{
         left: 40%;
+        right: 60%;
     }
     
 
@@ -397,6 +401,7 @@
     .talentFund-title1{
         position: absolute;
         top: -3.5rem;
+        left: 25%;
     }
 
     .talentFundModal-modal-sbmt-btn{
@@ -410,11 +415,6 @@
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
         width: 3.6rem;
-    }
-
-    .talentFund-title1{
-        position: absolute;
-        top: -3.5rem;
     }
 
     .talentFundModal-modal-sbmt-btn{
@@ -453,6 +453,12 @@
         left: 5%;
         right: 10%;
     }
+
+    .talentFund-title1{
+        position: absolute;
+        top: -3.5rem;
+        left: 25%;
+    }
 }
 
 @media (min-width: 330px) and (max-width: 470px){
@@ -480,6 +486,12 @@
         right: 10%;
     }
 
+    .talentFund-title1{
+        position: absolute;
+        top: -3.5rem;
+        left: 20%;
+    }
+
 }
 @media screen and (max-width: 330px) {
 
@@ -498,7 +510,7 @@
     }
 
     .talentFundModal-modal-sbmt-btn{
-        width: 50% !important;
+        width: 75% !important;
     }
 
     .modal-top-title{
