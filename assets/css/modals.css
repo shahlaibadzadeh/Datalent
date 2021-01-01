@@ -146,11 +146,6 @@
     transition: ease-out 0.2s !important;    
 }
 
-.downloadProgModal-sbmt-img{
-    width: 2rem;
-    transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-}
 
 .downloadProgModal-input-btn-flex >input{
     border-radius: 1rem 0 0 1rem ;
@@ -237,7 +232,6 @@
 
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 3.3rem;
     }
 
     .payMethodModalLeft:after{
@@ -285,7 +279,6 @@
 
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 3.5rem;
     }
 
     .payMethodModalLeft:after{
@@ -338,7 +331,6 @@
 
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 3.5rem;
     }
 
     .modal-large {
@@ -395,7 +387,6 @@
 
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 3.6rem;
     }
 
     .talentFund-title1{
@@ -414,7 +405,6 @@
 @media (min-width: 330px) and (max-width: 576px) {
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 3.6rem;
     }
 
     .talentFundModal-modal-sbmt-btn{
@@ -501,7 +491,6 @@
 
     .downloadProgModal-modal-sbmt-btn{
         border-radius: 100%;
-        width: 25%;
     }
 
     .talentFund-title1{

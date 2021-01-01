@@ -28,13 +28,13 @@
     line-height: 1.5rem
 }
 
-.alumni-testimonial-items .slick-prev:before {
+/* .alumni-testimonial-items .slick-prev:before {
     content: url('../img/icons/test-left.png') !important;
 }
 
 .alumni-testimonial-items .slick-next:before {
     content: url('../img/icons/test-right.png') !important; 
-}
+} */
 
 .items.alumni-testimonial-items{
     width: 100%;
