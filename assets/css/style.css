@@ -802,11 +802,7 @@ optgroup{
     line-height: .98rem
 }
 
-/* .contact-form-btn-div{
-    position: relative;
-    top: 13rem;
-    left: 55%;
-} */
+
 .contact-form-btn{
     position: relative;
     bottom: -14rem;
@@ -814,17 +810,14 @@ optgroup{
     border-radius: 100%;
     width: 5rem;
     height: 5rem;
-    
+    transition: all .3s ease-out !important;
+    transform: scale(1) !important;
 }
 
 .contact-form-btn-img{
     width: 2.5rem;
 }
 
-.contact-form-btn{
-    transition: all .3s ease-out !important;
-    transform: scale(1) !important;
-}
  
 .contact-form-btn:hover{
     transform: scale(1.1) !important;
