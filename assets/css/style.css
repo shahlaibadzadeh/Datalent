@@ -307,11 +307,11 @@ header{
 }
 
 .landing-center {
-    padding-top: 11%;
+    padding-top: 10%;
 }
 
 .social-media {
-    padding-top: 17%;
+    padding-top: 16.5%;
 }
 
 .landing-buttons {
@@ -457,7 +457,7 @@ optgroup{
 .network-images-container{
     border-radius: 1.2rem;
     background-color: white;
-    box-shadow: 0px 0px 40px 8px #FAFAFC;
+    box-shadow: 0px 0px 8px 8px #FAFAFC;
     /* max-width: 225px; */
 }
 
@@ -854,18 +854,12 @@ optgroup{
     font-size: .98rem;
 }
 
+
+
 /**************************************************Footer******************************************/
-/* .footer-container{
-    position: relative;
-}
-.contact-form-container{
-    position: absolute;
-    bottom: ;
-    z-index: -1;
-} */
+
 .footer-social-icons{
     width: 1.1rem;
-    /* filter: brightness(0) invert(1); */
 }
 
 .footer-form-input{
@@ -961,14 +955,6 @@ optgroup{
     .progress{
         width: 85%;
     }
-
-    /* .progress-de{
-        width: 100%;
-    }
-
-    .progress-da{
-        width: 85%;
-    } */
 
     .network-img{
         width: 7rem;
@@ -1177,13 +1163,6 @@ optgroup{
         width: 97%;
     }
 
-    /* .progress-de{
-        width: 87%;
-    }
-
-    .progress-da{
-        width: 92%;
-    } */
     .network-img{
         width: 10rem;
         height: 6rem;
@@ -1380,13 +1359,6 @@ optgroup{
         width: 70%;
     }
 
-    /* .progress-de{
-        width: 57%;
-    }
-
-    .progress-da{
-        width: 65%;
-    } */
     .network-img{
         width: 10rem;
         height: 6rem;
@@ -1408,6 +1380,10 @@ optgroup{
         width: 4.2rem;
         height: 4.2rem;
         
+    }
+
+    .mentor-about-content{
+        height: 30rem;
     }
     
     .start-app-content ul li.first{
@@ -1470,11 +1446,6 @@ optgroup{
 
 @media (min-width: 768px) and (max-width: 992px) {
 
-    .aspiring-total-container, .alumni-testimonial-container, .interv-resume-container, .start-app-container, 
-    .alumni-opinions-container, #collaborate-company-container, .faq-total-container, .schedule-contact-container{
-        height: 100vh;
-    }
-
     .justify-content-md-center{
         justify-content: center
     }
@@ -1528,14 +1499,6 @@ optgroup{
         width: 50%;
     }
 
-    /* .progress-de{
-        width: 43%;
-    }
-
-    .progress-da{
-        width: 50%;
-    } */
-
     .interv-resume-small-dvc-container{
         display: none;
     }
@@ -1557,7 +1520,14 @@ optgroup{
     .mentor-img{
         width: 4.2rem;
         height: 4.2rem;
-        
+    }
+
+    .mentor-name-div{
+        height: 10em;
+    }
+
+    .mentor-about-content{
+        height: 20rem;
     }
 
     .start-app-content ul li.first{
@@ -1588,16 +1558,6 @@ optgroup{
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-
-    .particle-background, #become-d-s-container, #aspiring-total-container, #bootcamp-program-container,
-    #alumni-testimonial-container, #interv-resume-container, #mentors-container, #start-app-container, #finance-container, 
-    #alumni-opinions-container, #collaborate-company-container, #faq-total-container, #schedule-contact-container{
-        height: 100vh;
-    }
-
-    #particles-js{
-        height: 100vh !important;
-    }
 
      .dsply-xl-lg-none{
         display: none;
@@ -1648,14 +1608,6 @@ optgroup{
         width: 50%;
     }
 
-    /* .progress-de{
-        width: 40%;
-    }
-
-    .progress-da{
-        width: 45%;
-    } */
-
     .interv-resume-small-dvc-container{
         display: none;
     }
@@ -1674,6 +1626,14 @@ optgroup{
         width: 4.2rem;
         height: 4.2rem;
         
+    }
+
+    .mentor-name-div{
+        height: 10em;
+    }
+
+    .mentor-about-content{
+        height: 15rem;
     }
 
     .start-app-content ul li.first{
@@ -1742,7 +1702,7 @@ optgroup{
         height: 100%;
     }
     .bootcamp-prog-info-div{
-        flex: 0 0 670px;
+        flex: 0 0 630px;
     }
 
     .progress-bar-title{
@@ -1752,14 +1712,6 @@ optgroup{
     .progress{
         width: 55%;
     }
-    
-    /* .progress-de{
-        width: 50%;
-    }
-
-    .progress-da{
-        width: 60%;
-    } */
 
     .interv-resume-small-dvc-container{
         display: none;
@@ -1767,9 +1719,12 @@ optgroup{
 
     .interv-resume-info-div{
         width: 70%;
-        height: 10rem;
+        height: 11rem;
     }
 
+    .mentor-about-content{
+        height: 20rem;
+    }
     .start-app-content ul li.first{
         flex: 0 0 30%;
         text-align: right;
