@@ -246,9 +246,13 @@ header{
     height: 2.1rem;
 }
 
+.navbar-toggler{
+    width: 4em;
+    height: 2.9em;
+}
+
 .nav-item {
     font-size: .8rem;
-    
 }
 
 .dropdown.language {
@@ -924,9 +928,14 @@ optgroup{
         padding-top: 8rem;
     }
 
+    .navbar-toggler{
+        width: 4em;
+        height: 2.55em;
+    }
+
     .dropdown.language {
         position: absolute; 
-        right: 5rem;
+        right: 5.5rem;
         top: 1.1rem;
         border: .05rem solid lightgray;
         padding: .2rem .5rem;
@@ -1109,6 +1118,11 @@ optgroup{
     .logo-img {
         width: 6.7rem;
         height: 2rem;
+    }
+
+    .navbar-toggler{
+        width: 4em;
+        height: 2.55em;
     }
 
     .landing-center {
