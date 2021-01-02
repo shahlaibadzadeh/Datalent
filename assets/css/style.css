@@ -457,7 +457,7 @@ optgroup{
 .network-images-container{
     border-radius: 1.2rem;
     background-color: white;
-    box-shadow: 0px 0px 8px 8px #FAFAFC;
+    box-shadow: 0px 0px 2px 4px #FAFAFC;
     /* max-width: 225px; */
 }
 
@@ -677,7 +677,7 @@ optgroup{
 .alumni-opinion-img-text-bgr{
     border-radius: 1.3rem .1rem 1.3rem .1rem;
     background-color: white;
-    box-shadow: 0px 0px 5px 5px #FAFAFC;
+    box-shadow: 0px 0px 2px 5px #d3d1d15e;
 }
 
 .alumni-opinion-job-bgr{
@@ -1671,7 +1671,7 @@ optgroup{
     
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 
     .particle-background, #become-d-s-container, #aspiring-total-container, #bootcamp-program-container, #salary-expectation-network-container,
     #alumni-testimonial-container, #interv-resume-container, #mentors-container, #start-app-container, #finance-container, 
