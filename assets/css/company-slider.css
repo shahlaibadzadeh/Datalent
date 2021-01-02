@@ -1,7 +1,10 @@
 .company-img{
   width: 12rem;
   border-radius: .5rem;
+}
 
+.company-slider .slick-list{
+  margin-left: 1.5rem;
 }
 
 .slick-prev, .slick-next{

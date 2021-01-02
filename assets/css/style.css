@@ -1289,10 +1289,6 @@ optgroup{
 
 @media (min-width: 576px) and (max-width: 768px) {
 
-    .alumni-opinions-container{
-        height: 100vh;
-    }
-
     .flex-md-sm-xs-column{
         flex-direction: column;
     }
@@ -1452,8 +1448,19 @@ optgroup{
 
     .dropdown.language {
         position: absolute; 
-        right: .2rem;
-        top: 1.8rem;
+        right: 6rem;
+        top: 1.3rem;
+        border: .05rem solid lightgray;
+        padding: .2rem .5rem;
+        border-radius: .2rem;
+    }
+
+    .dropdown.language div a{
+        padding: .5rem;
+    }
+
+    .dropdown.language a{
+        font-size: 1rem;
     }
 
     .logo-img {
