@@ -7,11 +7,27 @@ for (var i = 0; i < modalOpenBtns.length; i++) {
   });
 }
 
-var modalCloseBtns = document.querySelectorAll('.closeModal')
-for (var i = 0; i < modalCloseBtns.length; i++) {
-  modalCloseBtns[i].addEventListener('click', function(event) {
-    document.querySelector("body").style.overflow = 'visible';
-  });
+$('.modal').on('hidden.bs.modal', function () {
+  document.querySelector("body").style.overflow = 'visible';
+})
+
+
+/*************************Scroll to Top****************/
+var mybutton = document.getElementById("scrollTop");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 

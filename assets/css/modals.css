@@ -99,40 +99,37 @@
     color: #828DA6;
 }
 
+.modal-top2{
+    top: -2.5rem;
+}
+
+.modal-top3{
+    top: -3.5rem;
+}
+
 .modal-top-title{
     position: absolute;
-    top: -2.5rem;
-    left: 30%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-.modalApply-top-title{
 
-    position: absolute;
-    top: -2.5rem;
-    left: 25%;
-
-}
-
-.modalCall-top-title{
-    position: absolute;
-    top: -2.5rem;
-    left: 20%;
-    right: 15%;
-
-}
 
 /***************************************Bootcamp program download Modal****************/
 
 .modalDownload-top-title{
-    position: absolute;
     top: 1.1rem;
+    position: absolute;
     left: 5%;
+    right: 8%;
 }
 #downloadProgModal .modal-content{
     border-radius: 2rem 0 2rem 2rem;
 }
 
 .downloadProgModal-modal-sbmt-btn{
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 100%;
     -webkit-transition: ease-out 0.2s !important;
     -moz-transition: ease-out 0.2s !important;
@@ -230,10 +227,6 @@
 
 @media (min-width: 1200px){
 
-    .downloadProgModal-modal-sbmt-btn{
-        border-radius: 100%;
-    }
-
     .payMethodModalLeft:after{
         content:"";
         position:absolute;
@@ -256,30 +249,11 @@
         opacity: .5;
     }
 
-    
-    .talentFund-large-title{
-        position: absolute;
-        top: -3.5rem;
-    }
-   
-    .talentFund-large-title1{
-        left: 20%;
-    }
-
-    .talentFund-large-title2{
-        left: 40%;
-        right: 60%;
-    }
-
 }
 
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
-    .downloadProgModal-modal-sbmt-btn{
-        border-radius: 100%;
-    }
 
     .payMethodModalLeft:after{
         content:"";
@@ -303,20 +277,6 @@
         opacity: .5;
     }
 
-    .talentFund-large-title{
-        position: absolute;
-        top: -3.5rem;
-    }
-   
-    .talentFund-large-title1{
-        left: 20%;
-    }
-
-    .talentFund-large-title2{
-        left: 40%;
-        right: 60%;
-    }
-
     .apply-modal-icon-line-tr2{
         width: 1.8rem;
         height: .1rem;
@@ -328,10 +288,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-
-    .downloadProgModal-modal-sbmt-btn{
-        border-radius: 100%;
-    }
 
     .modal-large {
         max-width: 800px !important;
@@ -357,22 +313,7 @@
         height: 70%;
         background:#0d224f25;
         opacity: .5;
-    }
-
-    .talentFund-large-title{
-        position: absolute;
-        top: -3.5rem;
-    }
-   
-    .talentFund-large-title1{
-        left: 20%;
-    }
-
-    .talentFund-large-title2{
-        left: 40%;
-        right: 60%;
-    }
-    
+    }    
 
     .apply-modal-icon-line-tr2{
         width: 1rem;
@@ -385,14 +326,9 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
 
-    .downloadProgModal-modal-sbmt-btn{
-        border-radius: 100%;
-    }
-
-    .talentFund-title1{
+    .talentFund-title-mobile{
         position: absolute;
         top: -3.5rem;
-        left: 25%;
     }
 
     .talentFundModal-modal-sbmt-btn{
@@ -403,40 +339,20 @@
 }
 
 @media (min-width: 330px) and (max-width: 576px) {
-    .downloadProgModal-modal-sbmt-btn{
-        border-radius: 100%;
-    }
 
     .talentFundModal-modal-sbmt-btn{
         width: 50% !important;
     }
 
-    .modal-top-title{
+    .talentFund-title-mobile{
         position: absolute;
-        top: -2.5rem;
-        left: 27%;
+        top: -3.5rem;
     }
-
     
 }
 
 @media (min-width: 470px) and (max-width: 576px){
 
-    .modalApply-top-title{
-
-        position: absolute;
-        top: -2.5rem;
-        left: 26%;
-        right: 18%;
-    }
-    .modalCall-top-title{
-        position: absolute;
-        top: -2.5rem;
-        left: 20%;
-        right: 15%;
-
-    }
-
     .modalDownload-top-title{
         position: absolute;
         top: 1.1rem;
@@ -444,31 +360,10 @@
         right: 10%;
     }
 
-    .talentFund-title1{
-        position: absolute;
-        top: -3.5rem;
-        left: 25%;
-    }
 }
 
 @media (min-width: 330px) and (max-width: 470px){
 
-    .modalApply-top-title{
-
-        position: absolute;
-        top: -2.5rem;
-        left: 20%;
-        right: 15%;
-    }
-
-    .modalCall-top-title{
-        position: absolute;
-        top: -2.5rem;
-        left: 20%;
-        right: 15%;
-
-    }
-
     .modalDownload-top-title{
         position: absolute;
         top: 1.1rem;
@@ -476,11 +371,6 @@
         right: 10%;
     }
 
-    .talentFund-title1{
-        position: absolute;
-        top: -3.5rem;
-        left: 20%;
-    }
 
 }
 @media screen and (max-width: 330px) {
@@ -489,39 +379,13 @@
         width: 2.2rem;
     }
 
-    .downloadProgModal-modal-sbmt-btn{
-        border-radius: 100%;
-    }
-
-    .talentFund-title1{
+    .talentFund-title-mobile{
         position: absolute;
         top: -3.5rem;
     }
 
     .talentFundModal-modal-sbmt-btn{
         width: 75% !important;
-    }
-
-    .modal-top-title{
-        position: absolute;
-        top: -2.5rem;
-        left: 20%;
-    }
-
-    .modalApply-top-title{
-
-        position: absolute;
-        top: -2.5rem;
-        left: 18%;
-        right: 15%;
-    }
-    
-    .modalCall-top-title{
-        position: absolute;
-        top: -2.5rem;
-        left: 20%;
-        right: 15%;
-
     }
 
     .apply-modal-icon-line-tr1{
