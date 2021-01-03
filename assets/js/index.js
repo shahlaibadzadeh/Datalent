@@ -18,7 +18,7 @@ var mybutton = document.getElementById("scrollTop");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -26,8 +26,7 @@ function scrollFunction() {
 }
 
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  $('html, body').animate({scrollTop:0}, 'slow');
 }
 
 
@@ -236,7 +235,7 @@ var fourthText = $('.fourth-text');
           
           if( bottom_of_window > bottom_of_object ){
               
-              tutionCard.addClass('slideInRightTution');
+              tutionCard.addClass('fadeInUpTution');
               tutionCard.css("opacity","1")
                   
           }

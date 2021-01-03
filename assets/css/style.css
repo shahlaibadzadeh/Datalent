@@ -617,11 +617,16 @@ optgroup{
     position: relative;
     cursor: pointer;
     transition: all .2s ease-out;
-    transform: scale(1);
 }
-.card.finance-card:hover{
-    transform: scale(1.03);
+
+.card.finance-card:hover .finance-card-btn{
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     transition: all .2s ease-out;
+
 }
 
 .finance-card-btn{
@@ -630,6 +635,7 @@ optgroup{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    transition: all .2s ease-out;
 }
 
 
