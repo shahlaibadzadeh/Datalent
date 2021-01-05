@@ -314,7 +314,7 @@ header{
     padding-top: 10%;
 }
 
-.social-media {
+.social-media-landing {
     padding-top: 16.5%;
 }
 
@@ -328,11 +328,11 @@ header{
 }
 
 
-.social-media .social-icons {
+.social-media-landing .social-icons {
     transition: transform 0.3s ease;
 }
 
-.social-media li a:hover .social-icons {
+.social-media-landing li a:hover .social-icons {
     transform: translateX(20px);
 }
 
@@ -1498,7 +1498,7 @@ optgroup{
         padding-top: 8rem;
     }
     
-    .social-media {
+    .social-media-landing {
         padding-top: 17rem;
     }
     
@@ -1613,7 +1613,7 @@ optgroup{
         padding-top: 9rem;
     }
     
-    .social-media {
+    .social-media-landing {
         padding-top: 14rem;
     }
     
