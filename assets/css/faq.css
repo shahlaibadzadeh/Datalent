@@ -47,10 +47,12 @@
     min-width: 1.4rem !important;
     width: 1.4rem;
     height: 1.4rem;
-    line-height: 1.4rem;
     text-align: center;
     border-radius: 100%;
-    color: #FFF
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
