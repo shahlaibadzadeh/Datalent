@@ -2,7 +2,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
-    font-family: 'Montserrat', 'sans-serif'; 
+    font-family: fontRegular;
 }
 
 *:focus {
@@ -33,29 +33,59 @@ header{
     text-align: end;
 }
 
+@font-face {
+    font-family: fontLight;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: fontSemiBold;
+    src: url(../fonts/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+    font-family: fontMedium;
+    src: url(../fonts/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: fontMediumItalic;
+    src: url(../fonts/Montserrat-Medium.otf);
+    src: url(../fonts/Montserrat-Italic.otf);
+}
+
+@font-face {
+    font-family: fontRegular;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: fontItalic;
+    src: url(../fonts/Montserrat-Italic.otfy);
+}
+
 .font-light{
-    font-weight: 300;
+    font-family: fontLight;
 }
 
 .font-semibold{
-    font-weight: 600;
+    font-family: fontSemibold;
 }
 
 .font-medium{
-    font-weight: 500;
+    font-family: fontMedium;
 }
 
 .font-medium-italic{
-    font-weight: 500;
-    font-style: italic;
+    font-family: fontMediumItalic;
 }
 
 .font-regular{
-    font-weight: 400;
+    font-family: fontRegular;
 }
 
 .font-italic{
-    font-style: italic;
+    font-family: fontItalic;
 }
 
 .lightgray-font{
