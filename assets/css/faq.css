@@ -39,7 +39,6 @@
 
 .accordionTwo .panel .panel-heading a:after,
 .accordionTwo .panel .panel-heading a.collapsed:after {
-    font-family: 'FontAwesome';
     font-size: 1.2rem;
     font-weight: 600;
     float: right;
