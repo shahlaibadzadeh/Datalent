@@ -61,7 +61,7 @@ header{
 
 @font-face {
     font-family: fontItalic;
-    src: url(../fonts/Montserrat-Italic.otfy);
+    src: url(../fonts/Montserrat-Italic.otf);
 }
 
 .font-light{
@@ -1819,7 +1819,7 @@ optgroup{
     }
 
     .mentor-about-content{
-        height: 20rem;
+        height: 22rem;
     }
     
     .mentor-name-div{

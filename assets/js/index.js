@@ -352,5 +352,6 @@ $(document).ready(function(){
     });
 });
 
-var el = document.querySelector('.alumni-opinions-container');
-el.innerHTML = el.innerHTML.replace(/&nbsp;/g,'');
+// var el = document.querySelector('.alumni-opinions-container');
+// console.log(el)
+// el.innerHTML = el.innerHTML.replace(/&nbsp;/g,'');
