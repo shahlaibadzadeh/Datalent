@@ -1227,6 +1227,10 @@ optgroup{
         height: 4.2rem;
         
     }
+    
+    .mentor-name-div{
+        height: 8rem;
+    }
 
     .justify-content-sm-xs-center{
         justify-content: center;
@@ -1817,10 +1821,11 @@ optgroup{
     .mentor-about-content{
         height: 20rem;
     }
-    .mentor-name-div{
-        height: 12rem;
-    }
     
+    .mentor-name-div{
+        height: 8rem;
+    }
+
     .start-app-content ul li.first{
         flex: 0 0 30%;
         text-align: right;
